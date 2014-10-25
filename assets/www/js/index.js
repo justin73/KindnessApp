@@ -34,6 +34,8 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
        // app.receivedEvent('deviceready');
+        var db = window.openDatabase("Database", "1.0", "KindnesApp", 200000);
+        db.transaction(populateDB, errorCB, successCB);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

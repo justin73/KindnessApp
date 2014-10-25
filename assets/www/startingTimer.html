@@ -2,19 +2,20 @@
 <head>
 	<title>My Compassion App 2.0 </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
+	<link rel="s    tylesheet" href="css/jquery.mobile-1.4.2.min.css" />
 	<link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/jquery.mobile-1.4.2.min.js"></script>
     <script src="js/raphael.js"></script>
     <script src="js/jquery.zenclock.js"></script>
+    <script src="js/kindness-app.js"></script>
 </head>
 <body>
 
     <div data-role="page" id="dailyquote" style="height:100%">
     	<div data-role="header" data-position="fixed">
-        	<h1 style="font-size:24px;">Kindess App</h1>
+            <img src="img/logo.png" class="logo" />
         	<a class='ui-btn-right' href='http://montrealcitymission.blogspot.ca/'><i class="fa fa-question" style="font-size: 3em;"></i></a>
         </div>
         <div class="content" data-role="content" >
@@ -69,7 +70,7 @@
         <div data-role="footer" data-position="fixed" style="text-align:center;">
         	<a style="float:left; visibility: hidden" href="#" ><i class="fa fa-music" style="font-size:3em"></i></a>
         	<!--<a data-ajax="false" href="endingTimer.html">check ending page</a>-->
-        	<a  style="float:right;" href="#"><i class="fa fa-calendar" style="font-size:3em;"></i></a>
+        	<a  style="float:right;" href="calendar.html"><i class="fa fa-calendar" style="font-size:3em;"></i></a>
         </div>  
     </div>
 
@@ -84,12 +85,17 @@
             $content.css('min-height',newhight + 'px');
             var width = $content.width();
             var height = $content.height();
-            var holderSize = Math.min(width - 20, height-150)
+            var holderSize = Math.min(width - 20, height-150);
             $('.holder').width(holderSize).height(holderSize);
-            $('.holder').zenclock({onEnd: function() {
-                $("body").pagecontainer("change", "endingTimer.html", { transition: "pop",
-                    reload    : true });
-            }});
+            $('.holder').zenclock({onStart:function(startDate, duration) {
+                window.localStorage.setItem("startDate", startDate.getTime());
+                window.localStorage.setItem("duration", duration);
+            }, onEnd: function(endDate) {
+                    $("body").pagecontainer("change", "endingTimer.html", { transition: "pop",
+                        reload: true });
+                window.localStorage.setItem("endDate", endDate);
+                }
+            });
         }
         $(document).bind('pageshow',doResize);
         $(window).bind('resize orientationchange',doResize);

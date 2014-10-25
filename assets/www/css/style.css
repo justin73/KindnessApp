@@ -1,15 +1,34 @@
 
 
+
 @font-face {
-    font-family: "Open Sans";
-    src:url(font/OpenSans-ExtraBold-webfont.svg) format('svg'),
-    url(font/OpenSans-ExtraBold-webfont.ttf) format('ttf')
-    url('132873536-OpenSans-ExtraBold-webfont.tff.woff') format('woff'),
-    url('132873536-OpenSans-ExtraBold-webfont.tff.ttf') format('truetype');
-    font-weight:bolder;
+    font-family: "PetitFormalScript";
+    src: url(../fonts/PetitFormalScript-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(../fonts/Comfortaa-Regular.ttf);
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(../fonts/Comfortaa-Light.ttf);
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(../fonts/Comfortaa-Bold.ttf);
+    font-weight: 700;
 }
 
 body {
+    font-family: Comfortaa;
     background-image:url(../img/6-zen-garden-dirk-ercken.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,6 +41,7 @@ body {
     padding-bottom: 0px;
     padding-top: 0px;
     text-align:center;
+    color: #405559;
 }
 
 .ui-header, .ui-footer {
@@ -121,4 +141,97 @@ tspan {
 
 .ui-btn {
    box-shadow: none;
+}
+
+.face{
+    margin-top:30px;
+    margin-left:20px;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    display:inline-block;
+    cursor: pointer;
+}
+.left-eye{
+    width:2px;
+    height:2px;
+    border-radius:50%;
+    background-color:#cc0f18;
+    margin-top:14px;
+    margin-left:3px;
+    display:inline-block;
+}
+.left-eye.satisfied{
+    background-color:#00931c;
+}
+.left-eye.ok{
+    background-color:#005793;
+}
+.right-eye.ok{
+    background-color:#005793;
+}
+.right-eye{
+    display:inline-block;
+    width: 2px;
+    height: 2px;
+    border-radius:50%;
+    background-color:#cc0f18;
+    margin-top:14px;
+    margin-left:10px;
+}
+.right-eye.satisfied{
+    background-color:#00931c;
+}
+.satisfied{
+    color:#00931c;
+    border:8px solid #00931c;}
+.unsatisfied{
+    color:#cc0f18;
+    border:8px solid #cc0f18;}
+.ok{
+    color:#005793;
+    border:8px solid #005793;}
+.mouth{
+    width:36px;
+    height:2px;
+    border:4px solid #005793;
+    background-color:#005793;
+    margin-left:20px;
+    margin-top:15px;
+}
+.sad-mouth{
+    height:20px;
+    width:35px;
+    border-radius:90px 90px 0 0;
+    margin:5px auto 0;
+    border:8px solid #cc0f18;
+    border-bottom:none;
+    position:relative;
+    background:transparent;
+
+}
+.smiley-mouth{
+    height:20px;
+    width:35px;
+    border-radius: 0 0 90px 90px;
+    margin:8px auto 0;
+    border:8px solid #00931c;
+    border-top:none;
+    position:relative;
+    background:transparent;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.page-title {
+    color: #181818 !important;
+    font-size: 24px !important;
+}
+
+.quote {
+    font-family: PetitFormalScript;
 }

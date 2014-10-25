@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <title>My Compassion App 2.0 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/jw-jqm-cal.css" />
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.2.min.js"></script>
+    <script src="js/kindness-app.js"></script>
+    <script src="js/jw-jqm-cal.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="dailyquote" id="view-calendar" style="height:100%">
+    <div data-role="header" data-position="fixed">
+        <img src="img/logo.png" class="logo" />
+    </div>
+    <div class="content" data-role="content" >
+        <br/>
+        <div id="calendar"></div>
+    </div>
+    <div data-role="footer" data-position="fixed" style="text-align:center;">
+        <div style="width:50%;display:inline-block;"><p style="text-align:center; border:1px solid white;
+        	background-color:orange; padding:10px;"><a style="text-decoration:none;font-weight:200; color:white;" href="startingTimer.html"
+                                                       data-ajax="false" data-transition="flip">< Go Back</a></p></div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    function doResize() {
+        var winhight = $.mobile.getScreenHeight();
+        var headhight = $('[data-role="header"]').first().outerHeight();
+        var foothight = $('[data-role="footer"]').first().outerHeight();
+        var $content=$('[data-role="content"]');
+        newhight = winhight - headhight - foothight;
+        $content.css('min-height',newhight + 'px');
+
+
+        var eventsArray = [];
+        var db = openDb();
+        db.transaction(selectMeditation);
+
+        function selectMeditation(tx) {
+            tx.executeSql('SELECT * FROM MEDITATION', querySuccess, errorCB);
+            alert("2");
+        }
+
+        function errorCB(err) {
+            alert("Error processing SQL: "+err.code);
+        }
+        // Query the success callback
+        //
+        function querySuccess(tx, results) {
+            // the number of rows returned by the select statement
+            alert('here2');
+            for (var i =0; i < results.rows.length; i++) {
+                var startDate = results.rows[1];
+                var endDate = results.rows[2];
+                var duration = results.rows[3];
+                var feeling = results.rows[4];
+
+                var hours = Math.floor(seconds / 60);
+                var seconds = Math.ceil(seconds - hours * 60);
+                var duration = pad(hours, 2) + " mn " + pad(seconds, 2) + " s"
+                eventsArray.push({"begin" : new Date(startDate), "end" : new Date(endDate), "summary" : "Meditate for " + duration });
+            }
+
+            $("#calendar").jqmCalendar({
+                events : eventsArray,
+                months : ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                days : ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
+                startOfWeek : 0
+            });
+        }
+    }
+    $(document).bind('pageshow',doResize);
+    $(window).bind('resize orientationchange',doResize);
+</script>
+</body>

@@ -2,12 +2,14 @@
 
     $.fn.zenclock = function (options) {
         var settings = $.extend({
+            onStart: function() {},
             onEnd: function() {}
         }, options);
 
+        var onStart = settings.onStart;
         var onEnd = settings.onEnd;
         var startDate;
-        var currentState = 0; //0: stop, 1: start, 2: pause
+        var currentState = -1;//-1: init //0: stop, 1: start, 2: pause
         var timeElapsed = 0;
 
         function pad(n, width, z) {
@@ -104,7 +106,7 @@
                     updateVal(totalDuration, totalDuration, R, sec, circle, duration, state);
                     $(".btn-stop").css("display", "none");
                     $(".btn-time-update, .btn-reset").css("display", "inline-block");
-                    onEnd();
+                    onEnd(new Date());
                 }
             }
             setTimeout(arguments.callee, 1000 * 1 / 24);
@@ -134,6 +136,10 @@
 
             if (totalDuration > 0) {
                 var val = 0;
+                if (currentState == -1) {
+                    onStart(new Date(), totalDuration);
+                    currentState = 0;
+                }
                 if (currentState == 0) { //stop
                     console.log("currentState" + currentState);
                     startDate = new Date();
