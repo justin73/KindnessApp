@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+	<title>My Compassion App 2.0 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.2.min.js"></script>
+    <script src="js/raphael.js"></script>
+    <script src="js/jquery.zenclock.js"></script>
+    <script src="js/kindness-app.js"></script>
+</head>
+<body>
+
+    <div data-role="page" id="dailyquote" style="height:100%">
+    	<div data-role="header" data-position="fixed">
+            <img src="img/logo.png" class="logo" />
+        	<a class='ui-btn-right' href='http://montrealcitymission.blogspot.ca/'><i class="fa fa-question" style="font-size: 3em;"></i></a>
+        </div>
+        <div class="content" data-role="content" >
+        	<div class="background"></div>
+          	<div class="clock_container">
+            <div class="holder">
+            </div>
+			 <div class="extra_container">
+                <div class="btn-time-update btn-setup-timer" value="-15">
+                	<div style="margin-top: -10px;">
+                    	<h5>-15</h5>
+                    </div>
+                </div>
+                <div class="btn-time-update btn-setup-timer" value="-10">
+                	<div style="margin-top: -10px;">
+                    	<h5>-10</h5>
+                    </div>
+                </div>
+                <div class="btn-time-update btn-setup-timer" value="-5">
+                	<div style="margin-top: -10px;">
+                    	<h5>-5</h5>
+                    </div>
+                </div>
+                <div class="btn-reset">
+                	<div style="margin-top: 10px;">
+                    	<i class="fa fa-undo "></i>
+                    </div>
+                </div>
+                 <div class="btn-stop" style="display: none">
+                     <div style="margin-top: 10px;">
+                         <i class="fa fa-stop"></i>
+                     </div>
+                 </div>
+                <div class="btn-time-update btn-setup-timer" value="5">
+                	<div style="margin-top: -10px;">
+                    	<h5>+5</h5>
+                    </div>
+                </div>
+               <div class="btn-time-update btn-setup-timer" value="10">
+                	<div style="margin-top: -10px;">
+                    	<h5>+10</h5>
+                    </div>
+                </div>
+               <div class="btn-time-update btn-setup-timer" value="15">
+                	<div style="margin-top: -10px;">
+                    	<h5>+15</h5>
+                    </div>
+                </div>
+             </div>
+			</div>
+        </div> 
+        <div data-role="footer" data-position="fixed" style="text-align:center;">
+        	<a style="float:left; visibility: hidden" href="#" ><i class="fa fa-music" style="font-size:3em"></i></a>
+        	<!--<a data-ajax="false" href="endingTimer.html">check ending page</a>-->
+        	<a  style="float:right;" href="calendar.html"><i class="fa fa-calendar" style="font-size:3em;"></i></a>
+        </div>  
+    </div>
+
+    
+    <script type="text/javascript">
+        function doResize() {
+            var winhight = $.mobile.getScreenHeight();
+            var headhight = $('[data-role="header"]').first().outerHeight();
+            var foothight = $('[data-role="footer"]').first().outerHeight();
+            var $content=$('[data-role="content"]');
+            newhight = winhight - headhight - foothight;
+            $content.css('min-height',newhight + 'px');
+            var width = $content.width();
+            var height = $content.height();
+            var holderSize = Math.min(width - 20, height-150);
+            $('.holder').width(holderSize).height(holderSize);
+            $('.holder').zenclock({onStart:function(startDate, duration) {
+                window.localStorage.setItem("startDate", startDate.getTime());
+                window.localStorage.setItem("duration", duration);
+            }, onEnd: function(endDate) {
+                    $("body").pagecontainer("change", "endingTimer.html", { transition: "pop",
+                        reload: true });
+                window.localStorage.setItem("endDate", endDate);
+                }
+            });
+        }
+        $(document).bind('pageshow',doResize);
+        $(window).bind('resize orientationchange',doResize);
+    </script>
+</body>

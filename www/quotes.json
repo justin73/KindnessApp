@@ -1,0 +1,21 @@
+var jsonObject ={
+    "Alarm":[
+	{
+		"Hour": 15,
+		"Minute":12
+		}
+	],
+  "Quote":[
+{ "No.":1,
+  "Writer": "Kwaku",
+  "Content":"I am the CTO!"},
+  
+{ "No.":2,
+  "Writer": "Meng",
+  "Content":"I am learning French"},
+  { "No.":3,
+  "Writer": "Royal",
+  "Content":"Nice to meet you"}
+],
+"Order":2
+}
