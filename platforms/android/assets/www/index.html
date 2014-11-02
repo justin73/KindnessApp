@@ -2,49 +2,35 @@
 <head>
     <title>My Compassion App 2.0 </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
     <link rel="stylesheet" href="css/flexslider.css"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css" >
+    <link rel="stylesheet" href="css/jw-jqm-cal.css" />
+    <link href="css/jquery.datetimepicker.css" rel="stylesheet">
 
     <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/jquery.mobile-1.4.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
     <script src="js/jquery.flexslider.js"></script>
-    <script type="text/javascript" language="javascript" src="quotes.json"></script>
+    <script src="js/raphael.js"></script>
+    <script src="js/jquery.zenclock.js"></script>
+    <script src="js/kindness-app.js"></script>
+    <script src="js/jw-jqm-cal.js"></script>
+    <script src="js/jquery.datetimepicker.js"></script>
 </head>
-<body>
+<body onload="onLoad()">
 <div data-role="page" id="homePage" style="height:100%">
     <div data-role="header" data-position="fixed">
-        <h1 style="font-size:24px;">Kindness App</h1>
+        <img src="img/logo.png" class="logo" /> <h1 class="page-title">Kindness App</h1>
     </div>
     <div class="content" data-role="content">
-    	<div class="quoteContainer">
-    		<h1>Daily Quote</h1>
-    		<p id="quote"></p>
-    		<p>By <span id="author"></span></p>
-    	</div>
         <div class="flexslider">
             <ul class="slides">
                 <li>
                     <br/>
                     <br/>
 
-                    <h1>1. Our mission</h1>
-                    <br/>
-
-                    <p>Montreal City Mission</p>
-
-                    <p>enables</p>
-
-                    <p>the journey from exclusion to community.</p>
-                    <br/>
-                    <br/>
-                    <br/>
-                </li>
-                <li>
-                    <br/>
-                    <br/>
-
-                    <h1>2. Our mission</h1>
+                    <h2>2. Our mission</h2>
                     <br/>
 
                     <p>Montreal City Mission</p>
@@ -59,7 +45,7 @@
                     <br/>
                     <br/>
 
-                    <h1>3. Our mission</h1>
+                    <h2>3. Our mission</h2>
                     <br/>
 
                     <p>Montreal City Mission</p>
@@ -67,6 +53,22 @@
                     <p>enables</p>
 
                     <p>the journey from exclusion to community.</p>
+                    <br/>
+                    <br/>
+                </li>
+                <li>
+                    <br/>
+                    <br/>
+
+                    <h2>1. Our mission</h2>
+                    <br/>
+
+                    <p>Montreal City Mission</p>
+
+                    <p>enables</p>
+
+                    <p>the journey from exclusion to community.</p>
+                    <br/>
                     <br/>
                     <br/>
                 </li>
@@ -75,8 +77,7 @@
     </div>
     <div class="center" data-role="footer" data-position="fixed">
         <a class="btn-start"
-                href="startingTimer.html"
-                data-ajax="false" data-transition="flip">Start Meditation</a>
+                href="startingTimer.html"  data-transition="flip">Start Here</a>
     </div>
 </div>
 <script type="text/javascript">
@@ -87,48 +88,30 @@
         var $content = $('[data-role="content"]');
         newhight = winhight - headhight - foothight;
         $content.css('min-height', newhight + 'px');
-    }
-    $(document).bind('pageshow', doResize);
-    
-    var applaunchCount = window.localStorage.getItem('launchCount');
+        var applaunchCount = window.localStorage.getItem('launchCount');
+
         //Check if it already exists or not
         if (applaunchCount) {
-            $('.flexslider').css('display','none');
-            var start = new Date(window.localStorage.getItem("startDate"));
-			var end = new Date();
-			var diff = new Date(end - start);
-			var days = Math.floor(diff/1000/60/60/24);
-			$("#quote").html(jsonObject.Quote[days].Content);
-			$("#author").html(jsonObject.Quote[days].Writer);
+            //This is a second time launch, and count = applaunchCount
+//            alert("Welcome back to the MCM Compassion App");
+            $(".btn-start").css("opacity", "1");
         } else {
-        	window.localStorage.setItem('launchCount', 1);
-        	
-        	// record the first day the user use the app in order to count the days to show the proper quote
-        	var startdate = new Date(); 
-		  	var datetime = startdate.getFullYear()+'-'+(startdate.getMonth()+1)+'-'+startdate.getDate();
-		  	window.localStorage.setItem("startDate",datetime);
-		  	alert("Your first time using this app "+window.localStorage.getItem("startDate"));
-        	$('.quoteContainer').css('display','none');
-        	$(".btn-start").css("opacity", "0");
             //Local storage is not set, hence first time launch. set the local storage item
-            $(document).delegate("#homePage", "pageinit", function () {
-	        $('.flexslider').flexslider({
-		            directionNav: false,
-		            animation: "slide",
-		            slideshow: false,
-		            end: function(){
-		                $(".btn-start").css("opacity", "1");
-		                $('.flexslider').css('display','none');
-		                $('.quoteContainer').css('display','block');
-		            }
-		        });
-		    });
-            alert("Welcome to the Kindness App");
-
-
-            //Do the other stuff related to first time launch
+            window.localStorage.setItem('launchCount', 1);
         }
-    
+
+    }
+    $(document).bind('pageshow', doResize);
+    $(document).delegate("#homePage", "pageinit", function () {
+        $('.flexslider').flexslider({
+            directionNav: false,
+            animation: "slide",
+            slideshow: false,
+            end: function(){
+                $(".btn-start").css("opacity", "1");
+            }
+        });
+    });
     $(window).bind('resize orientationchange', doResize);
 </script>
 </body>

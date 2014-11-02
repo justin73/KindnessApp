@@ -125,6 +125,52 @@ tspan {
     cursor: pointer;
 }
 
+.btn-day {
+    display:inline-block;
+    border:1px solid #405559;
+    color: #405559;
+    width:40px;
+    height:40px;
+    text-shadow:none;
+    vertical-align:bottom;
+    margin-right:3px;
+    margin-left:3px;
+    cursor: pointer;
+}
+
+.btn-day-selected {
+    display:inline-block;
+    background-color:#405559;
+    width:40px;
+    height:40px;
+    color:white;
+    text-shadow:none;
+    vertical-align:bottom;
+    margin-right:3px;
+    margin-left:3px;
+    cursor: pointer;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current {
+    background: #405559 !important;
+    box-shadow: #334447 0px 1px 3px 0px inset !important;
+    text-shadow: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
+    color: orange !important;
+}
+
+.btn-dialog {
+    background-color: orange !important;
+    color: white !important;
+    text-shadow: none !important;
+}
+a {
+    text-shadow: none !important;
+}
 .clock_container{
     position: fixed;
     top: 100px;
@@ -207,7 +253,6 @@ tspan {
     border-bottom:none;
     position:relative;
     background:transparent;
-
 }
 .smiley-mouth{
     height:20px;
@@ -233,4 +278,28 @@ tspan {
 
 .quote {
     font-family: PetitFormalScript;
+}
+
+.ui-happy {
+    color: #00931c !important;
+}
+
+.ui-neutral {
+    color: #005793 !important;
+}
+
+.ui-sad {
+    color: #cc0f18 !important;
+}
+
+.alarm-time {
+    font-size: 32px;
+}
+
+.alarm-inactive {
+    color: grey !important;
+}
+
+.alarm-active {
+    color: orange !important;
 }

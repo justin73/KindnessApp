@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream:assets/www/css/style.css
 
 
 
@@ -96,7 +95,6 @@ body {
     color:white !important;
     text-shadow: none;
     margin: 15px auto;
-
 }
 
 .center {
@@ -127,6 +125,52 @@ tspan {
     cursor: pointer;
 }
 
+.btn-day {
+    display:inline-block;
+    border:1px solid #405559;
+    color: #405559;
+    width:40px;
+    height:40px;
+    text-shadow:none;
+    vertical-align:bottom;
+    margin-right:3px;
+    margin-left:3px;
+    cursor: pointer;
+}
+
+.btn-day-selected {
+    display:inline-block;
+    background-color:#405559;
+    width:40px;
+    height:40px;
+    color:white;
+    text-shadow:none;
+    vertical-align:bottom;
+    margin-right:3px;
+    margin-left:3px;
+    cursor: pointer;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current {
+    background: #405559 !important;
+    box-shadow: #334447 0px 1px 3px 0px inset !important;
+    text-shadow: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
+    color: orange !important;
+}
+
+.btn-dialog {
+    background-color: orange !important;
+    color: white !important;
+    text-shadow: none !important;
+}
+a {
+    text-shadow: none !important;
+}
 .clock_container{
     position: fixed;
     top: 100px;
@@ -209,7 +253,6 @@ tspan {
     border-bottom:none;
     position:relative;
     background:transparent;
-
 }
 .smiley-mouth{
     height:20px;
@@ -236,129 +279,27 @@ tspan {
 .quote {
     font-family: PetitFormalScript;
 }
-=======
 
-
-@font-face {
-    font-family: "Open Sans";
-    src:url(font/OpenSans-ExtraBold-webfont.svg) format('svg'),
-    url(font/OpenSans-ExtraBold-webfont.ttf) format('ttf')
-    url('132873536-OpenSans-ExtraBold-webfont.tff.woff') format('woff'),
-    url('132873536-OpenSans-ExtraBold-webfont.tff.ttf') format('truetype');
-    font-weight:bolder;
+.ui-happy {
+    color: #00931c !important;
 }
 
-body {
-    background-image:url(../img/6-zen-garden-dirk-ercken.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-}
-.content{
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    text-align:center;
+.ui-neutral {
+    color: #005793 !important;
 }
 
-.ui-header, .ui-footer {
-    opacity: 0.7;
-    background-color: white !important;
-    border: none;
-    height: 65px;
-	overflow-y:hidden;
+.ui-sad {
+    color: #cc0f18 !important;
 }
 
-.ui-page {
-    background: none;
+.alarm-time {
+    font-size: 32px;
 }
 
-.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited{
-    color: orange;
-    text-shadow:none;
-    border: none;
-    background: none;
-}
-.ui-page-theme-a .ui-btn:hover {
-    background: none;
-}
-.face{
-    width: 300px;
-    height: 300px;
-    border: 8px solid #405559;
-    border-radius: 50%;
-    margin: 70px auto;
+.alarm-inactive {
+    color: grey !important;
 }
 
-.flexslider {
-    background: none;
-    border: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.alarm-active {
+    color: orange !important;
 }
-
-.btn-start {
-    -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
-    transition: all 1s;
-    width:50%;
-    display:block;
-    text-align:center;
-    background-color:orange !important;
-    padding:10px;
-    text-decoration:none;
-    font-weight:200;
-    font-size: 24px;
-    height: 20px;
-    color:white !important;
-    text-shadow: none;
-    margin: 15px auto;
-
-}
-
-.center {
-    text-align: center;
-}
-
-.holder {
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-
-tspan {
-    pointer-events: none;
-}
-
-.btn-time-update, .btn-reset, .btn-stop {
-    display:inline-block;
-    border-radius:50%;
-    background-color:#405559;
-    width:40px;
-    height:40px;
-    color:white;
-    text-shadow:none;
-    vertical-align:bottom;
-    margin-right:3px;
-    margin-left:3px;
-    cursor: pointer;
-}
-
-.clock_container{
-    position: fixed;
-    top: 100px;
-    left: 0;
-    right:0;
-    z-index:2;
-}
-
-.extra_container{
-    margin-top:50px;
-    text-align:center;
-}
-
-.ui-btn {
-   box-shadow: none;
-}
->>>>>>> Stashed changes:platforms/android/assets/www/css/style.css

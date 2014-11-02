@@ -1,0 +1,13 @@
+2014-11-01 08:20:42.667 KindnessApp[40477:1015477] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Data/Application/701C7175-0E9F-4127-AB8C-458EC2A0C157/Library/Cookies/Cookies.binarycookies
+2014-11-01 08:20:42.775 KindnessApp[40477:1015477] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-01 08:20:42.776 KindnessApp[40477:1015477] Multi-tasking -> Device: YES, App: YES
+2014-11-01 08:20:42.801 KindnessApp[40477:1015477] Unlimited access to network resources
+2014-11-01 08:20:42.806 KindnessApp[40477:1015477] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-01 08:20:44.262 KindnessApp[40477:1015477] Resetting plugins due to page load.
+2014-11-01 08:20:44.736 KindnessApp[40477:1015477] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Bundle/Application/5CE69009-1F46-4F31-BD83-52857477DE8D/KindnessApp.app/www/index.html

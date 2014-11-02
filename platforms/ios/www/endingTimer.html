@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>My Compassion App 2.0 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.2.min.js"></script>
+    <script src="js/kindness-app.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="endMed" style="height:100%">
+    <div data-role="header" data-position="fixed">
+        <img src="img/logo.png" class="logo" />
+    </div>
+    <div class="content" data-role="content">
+        <div class='title'>
+            <h1>Time is up!</h1>
+
+            <h3>How are you feeling right now?</h3>
+        </div>
+        <div id="unsatisfied" class="face unsatisfied">
+            <div class="left-eye eye unsatisfied"></div>
+            <div class="right-eye eye unsatisfied"></div>
+            <div class="sad-mouth">
+            </div>
+        </div>
+        <div id="ok" class="face ok">
+            <div class="left-eye eye ok"></div>
+            <div class="right-eye eye ok"></div>
+            <div class="mouth">
+            </div>
+        </div>
+        <div id="satisfied" class="face satisfied">
+            <div class="left-eye eye satisfied"></div>
+            <div class="right-eye eye satisfied"></div>
+            <div class="smiley-mouth">
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+    <script type="text/javascript">
+        function doResize() {
+            var winhight = $.mobile.getScreenHeight();
+            var headhight = $('[data-role="header"]').first().outerHeight();
+            var foothight = $('[data-role="footer"]').first().outerHeight();
+            var $content = $('[data-role="content"]');
+            newhight = winhight - headhight - foothight;
+            $content.css('min-height', newhight + 'px');
+        }
+        $(document).bind('pageshow', doResize);
+        $(window).bind('resize orientationchange', doResize);
+    </script>
+    <script>
+        var d = new Date();
+        var date = d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+        var feeling = -1;
+        $('#satisfied').on('click', function () {
+            alert('Today is ' + date + ", you seem to enjoy your meditation today");
+            feeling = 2;
+            saveMeditation();
+        });
+        $('#unsatisfied').on('click', function () {
+            alert('Today is ' + date + ", you seem to dislike your meditation today");
+            feeling = 0;
+            saveMeditation();
+        });
+        $('#ok').on('click', function () {
+            alert('Today is ' + date + ", you seem to be not sure about your meditation today");
+            feeling = 1;
+            saveMeditation();
+        });
+
+        function saveMeditation() {
+            var startDate = window.localStorage.getItem("startDate");
+            var duration = window.localStorage.getItem("duration");
+            var endDate = window.localStorage.getItem("endDate");
+            alert(startDate);
+            alert(duration);
+            alert(endDate);
+
+            var db = openDb();
+            db.transaction(insertMeditation);
+
+            function insertMeditation(tx) {
+                alert('2');
+                tx.executeSql('INSERT INTO MEDITATION (startDate, endDate, duration, feeling) VALUES (' + startDate + ', ' + duration + ', ' + endDate + ', ' + feeling + ')');
+                window.location = 'dailyQuote.html';
+            }
+        }
+    </script>
+</body>
