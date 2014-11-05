@@ -268,7 +268,7 @@ a {
 .logo {
     position: absolute;
     top: 10px;
-    left: 40px;
+    left: 60px;
 }
 
 .page-title {
@@ -303,3 +303,6 @@ a {
 .alarm-active {
     color: orange !important;
 }
+#starting-timer{
+	overflow-y:hidden;
+	}
