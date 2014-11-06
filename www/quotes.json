@@ -8,11 +8,11 @@ var jsonObject ={
   "Quote":[
 { "No.":1,
   "Writer": "Kwaku",
-  "Content":"I am the CTO!"},
+  "Content":"I am from NowInStore!"},
   
 { "No.":2,
   "Writer": "Meng",
-  "Content":"I am learning French"},
+  "Content":"I am learning French.... but it is too difficult"},
   { "No.":3,
   "Writer": "Royal",
   "Content":"Nice to meet you"}
