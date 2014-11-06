@@ -113,18 +113,18 @@
         })();
 
         $(".btn-time-update").click(function () {
+            console.log($(this).attr('value'));
             var val = parseInt($(this).attr('value'));
             totalDuration += val;
             if (totalDuration < 0) {
                 totalDuration = 0;
             }
-            totalDuration += val;
             duration.attr({duration: totalDuration});
         });
 
         $(".btn-reset").click(function () {
-            var val = 0;
-            totalDuration += 0;
+            totalDuration = 0;
+            duration.attr({duration: totalDuration});
         });
 
         $(".btn-stop").click(function () {

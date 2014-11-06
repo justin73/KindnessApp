@@ -6,6 +6,21 @@
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/com/mcm/kindnessapp/R$string.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/com/mcm/kindnessapp/R$xml.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/com/mcm/kindnessapp/R.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/com/phonegap/plugins/localnotification/AlarmHelper.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/com/phonegap/plugins/localnotification/AlarmOptions.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/com/phonegap/plugins/localnotification/AlarmReceiver.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/com/phonegap/plugins/localnotification/AlarmRestoreOnBoot.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/com/phonegap/plugins/localnotification/LocalNotification.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$1.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$2.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$3.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$4.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/Options.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/Receiver.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/ReceiverActivity.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/Restore.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/file/ContentFilesystem.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/file/DirectoryManager.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/file/EncodingException.class \
@@ -48,3 +63,4 @@
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/file/NoModificationAllowedException.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/file/TypeMismatchException.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/dexedLibs/classes-2537c23d2bb4004693f21a608a67bca9.jar \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/dexedLibs/android-support-v4-b2dc3f29d845fe07539a23f499d2cb4e.jar \

@@ -1,11 +1,12 @@
 var db;
 function openDb() {
 
-    db = window.openDatabase("Database", "1.0", "KindnessApp", 200000);
+    db = window.openDatabase("Database", "1.0", "Kindness", 200000);
     db.transaction(checkDatabaseExists);
 
     function checkDatabaseExists(tx) {
-        tx.executeSql('CREATE TABLE IF NOT EXISTS MEDITATION (id unique, startDate, endDate, duration, feeling)');
+        tx.executeSql('CREATE TABLE IF NOT EXISTS MEDITATION (id INTEGER PRIMARY KEY, startDate INTEGER, endDate INTEGER, duration INTEGER, feeling INTEGER)');
+        tx.executeSql('CREATE TABLE IF NOT EXISTS ALARM (id INTEGER PRIMARY KEY, hour INTEGER, minute INTEGER, days TEXT)');
         console.log('table created')
     }
 }
@@ -38,6 +39,7 @@ function initStartingTimer() {
 function initEndingTimer() {
 
 
+    var feeling = -1;
     function insertMeditation(tx) {
         var startDate = window.localStorage.getItem("startDate");
         var duration = window.localStorage.getItem("duration");
@@ -62,7 +64,6 @@ function initEndingTimer() {
     console.log("init ending timer");
     var d = new Date();
     var date = d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
-    var feeling = -1;
     $('#satisfied').on('click', function () {
         console.log('Today is ' + date + ", you seem to enjoy your meditation today");
         feeling = 2;
@@ -86,11 +87,11 @@ function pad(value, length) {
 function initCalendar() {
 
 
-    function errorCB(err) {
+    function selectMeditationError(err) {
         console.log("Error processing SQL: "+err.code);
     }
 
-    function querySuccess(tx, results) {
+    function selectMeditationSuccess(tx, results) {
 
         var eventsArray = [];
         // the number of rows returned by the select statement
@@ -127,30 +128,142 @@ function initCalendar() {
 
     function selectMeditation(tx) {
         console.log('select meditation 1');
-        tx.executeSql('SELECT startDate, endDate, duration, feeling FROM MEDITATION', [], querySuccess, errorCB);
+        tx.executeSql('SELECT startDate, endDate, duration, feeling FROM MEDITATION', [], selectMeditationSuccess, selectMeditationError);
         console.log('select meditation 2');
     }
     db.transaction(selectMeditation);
 }
 
 
-function initAlarmManager() {
+function initAlarmManager(init) {
 
+    function selectAlarmError(err) {
+        console.log("Error processing SQL: "+err.code);
+    }
+
+    function getState(index, days) {
+        if (days.charAt(6-index) == "1") {
+            return "active";
+        }
+
+        return "inactive";
+    }
+
+    function selectAlarmSuccess(tx, results) {
+        var eventsArray = [];
+        // the number of rows returned by the select statement
+        console.log('select alarms success: ' + results.rows.length);
+        $("#list-alarms").empty();
+        for (var i =0; i < results.rows.length; i++) {
+            var id = results.rows.item(i).id;
+            var hour = results.rows.item(i).hour;
+            var minute = results.rows.item(i).minute;
+            var days = results.rows.item(i).days;
+
+            console.log(days);
+
+            $("#list-alarms").append('<li class="list-alarm-item" data-id="'+id+'" data-icon="delete">' +
+            '<a href="#" class="btn-delete-alarm ui-btn ui-btn-icon-right ui-icon-delete" data-id="'+id
+            +'"><span class="alarm-time">'+pad(hour, 2)+':'+pad(minute, 2)+'</span>' +
+            '&nbsp;&nbsp;&nbsp;&nbsp;' +
+            '<span class="alarm-'+getState(6, days)+'">Sa</span>&nbsp;' +
+            '<span class="alarm-'+getState(5, days)+'">Mo</span>&nbsp;' +
+            '<span class="alarm-'+getState(4, days)+'">Tu</span>&nbsp;' +
+            '<span class="alarm-'+getState(3, days)+'">We</span>&nbsp;' +
+            '<span class="alarm-'+getState(2, days)+'">Th</span>&nbsp;' +
+            '<span class="alarm-'+getState(1, days)+'">Fr</span>&nbsp;' +
+            '<span class="alarm-'+getState(0, days)+'">Su</span>&nbsp;' +
+            '</a>'+
+            '</li>');
+        }
+
+        $(".btn-delete-alarm").on('click', function() {
+            $(this).parent(".list-alarm-item").remove();
+            var dataId = $(this).attr("data-id")
+            db.transaction(function(tx) {
+                console.log(dataId)
+                tx.executeSql('DELETE FROM ALARM WHERE ID=?', [dataId]);
+                for (var i = 0; i <= 7; i++) {
+                    window.plugin.notification.local.cancel(dataId+"_"+i);
+                }
+            });
+        });
+    }
+
+    function selectAlarms(tx) {
+        console.log('select meditation 1');
+        tx.executeSql('SELECT id, hour, minute, days FROM ALARM', [], selectAlarmSuccess, selectAlarmError);
+        console.log('select meditation 2');
+    }
+    if (!init) {
+        db.transaction(selectAlarms);
+    }
 }
 
 
-function initSetAlarm() {
+function initSetAlarm(init) {
+    if (init) {
 
-    $('#datetimepicker3').datetimepicker({
-        datepicker:false,
-        format:'H:i',
-        step:5,
-        inline:true
-    });
 
-    $(".btn-day").on("click", function() {
-        $(this).toggleClass("btn-day-selected");
-    });
+        $(".btn-day").on("click", function() {
+            $(this).toggleClass("btn-day-selected");
+        });
+
+        function insertAlarm(tx) {
+            console.log("insert alarm")
+            var time = dateTimePicker.val().split(":");
+            var hour = parseInt(time[0]);
+            var minute = parseInt(time[1]);
+
+            var days = "";
+            for (var i = 0; i < 7; i++) {
+                days += $("#btn-day-"+i).hasClass("btn-day-selected") ? "1" : "0";
+            }
+
+            tx.executeSql('INSERT INTO ALARM (hour, minute, days) VALUES (?, ?, ?)', [hour, minute, days], function(txt, results) {
+                var currentDate = new Date();
+
+                console.log(hour)
+                console.log(minute)
+
+                var day = currentDate.getDay();
+                var i = 0;
+                while (i <= 7) {
+                    if (days.charAt(i) == '1') {
+                        var dayAfter = new Date();
+                        dayAfter.setDate(dayAfter.getDate()+i);
+                        dayAfter.setHours(hour);
+                        dayAfter.setMinutes(minute);
+                        console.log('ok --> expectedDate' + dayAfter);
+                        if (dayAfter > currentDate) {
+                            console.log('okok' + dayAfter);
+
+                            window.plugin.notification.local.add({
+                                id:         results.insertId+"_"+i,
+                                date:       dayAfter,
+                                message:    "Meditation Reminder",
+                                title:      "Don't forget to meditate today!",
+                                repeat:     'weekly'
+                            });
+                        }
+                    }
+                    i++;
+                }
+            }, function(err) {
+                console.log("Error processing SQL: "+err.code);
+            });
+        }
+        $("#btn-dialog-add-alarm").on("click", function() {
+            db.transaction(insertAlarm);
+        });
+        var dateTimePicker = $('#datetimepicker3').datetimepicker({
+            datepicker:false,
+            format:'H:i',
+            step:5,
+            inline:true
+        });
+
+    }
 }
 
 
@@ -172,19 +285,29 @@ $(document).on('pagecontainershow', function (e, ui) {
             break;
 
         case 'alarm-manager':
-            initAlarmManager();
+            initAlarmManager(false);
             break;
-
         case 'dialog-set-alarm':
-            initSetAlarm();
+            initSetAlarm(false);
             break;
     }
 });
 
+$(document).on('pagecontainercreate', function (e, ui) {
+
+    var ThisPage = $(':mobile-pagecontainer').pagecontainer('getActivePage').attr('id');
+
+    switch (ThisPage) {
+
+        case 'alarm-manager':
+            initAlarmManager(true);
+            break;
+    }
+});
 
 $(document).on('dialogcreate', function (e, ui) {
 
-    initSetAlarm();
+    initSetAlarm(true);
 });
 
 
