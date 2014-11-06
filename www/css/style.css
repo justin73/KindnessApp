@@ -306,3 +306,7 @@ a {
 #starting-timer{
 	overflow-y:hidden;
 	}
+#quoteContainer{
+	display:none;}
+.ui-mobile .ui-page-active{
+	overflow-y:hidden}
