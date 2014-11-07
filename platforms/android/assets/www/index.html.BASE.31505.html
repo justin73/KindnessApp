@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" >
     <link rel="stylesheet" href="css/jw-jqm-cal.css" />
     <link href="css/jquery.datetimepicker.css" rel="stylesheet">
-<script type="text/javascript" language="javascript" src="quotes.json"></script> 
-<script src="phonegap.js"></script>
+
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
     <script src="js/jquery.flexslider.js"></script>
@@ -18,12 +17,11 @@
     <script src="js/kindness-app.js"></script>
     <script src="js/jw-jqm-cal.js"></script>
     <script src="js/jquery.datetimepicker.js"></script>
-    <script src="js/de.appplant.cordova.plugin.local-notification/www/local-notification.js"></script>
 </head>
 <body onload="onLoad()">
 <div data-role="page" id="homePage" style="height:100%">
     <div data-role="header" data-position="fixed">
-        <img src="img/logo.png" class="logo" style="left:20px;"/> <h1 class="page-title">Kindness App</h1>
+        <img src="img/logo.png" class="logo" /> <h1 class="page-title">Kindness App</h1>
     </div>
     <div class="content" data-role="content">
         <div class="flexslider">
@@ -75,16 +73,7 @@
                     <br/>
                 </li>
             </ul>
-            
         </div>
-        <!--<div id="quoteContainer" style="text-align:center;margin-top:50px;">
-          		<h1>Daily Quote</h1>
-                <br/><br/>
-            	<h3 id="quote"></h3>
-                <br/>
-                <h4 id="author" style="text-align: right"></h4>
-
-       </div>-->
     </div>
     <div class="center" data-role="footer" data-position="fixed">
         <a class="btn-start"
@@ -104,21 +93,11 @@
         //Check if it already exists or not
         if (applaunchCount) {
             //This is a second time launch, and count = applaunchCount
-			var start = new Date(window.localStorage.getItem("startDate"));
-			var end = new Date();
-			var diff = new Date(end - start);
-			var days = Math.floor(diff/1000/60/60/24);
-			//$('.flexslider').css('display','none');
-			//$('#quoteContainer').css('display','block');
-			//$("#quote").html(jsonObject.Quote[days].Content);
-			//$("#author").html(jsonObject.Quote[days].Writer);
+//            alert("Welcome back to the MCM Compassion App");
             $(".btn-start").css("opacity", "1");
         } else {
             //Local storage is not set, hence first time launch. set the local storage item
             window.localStorage.setItem('launchCount', 1);
-            var startdate = new Date(); 
-		  	var datetime = startdate.getFullYear()+'-'+(startdate.getMonth()+1)+'-'+startdate.getDate();
-		  	window.localStorage.setItem("startDate",datetime);
         }
 
     }

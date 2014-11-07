@@ -40,6 +40,11 @@
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/fonts \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/img \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/index.html \
+/Users/dai/dev/KindnessApp/platforms/android/assets/www/index.html.BACKUP.31505.html \
+/Users/dai/dev/KindnessApp/platforms/android/assets/www/index.html.BASE.31505.html \
+/Users/dai/dev/KindnessApp/platforms/android/assets/www/index.html.LOCAL.31505.html \
+/Users/dai/dev/KindnessApp/platforms/android/assets/www/index.html.orig \
+/Users/dai/dev/KindnessApp/platforms/android/assets/www/index.html.REMOTE.31505.html \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/js \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/phonegap.js \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/plugins \

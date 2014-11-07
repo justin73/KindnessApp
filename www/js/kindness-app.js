@@ -226,12 +226,12 @@ function initSetAlarm(init) {
                 console.log(hour)
                 console.log(minute)
 
-                var day = currentDate.getDay();
                 var i = 0;
                 while (i <= 7) {
-                    if (days.charAt(i) == '1') {
+                    var date = currentDate.getDay()+i;
+                    if (days.charAt(date) == '1') {
                         var dayAfter = new Date();
-                        dayAfter.setDate(dayAfter.getDate()+i);
+                        dayAfter.setDate(currentDate.getDate()+i);
                         dayAfter.setHours(hour);
                         dayAfter.setMinutes(minute);
                         dayAfter.setSeconds(0);
@@ -242,8 +242,8 @@ function initSetAlarm(init) {
                             window.plugin.notification.local.add({
                                 id:         results.insertId+"_"+i,
                                 date:       dayAfter,
-                                message:    "Meditation Reminder",
-                                title:      "Don't forget to meditate today!",
+                                title:    "Meditation Reminder",
+                                message:      "Don't forget to meditate today!",
                                 repeat:     'weekly'
                             });
                         }
@@ -267,6 +267,18 @@ function initSetAlarm(init) {
     }
 }
 
+function initQuote() {
+    var start = new Date(window.localStorage.getItem("startDate"));
+    alert(start);
+    var end = new Date();
+    alert(end);
+    var diff = new Date(end - start);
+
+    var days = Math.floor(diff/1000/60/60/24);
+    alert(days);
+    $("#quote").html(jsonObject.Quote[days].Content);
+    $("#author").html(jsonObject.Quote[days].Writer);
+}
 
 $(document).on('pagecontainershow', function (e, ui) {
 
@@ -282,7 +294,7 @@ $(document).on('pagecontainershow', function (e, ui) {
             break;
 
         case 'daily-quote':
-            initCalendar();
+            initQuote();
             break;
 
         case 'alarm-manager':

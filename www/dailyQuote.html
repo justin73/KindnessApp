@@ -7,24 +7,10 @@
 	<script type="text/javascript" language="javascript" src="quotes.json"></script> 
     <script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/jquery.mobile-1.4.2.min.js"></script>
-	<script>
-		$(document).ready(function(e) {
-			var start = new Date(window.localStorage.getItem("startDate"));
-			alert(start);
-			var end = new Date();
-			alert(end);
-			var diff = new Date(end - start);
-			
-			var days = Math.floor(diff/1000/60/60/24);
-			alert(days);
-			$("#quote").html(jsonObject.Quote[days].Content);
-			$("#author").html(jsonObject.Quote[days].Writer);
-   		});
-	</script>
 </head>
 <body>
 
-    <div data-role="page" id="dailyquote" style="height:100%">
+    <div data-role="page" id="daily-quote" style="height:100%">
         <div data-role="header" data-position="fixed">
             <img src="img/logo.png" class="logo" style="left:20px;"/>
         </div>
