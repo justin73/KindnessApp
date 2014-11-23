@@ -234,6 +234,7 @@ function initSetAlarm(init) {
                         dayAfter.setDate(dayAfter.getDate()+i);
                         dayAfter.setHours(hour);
                         dayAfter.setMinutes(minute);
+                        dayAfter.setSeconds(0);
                         console.log('ok --> expectedDate' + dayAfter);
                         if (dayAfter > currentDate) {
                             console.log('okok' + dayAfter);
