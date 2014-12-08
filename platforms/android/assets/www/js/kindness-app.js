@@ -28,6 +28,7 @@ function initStartingTimer() {
         window.localStorage.setItem("startDate", startDate.getTime());
         window.localStorage.setItem("duration", duration);
     }, onEnd: function(endDate) {
+        playGong();
         $(':mobile-pagecontainer').pagecontainer("change", "endingTimer.html", { transition: "pop",
             reload: true, changeHash: false });
         window.localStorage.setItem("endDate", endDate.getTime());
@@ -40,22 +41,21 @@ function initEndingTimer() {
 
 
     var feeling = -1;
-    function insertMeditation(tx) {
-        var startDate = window.localStorage.getItem("startDate");
-        var duration = window.localStorage.getItem("duration");
-        var endDate = window.localStorage.getItem("endDate");
-        console.log(startDate);
-        console.log(duration);
-        console.log(endDate);
 
-        tx.executeSql('INSERT INTO MEDITATION (startDate, endDate, duration, feeling) VALUES (?, ?, ?, ?)', [startDate, endDate, duration, feeling]);
-
-        $(':mobile-pagecontainer').pagecontainer("change", "dailyQuote.html", { transition: "flip",
-            reload: true, changeHash: false });
-        console.log('3');
-    }
     function saveMeditation() {
-        db.transaction(insertMeditation);
+        db.transaction(function(tx) {
+            var startDate = window.localStorage.getItem("startDate");
+            var duration = window.localStorage.getItem("duration");
+            var endDate = window.localStorage.getItem("endDate");
+            console.log(startDate);
+            console.log(duration);
+            console.log(endDate);
+
+            tx.executeSql('INSERT INTO MEDITATION (startDate, endDate, duration, feeling) VALUES (?, ?, ?, ?)', [startDate, endDate, duration, feeling]);
+
+            $(':mobile-pagecontainer').pagecontainer("change", "calendar.html", { transition: "flip",
+                reload: true, changeHash: false });
+        });
         console.log("insertMeditation");
     }
 
@@ -243,6 +243,7 @@ function initSetAlarm(init) {
                                 id:         results.insertId+"_"+i,
                                 date:       dayAfter,
                                 title:    "Meditation Reminder",
+                                sound: "/www/audio/beep.mp3",
                                 message:      "Don't forget to meditate today!",
                                 repeat:     'weekly'
                             });
@@ -267,6 +268,24 @@ function initSetAlarm(init) {
     }
 }
 
+function playGong() {
+    src = 'audio/gong.wav';
+    if (device.platform == 'Android') {
+        src = '/android_asset/www/' + src;
+    }
+
+    var media = new Media(src,
+        // success callback
+        function () { console.log("playAudio():Audio Success"); },
+        // error callback
+        function (err) {
+            console.log("playAudio():Audio Error: " + err);
+        }
+    );
+    // Play audio
+    media.play();
+}
+
 function initQuote() {
     var start = new Date(window.localStorage.getItem("startDate"));
     alert(start);
@@ -276,8 +295,8 @@ function initQuote() {
 
     var days = Math.floor(diff/1000/60/60/24);
     alert(days);
-    $("#quote").html(jsonObject.Quote[days].Content);
-    $("#author").html(jsonObject.Quote[days].Writer);
+//    $("#quote").html(jsonObject.Quote[days].Content);
+//    $("#author").html(jsonObject.Quote[days].Writer);
 }
 
 $(document).on('pagecontainershow', function (e, ui) {
@@ -291,6 +310,10 @@ $(document).on('pagecontainershow', function (e, ui) {
 
         case 'ending-timer':
             initEndingTimer();
+            break;
+
+        case 'view-calendar':
+            initCalendar();
             break;
 
         case 'daily-quote':
@@ -326,6 +349,14 @@ $(document).on('dialogcreate', function (e, ui) {
 
 function onDeviceReady() {
     console.log('device ready');
+    navigator.globalization.getPreferredLanguage(
+        function (language) {
+            document.documentElement.lang = language.value;
+        },
+        function () {
+            alert('Error getting language\n');
+        }
+    );
     openDb();
 }
 

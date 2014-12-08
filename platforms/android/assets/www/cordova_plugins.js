@@ -161,6 +161,34 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.media/www/MediaError.js",
+        "id": "org.apache.cordova.media.MediaError",
+        "clobbers": [
+            "window.MediaError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.media/www/Media.js",
+        "id": "org.apache.cordova.media.Media",
+        "clobbers": [
+            "window.Media"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.globalization/www/GlobalizationError.js",
+        "id": "org.apache.cordova.globalization.GlobalizationError",
+        "clobbers": [
+            "window.GlobalizationError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.globalization/www/globalization.js",
+        "id": "org.apache.cordova.globalization.globalization",
+        "clobbers": [
+            "navigator.globalization"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.device/www/device.js",
         "id": "org.apache.cordova.device.device",
         "clobbers": [
@@ -175,6 +203,8 @@ module.exports.metadata =
     "org.apache.cordova.file": "1.3.1",
     "com.phonegap.plugins.localnotification": "1.0.1",
     "de.appplant.cordova.plugin.local-notification": "0.8.0dev",
+    "org.apache.cordova.media": "0.2.14",
+    "org.apache.cordova.globalization": "0.3.2",
     "org.apache.cordova.device": "0.2.13-dev"
 }
 // BOTTOM OF METADATA

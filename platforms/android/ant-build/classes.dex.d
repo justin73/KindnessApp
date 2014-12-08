@@ -62,5 +62,14 @@
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/file/LocalFilesystemURL.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/file/NoModificationAllowedException.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/file/TypeMismatchException.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/globalization/Globalization$1.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/globalization/Globalization.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/globalization/GlobalizationError.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/media/AudioHandler.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/media/AudioPlayer$1.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/media/AudioPlayer$MODE.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/media/AudioPlayer$STATE.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/media/AudioPlayer.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/media/FileHelper.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/dexedLibs/classes-2537c23d2bb4004693f21a608a67bca9.jar \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/dexedLibs/android-support-v4-b2dc3f29d845fe07539a23f499d2cb4e.jar \

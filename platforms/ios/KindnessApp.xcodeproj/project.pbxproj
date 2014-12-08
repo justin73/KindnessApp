@@ -44,6 +44,8 @@
 		E7B58C4F30F64C5284C9E1ED /* LocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 462270346AE1427C998BC714 /* LocalNotification.m */; };
 		C884FFBAEEE8426C94C3270B /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E08D0EECD8A14E25895AE171 /* CDVDevice.m */; };
 		2ADFFD35B8F448FE8294404F /* APPLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BD99EF077F44E2933CE03F /* APPLocalNotification.m */; };
+		6478907B2E8242269B2AACBD /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CDA14E53B746E6B5D4F9E1 /* CDVSound.m */; };
+		C3E3BBA12509415496F6CC08 /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF02CB64E83433FBB57F0CF /* CDVGlobalization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +123,10 @@
 		30E9CD6A83434D879C3D9FFD /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		03BD99EF077F44E2933CE03F /* APPLocalNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "APPLocalNotification.m"; path = "de.appplant.cordova.plugin.local-notification/APPLocalNotification.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		9C0EFFA87E2244198896C220 /* APPLocalNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "APPLocalNotification.h"; path = "de.appplant.cordova.plugin.local-notification/APPLocalNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		67CDA14E53B746E6B5D4F9E1 /* CDVSound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSound.m"; path = "org.apache.cordova.media/CDVSound.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B9C535E116B7451781943EC3 /* CDVSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSound.h"; path = "org.apache.cordova.media/CDVSound.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		AEF02CB64E83433FBB57F0CF /* CDVGlobalization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVGlobalization.m"; path = "org.apache.cordova.globalization/CDVGlobalization.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		444DE67CEBB54D3AAECDFAD6 /* CDVGlobalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVGlobalization.h"; path = "org.apache.cordova.globalization/CDVGlobalization.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +259,10 @@
 				30E9CD6A83434D879C3D9FFD /* CDVDevice.h */,
 				03BD99EF077F44E2933CE03F /* APPLocalNotification.m */,
 				9C0EFFA87E2244198896C220 /* APPLocalNotification.h */,
+				67CDA14E53B746E6B5D4F9E1 /* CDVSound.m */,
+				B9C535E116B7451781943EC3 /* CDVSound.h */,
+				AEF02CB64E83433FBB57F0CF /* CDVGlobalization.m */,
+				444DE67CEBB54D3AAECDFAD6 /* CDVGlobalization.h */,
 			);
 			name = Plugins;
 			path = "KindnessApp/Plugins";
@@ -454,6 +464,8 @@
 				E7B58C4F30F64C5284C9E1ED /* LocalNotification.m in Sources */,
 				C884FFBAEEE8426C94C3270B /* CDVDevice.m in Sources */,
 				2ADFFD35B8F448FE8294404F /* APPLocalNotification.m in Sources */,
+				6478907B2E8242269B2AACBD /* CDVSound.m in Sources */,
+				C3E3BBA12509415496F6CC08 /* CDVGlobalization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

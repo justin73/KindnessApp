@@ -124,6 +124,9 @@ tspan {
     margin-left:3px;
     cursor: pointer;
 }
+.btn-time-update:active, .btn-reset:active, .btn-stop:active {
+    background-color: orange;
+}
 h5{
 	margin-top:18px;
 }
@@ -201,46 +204,46 @@ a {
     width:2px;
     height:2px;
     border-radius:50%;
-    background-color:#cc0f18;
+    background-color:#ef2929;
     margin-top:14px;
     margin-left:3px;
     display:inline-block;
 }
 .left-eye.satisfied{
-    background-color:#00931c;
+    background-color:#73d216;
 }
 .left-eye.ok{
-    background-color:#005793;
+    background-color:#729fcf;
 }
 .right-eye.ok{
-    background-color:#005793;
+    background-color:#729fcf;
 }
 .right-eye{
     display:inline-block;
     width: 2px;
     height: 2px;
     border-radius:50%;
-    background-color:#cc0f18;
+    background-color:#ef2929;
     margin-top:14px;
     margin-left:10px;
 }
 .right-eye.satisfied{
-    background-color:#00931c;
+    background-color:#73d216;
 }
 .satisfied{
-    color:#00931c;
-    border:8px solid #00931c;}
+    color:#73d216;
+    border:8px solid #73d216;}
 .unsatisfied{
-    color:#cc0f18;
-    border:8px solid #cc0f18;}
+    color:#ef2929;
+    border:8px solid #ef2929;}
 .ok{
-    color:#005793;
-    border:8px solid #005793;}
+    color:#729fcf;
+    border:8px solid #729fcf;}
 .mouth{
     width:36px;
     height:2px;
-    border:4px solid #005793;
-    background-color:#005793;
+    border:4px solid #729fcf;
+    background-color:#729fcf;
     margin-left:15px;
     margin-top:10px;
 }
@@ -249,7 +252,7 @@ a {
     width:30px;
     border-radius:90px 90px 0 0;
     margin:0px auto 0;
-    border:8px solid #cc0f18;
+    border:8px solid #ef2929;
     border-bottom:none;
     position:relative;
     background:transparent;
@@ -259,7 +262,7 @@ a {
     width:30px;
     border-radius: 0 0 90px 90px;
     margin:8px auto 0;
-    border:8px solid #00931c;
+    border:8px solid #73d216;
     border-top:none;
     position:relative;
     background:transparent;
@@ -280,16 +283,31 @@ a {
     font-family: PetitFormalScript;
 }
 
+li.ui-happy:before{
+    content: url('../img/smiley-happy.png');
+    margin: 0 5px;
+}
+
 .ui-happy {
-    color: #00931c !important;
+    color: #73d216 !important;
+}
+
+li.ui-neutral:before{
+    content: url('../img/smiley-neutral.png');
+    margin: 0 5px;
 }
 
 .ui-neutral {
-    color: #005793 !important;
+    color: #729fcf !important;
+}
+
+li.ui-sad:before{
+    content: url('../img/smiley-sad.png');
 }
 
 .ui-sad {
-    color: #cc0f18 !important;
+    color: #ef2929 !important;
+    margin: 0 5px;
 }
 
 .alarm-time {
