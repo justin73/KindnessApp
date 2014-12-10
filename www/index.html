@@ -30,11 +30,8 @@
 	        //Check if it already exists or not
 	        if (applaunchCount) {
 	            //This is a second time launch, and count = applaunchCount
-				alert(start)
-				alert(end)
 				var diff = new Date(end - start);
 				var days = Math.floor(diff/1000/60/60/24);
-				alert(days)
 				$('.flexslider').css('display','none');
 				$('#quoteContainer').css('display','block');
 				$("#quote").html(jsonObject.Quote[days].Content);
@@ -46,7 +43,6 @@
 	            var startdate = new Date(); 
 			  	var datetime = startdate.getFullYear()+'-'+(startdate.getMonth()+1)+'-'+startdate.getDate();
 			  	window.localStorage.setItem("startDate",datetime);
-			  	alert(window.localStorage.getItem("startDate"))
 	        }
 			
 		});
