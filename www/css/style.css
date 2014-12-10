@@ -325,7 +325,16 @@ li.ui-sad:before{
 	overflow-y:hidden;
 	}
 #quoteContainer{
-	display:none;}
+	display:none;
+	text-align:center;
+	margin-top:50px;}
+#quoteContainer #quote{
+	padding:20px;
+}
+#quoteContainer #author{
+	text-align: right;margin-right:20px;
+}
+
 .ui-mobile .ui-page-active{
 	overflow-y:hidden}
 .ui-content{
@@ -334,4 +343,9 @@ li.ui-sad:before{
 .ui-header .ui-title, .ui-footer .ui-title{
 	margin:0 10%;
 	padding:1em 0;
+}
+@media screen and (min-device-width: 400px) {
+    body {
+        background-color: lightblue;
+    }
 }

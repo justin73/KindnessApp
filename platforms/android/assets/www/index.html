@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" >
     <link rel="stylesheet" href="css/jw-jqm-cal.css" />
     <link href="css/jquery.datetimepicker.css" rel="stylesheet">
-    <script type="text/javascript" language="javascript" src="quotes.json"></script>
+    <link rel="prefetch" type="application/l10n" href="data.ini" />
     <script src="phonegap.js"></script>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
@@ -21,7 +21,33 @@
     <script src="js/de.appplant.cordova.plugin.local-notification/www/local-notification.js"></script>
     <script src="js/l10n.js"></script>
     <script type="text/javascript" src="l10n.js"></script>
-    <link rel="prefetch" type="application/l10n" href="data.ini" />
+    <script type="text/javascript" language="javascript" src="quotes.json"></script>
+    <script>
+		$(document).ready(function(e){
+			var applaunchCount = window.localStorage.getItem('launchCount');
+	
+	        //Check if it already exists or not
+	        if (applaunchCount) {
+	            //This is a second time launch, and count = applaunchCount
+				var start = new Date(window.localStorage.getItem("startDate"));
+				var end = new Date();
+				var diff = new Date(end - start);
+				var days = Math.floor(diff/1000/60/60/24);
+				$('.flexslider').css('display','none');
+				$('#quoteContainer').css('display','block');
+				$("#quote").html(jsonObject.Quote[days].Content);
+				$("#author").html(jsonObject.Quote[days].Writer);
+	            $(".btn-start").css("opacity", "1");				
+	        } else {
+	            //Local storage is not set, hence first time launch. set the local storage item
+	            window.localStorage.setItem('launchCount', 1);
+	            var startdate = new Date(); 
+			  	var datetime = startdate.getFullYear()+'-'+(startdate.getMonth()+1)+'-'+startdate.getDate();
+			  	window.localStorage.setItem("startDate",datetime);
+	        }
+			
+		});
+	</script>
 </head>
 <body onload="onLoad()">
 <div data-role="page" id="homePage" style="height:100%">
@@ -31,18 +57,16 @@
     <div class="content" data-role="content">
         <div class="flexslider">
             <ul class="slides">
-                <li>
+            	<li>
                     <br/>
                     <br/>
 
-                    <h2>2. Our mission</h2>
+                    <h2>The MTL CITY Mission Kindness App</h2>
                     <br/>
 
-                    <p>Montreal City Mission</p>
+                    <p>This app helps you think about kindness in your life and how being kind can make a difference in the world Ð every day. You can read more about our app here.</p>
 
-                    <p>enables</p>
-
-                    <p>the journey from exclusion to community.</p>
+                    <br/>
                     <br/>
                     <br/>
                 </li>
@@ -50,14 +74,11 @@
                     <br/>
                     <br/>
 
-                    <h2>3. Our mission</h2>
+                    <h2>A simple way to put kindness into your life</h2>
                     <br/>
 
-                    <p>Montreal City Mission</p>
+                    <p>The Kindness App sends you a daily kindness quote and helps you set aside some time to think about how you can be a source of kindness. This guide has ideas about how to do that.</p>
 
-                    <p>enables</p>
-
-                    <p>the journey from exclusion to community.</p>
                     <br/>
                     <br/>
                 </li>
@@ -65,35 +86,31 @@
                     <br/>
                     <br/>
 
-                    <h2>1. Our mission</h2>
+                    <h2>The Montreal City Mission</h2>
                     <br/>
 
-                    <p>Montreal City Mission</p>
+                    <p>The Montreal City Mission believes that kindness leads to hospitality and hospitality creates a more just and liveable city. Learn more about us and our work with refugees, seniors and inner city children.</p>
 
-                    <p>enables</p>
-
-                    <p>the journey from exclusion to community.</p>
                     <br/>
                     <br/>
-                    <br/>
-                </li>
-            </ul>
-            
+                </li>         
+            </ul>        
         </div>
-        <!--<div id="quoteContainer" style="text-align:center;margin-top:50px;">
+        <div id="quoteContainer">
           		<h1>Daily Quote</h1>
                 <br/><br/>
             	<h3 id="quote"></h3>
                 <br/>
-                <h4 id="author" style="text-align: right"></h4>
+                <h4 id="author"></h4>
 
-       </div>-->
+       </div>
     </div>
     <div class="center" data-role="footer" data-position="fixed">
         <a class="btn-start"
                 href="startingTimer.html"  data-l10n-id="start-here" data-transition="flip">Start Here</a>
     </div>
 </div>
+
 <script type="text/javascript">
     function doResize() {
         var winhight = $.mobile.getScreenHeight();
@@ -102,28 +119,6 @@
         var $content = $('[data-role="content"]');
         newhight = winhight - headhight - foothight;
         $content.css('min-height', newhight + 'px');
-        var applaunchCount = window.localStorage.getItem('launchCount');
-
-        //Check if it already exists or not
-        if (applaunchCount) {
-            //This is a second time launch, and count = applaunchCount
-			var start = new Date(window.localStorage.getItem("startDate"));
-			var end = new Date();
-			var diff = new Date(end - start);
-			var days = Math.floor(diff/1000/60/60/24);
-			//$('.flexslider').css('display','none');
-			//$('#quoteContainer').css('display','block');
-			//$("#quote").html(jsonObject.Quote[days].Content);
-			//$("#author").html(jsonObject.Quote[days].Writer);
-            $(".btn-start").css("opacity", "1");
-        } else {
-            //Local storage is not set, hence first time launch. set the local storage item
-            window.localStorage.setItem('launchCount', 1);
-            var startdate = new Date(); 
-		  	var datetime = startdate.getFullYear()+'-'+(startdate.getMonth()+1)+'-'+startdate.getDate();
-		  	window.localStorage.setItem("startDate",datetime);
-        }
-
     }
     $(document).bind('pageshow', doResize);
     $(document).delegate("#homePage", "pageinit", function () {
@@ -131,6 +126,7 @@
             directionNav: false,
             animation: "slide",
             slideshow: false,
+            animationLoop:false,
             end: function(){
                 $(".btn-start").css("opacity", "1");
             }

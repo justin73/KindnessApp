@@ -19,25 +19,25 @@ var jsonObject ={
 "Content":"The heart is like a garden: it can grow compassion or fear, resentment or love. What seeds will you plant there?"},
 
 { "No.":4,
-  "Writer": "Jack Kornfield",
-  "Content":"If your compassion does not include yourself, it is incomplete"},
+"Writer": "Jack Kornfield",
+"Content":"If your compassion does not include yourself, it is incomplete"},
 
 { "No.":5,
 "Writer": "Brené Brown",
  "Content":"You’re imperfect, and you’re wired for struggle, but you are worthy of love and belonging"},
 
 { "No.":6,
-  "Writer": "Jim Rohn",
-  "Content":"Give whatever you are doing and whoever you are with the gift of your attention"},
+"Writer": "Jim Rohn",
+"Content":"Give whatever you are doing and whoever you are with the gift of your attention"},
 
 
 { "No.":7,  "Writer": "Thich Nhat Hanh",
-  "Content":"To be beautiful means to be yourself. You don’t need to be accepted by others. You need to accept yourself"},
+"Content":"To be beautiful means to be yourself. You don’t need to be accepted by others. You need to accept yourself"},
 
 
 { "No.":8,
-  "Writer": "Ralph Waldo Emerson",
-  "Content":"It is one of the most beautiful compensations of life that no man can sincerely try to help another without helping himself"},
+"Writer": "Ralph Waldo Emerson",
+"Content":"It is one of the most beautiful compensations of life that no man can sincerely try to help another without helping himself"},
 
 { "No.":9,
 "Writer": "Unknown",
@@ -57,19 +57,19 @@ var jsonObject ={
 
 { "No.":13,
 "Writer": "Marcel Proust",
-"Content":" The real voyage of discovery consists not in seeking new landscapes, but in having new eyes "},
+"Content":" The real voyage of discovery consists not in seeking new landscapes,butin havingnew eyes "},
 
 { "No.":14,
  "Writer": "Mary Lou Cook",
 "Content":" Creativity is inventing, experimenting, growing, taking risks, breaking rules, making mistakes, and having fun "},
 
 { "No.":15,
-  "Writer": "Marianne Williamson",
-  "Content":" The practice of forgiveness is our most important contribution to the healing of the world."},
+"Writer": "Marianne Williamson",
+"Content":" The practice of forgiveness is our most important contribution to the healing of the world."},
 
 { "No.":16,
-  "Writer": "Norman Vincent Peale",
-  "Content":" Life’s blows cannot break a person whose spirit is warmed by the fire of enthusiasm."},
+"Writer": "Norman Vincent Peale",
+"Content":" Life’s blows cannot break a person whose spirit is warmed by the fire of enthusiasm."},
 
 { "No.":17,
 "Writer": "Thich Nhat Hanh",
@@ -91,7 +91,7 @@ var jsonObject ={
 
 { "No.":22,
 "Writer": "Thomas Szasz",
-  "Content":" Clear thinking requires courage rather than intelligence "},
+"Content":" Clear thinking requires courage rather than intelligence "},
 
 { "No.":23,
  "Writer": "Ambrose Redmoon", "Content":" Courage is not the absence of fear, but rather the judgment that something else is more important than fear "},
@@ -111,78 +111,78 @@ var jsonObject ={
 
 { "No.":28,
 "Writer": "Friedrich Nietzsche",
-  "Content":" Freedom is the will to be responsible to ourselves "},
+"Content":" Freedom is the will to be responsible to ourselves "},
 
 { "No.":29,
  "Writer": "Albert Schweitzer",
 "Content":" Seek always to do some good, somewhere... Even if it's a little thing, so something for those that need help, something for which you get no pay but the privilege of doing it."},
 
-{ "No."30,
+{ "No.":30,
  "Writer": "Albert Schweitzer",
-  "Content":" Constant kindness can accomplish much. As the sun makes ice melt, kindness causes misunderstanding, mistrust, and hostility to evaporate "},
+"Content":" Constant kindness can accomplish much. As the sun makes ice melt, kindness causes misunderstanding, mistrust, and hostility to evaporate "},
 
-{ "No."31,
-  "Writer": "Albert Schweitzer",
-  "Content":" True philosophy must start from the most immediate and comprehensive fact of consciousness: 'I am life that wants to live, in the midst of life that wants to live "},
+{ "No.":31,
+"Writer": "Albert Schweitzer",
+"Content":" True philosophy must start from the most immediate and comprehensive fact of consciousness: 'I am life that wants to live, in the midst of life that wants to live "},
 
 { "No.":32,
-  "Writer": "Albert Schweitzer",
-  "Content":" The purpose of human life is to serve and to show compassion and the will to help others"},
+"Writer": "Albert Schweitzer",
+"Content":" The purpose of human life is to serve and to show compassion and the will to help others"},
 
 { "No.":33,
-  "Writer": "Albert Schweitzer",
-  "Content":" Man can no longer live for himself alone. We must realize that all life is valuable and that we are united to all life. From this knowledge comes our spiritual relationship with the universe."},
+"Writer": "Albert Schweitzer",
+"Content":" Man can no longer live for himself alone. We must realize that all life is valuable and that we are united to all life. From this knowledge comes our spiritual relationship with the universe."},
 
 { "No.":34,
-  "Writer": "Albert Schweitzer",
-  "Content":" As soon as man does not take his existence for granted, but beholds it as something unfathomably mysterious, thought begins."},
+"Writer": "Albert Schweitzer",
+"Content":" As soon as man does not take his existence for granted, but beholds it as something unfathomably mysterious, thought begins."},
 
 { "No.":35,
-  "Writer": "Albert Schweitzer",
-  "Content":" To educate yourself for the feeling of gratitude means to take nothing for granted, but to always seek out and value the kind that will stand behind the action. Nothing that is done for you is a matter of course. Everything originates in a will for the good, which is directed at you. Train yourself never to put off the word or action for the expression of gratitude."},
+"Writer": "Albert Schweitzer",
+"Content":" To educate yourself for the feeling of gratitude means to take nothing for granted, but to always seek out and value the kind that will stand behind the action. Nothing that is done for you is a matter of course. Everything originates in a will for the good, which is directed at you. Train yourself never to put off the word or action for the expression of gratitude."},
 
 { "No.":36,
-  "Writer": "Dietrich Bonhoeffer",
-  "Content":" We must learn to regard people less in the light of what they do or omit to do, and more in the light of what they suffer."},
+"Writer": "Dietrich Bonhoeffer",
+"Content":" We must learn to regard people less in the light of what they do or omit to do, and more in the light of what they suffer."},
 
 { "No.":37,
-  "Writer": "Dietrich Bonhoeffer",
-  "Content": "Judging others makes us blind, whereas love is illuminating. By judging others we blind ourselves to our own evil and to the grace which others are just as entitled to as we are."},
+"Writer": "Dietrich Bonhoeffer",
+"Content": "Judging others makes us blind, whereas love is illuminating. By judging others we blind ourselves to our own evil and to the grace which others are just as entitled to as we are."},
 { "No.":38,
 
-  "Writer": "Dietrich Bonhoeffer",
-  "Content":" We are not to simply bandage the wounds of victims beneath the wheels of injustice, we are to drive a spoke into the wheel itself."},
+"Writer": "Dietrich Bonhoeffer",
+"Content":" We are not to simply bandage the wounds of victims beneath the wheels of injustice, we are to drive a spoke into the wheel itself."},
 
 { "No.":39,
-  "Writer": "Dietrich Bonhoeffer",
-  "Content": "Action springs not from thought, but from a readiness for responsibility."},
+"Writer": "Dietrich Bonhoeffer",
+"Content": "Action springs not from thought, but from a readiness for responsibility."},
 
 { "No.":40,
-  "Writer": "Dietrich Bonhoeffer",  "Content":" I discovered later, and I'm still discovering right up to this moment, that is it only by living completely in this world that one learns to have faith. By this-worldliness I mean living unreservedly in life's duties, problems, successes and failures. In so doing we throw ourselves completely into the arms of God, taking seriously, not our own sufferings, but those of God in the world. That, I think, is faith."},
+"Writer": "Dietrich Bonhoeffer","Content":" I discovered later, and I'm still discovering right up to this moment, that is it only by living completely in this world that one learns to have faith. By this-worldliness I mean living unreservedly in life's duties, problems, successes and failures. In so doing we throw ourselves completely into the arms of God, taking seriously, not our own sufferings, but those of God in the world. That, I think, is faith."},
 
 { "No.":41,
-  "Writer": "Dietrich Bonhoeffer",
-  "Content":" I can no longer condemn or hate a brother for whom I pray, no matter how much trouble he causes me."},
+"Writer": "Dietrich Bonhoeffer",
+"Content":" I can no longer condemn or hate a brother for whom I pray, no matter how much trouble he causes me."},
 
 { "No.":42,
-  "Writer": "Thích Nhất Hạnh",
-  "Content":" Through my love for you, I want to express my love for the whole cosmos, the whole of humanity, and all beings. By living with you, I want to learn to love everyone and all species. If I succeed in loving you, I will be able to love everyone and all species on Earth... This is the real message of love."},
+"Writer": "Thích Nhất Hạnh",
+"Content":" Through my love for you, I want to express my love for the whole cosmos, the whole of humanity, and all beings. By living with you, I want to learn to love everyone and all species. If I succeed in loving you, I will be able to love everyone and all species on Earth... This is the real message of love."},
 
 { "No.":43,
-  "Writer": "Thích Nhất Hạnh",
-  "Content": "Compassion is a verb."},
+"Writer": "Thích Nhất Hạnh",
+"Content": "Compassion is a verb."},
 
 { "No.":44,
-  "Writer": "Thích Nhất Hạnh",
-  "Content":" It is my conviction that there is no way to peace - peace is the way."},
+"Writer": "Thích Nhất Hạnh",
+"Content":" It is my conviction that there is no way to peace - peace is the way."},
 
 { "No.":45,
-  "Writer": "Thích Nhất Hạnh",
-  "Content":" We have more possibilities available in each moment than we realize."},
+"Writer": "Thích Nhất Hạnh",
+"Content":" We have more possibilities available in each moment than we realize."},
 
 { "No.":46,
-  "Writer": "Thích Nhất Hạnh",
-  "Content":" When you begin to see that your enemy is suffering, that is the beginning of insight."},
+"Writer": "Thích Nhất Hạnh",
+"Content":" When you begin to see that your enemy is suffering, that is the beginning of insight."},
 
 { "No.":47,
 "Writer": "Thích Nhất Hạnh",
@@ -191,73 +191,74 @@ var jsonObject ={
 
 { "No.":48,
 "Writer": "Nicolas Machiavel",
-  "Content":" Un geste d'humanité et de charité a parfois plus d'empire sur l'esprit de l'homme qu'une action marquée du sceau de la violence et de la cruauté."},
+"Content":" Un geste d'humanité et de charité a parfois plus d'empire sur l'esprit de l'homme qu'une action marquée du sceau de la violence et de la cruauté."},
 
 { "No.":49,
 "Writer": "Jean Cocteau",
-  "Content":" Le verbe aimer est le plus compliqué de la langue. Son passé n'est jamais simple. Son présent n'est qu'imparfait et son futur est toujours conditionnel."},
+"Content":" Le verbe aimer est le plus compliqué de la langue. Son passé n'est jamais simple. Son présent n'est qu'imparfait et son futur est toujours conditionnel."},
 
 { "No.":50,
 "Writer": "Claude Bernard",
-  "Content":" C’est ce que nous pensons déjà connaître qui nous empêche souvent d’apprendre."},
+"Content":" C’est ce que nous pensons déjà connaître qui nous empêche souvent d’apprendre."},
 
 { "No.":51,
 "Writer": "Anne Frank",
-  "Content":" How wonderful it is that nobody need wait a single moment before starting to improve the world."},
+"Content":" How wonderful it is that nobody need wait a single moment before starting to improve the world."},
 
 { "No.":52,
  "Writer": "Kahlil Gibran",
-  "Content":" We choose our joys and sorrows long before we experience them "},
+"Content":" We choose our joys and sorrows long before we experience them "},
 
 { "No.":53,
 "Writer": "Edward Everett Hale",
-  "Content":" I am only one, but I am one. I cannot do everything, but I can do something. And I will not let what I cannot do interfere with what I can do."},
+"Content":" I am only one, but I am one. I cannot do everything, but I can do something. And I will not let what I cannot do interfere with what I can do."},
 
 { "No.":54,
- "Writer": "William James",
- "Content":" Act as if what you do makes a difference. It does."},
+"Writer": "William James",
+"Content":" Act as if what you do makes a difference. It does."},
 
 { "No.":55,
 "Writer": "Henri L. Bergson",
-  "Content":" Think like a man of action; act like a man of thought."},
+"Content":" Think like a man of action; act like a man of thought."},
 
 { "No.":56,
-  "Writer": "Hermann Hesse",
-  "Content":" What could I say to you that would be of value, except that perhaps you seek too much, that as a result of your seeking you cannot find."},
+"Writer": "Hermann Hesse",
+"Content":" What could I say to you that would be of value, except that perhaps you seek too much, that as a result of your seeking you cannot find."},
 
 { "No.":57,
-  "Writer": "Hermann Hesse",
-  "Content":"Every man is more than just himself; he also represents the unique, the very special and always significant and remarkable point at which the world's phenomena intersect, only once in this way, and never again. That is why every man's story is important, eternal, sacred"},
+"Writer": "Hermann Hesse",
+"Content":"Every man is more than just himself; he also represents the unique, the very special and always significant and remarkable point at which the world's phenomena intersect, only once in this way, and never again. That is why every man's story is important, eternal, sacred"},
 
 { "No.":58,
-  "Writer": "Hermann Hesse",
-  "Content":" In each individual the spirit has become flesh, in each man the creation suffers, within each one a redeemer is nailed to the cross."},
+"Writer": "Hermann Hesse",
+"Content":" In each individual the spirit has become flesh, in each man the creation suffers, within each one a redeemer is nailed to the cross."},
 
 { "No.":59,
-  "Writer": "Chris Abani",
-  "Content":" What I've come to learn is that the world is never saved in grand messianic gestures, but in the simple accumulation of gentle, soft, almost invisible acts of compassion."},
+"Writer": "Chris Abani",
+"Content":" What I've come to learn is that the world is never saved in grand messianic gestures, but in the simple accumulation of gentle, soft, almost invisible acts of compassion."},
 
 { "No.":60,
-  "Writer": " Jon Kabat-Zinn",
-  "Content":" Perhaps the most 'spiritual' thing any of us can do is simply to look through our own eyes, see with eyes of wholeness, and act with integrity and kindness., Wherever You Go, There You Are: Mindfulness Meditation in Everyday Life"},
+"Writer": "Jon Kabat-Zinn",
+"Content":" Perhaps the most 'spiritual' thing any of us can do is simply to look through our own eyes, see with eyes of wholeness, and act with integrity and kindness.,Wherever You Go, There You Are: Mindfulness Meditation in Everyday Life"},
 
 { "No.":61,
- "Writer": "Jon Kabat-Zinn",
- "Content":" Practice sharing the fullness of your being, your best self, your enthusiasm, your vitality, your spirit, your trust, your openness, above all, your presence. Share it with yourself, with your family, with the world."},
+"Writer": "Jon Kabat-Zinn",
+"Content":" Practice sharing the fullness of your being, your best self, your enthusiasm, your vitality, your spirit, your trust, your openness, above all, your presence. Share it with yourself, with your family, with the world."},
 
 { "No.":62,
 "Writer": "Leo Buscaglia",
- "Content":" Too often we underestimate the power of a touch, a smile, a kind word, a listening ear, an honest compliment, or the smallest act of caring, all of which have the potential to turn a life around."},
+"Content":" Too often we underestimate the power of a touch, a smile, a kind word, a listening ear, an honest compliment, or the smallest act of caring, all of which have the potential to turn a life around."},
 
-{ "No.":63
-  "Writer": " Martin Luther King Jr.", "Content":" True compassion is more than flinging a coin to a beggar; it comes to see that an edifice which produces beggars needs restructuring."},
+{ "No.":63,
+"Writer": " Martin Luther King Jr.", 
+"Content":" True compassion is more than flinging a coin to a beggar; it comes to see that an edifice which produces beggars needs restructuring."},
 { "No.":64,
  "Writer": "Fyodor Dostoyevsky",
-  "Content":" To love someone means to see them as God intended them."},
+"Content":" To love someone means to see them as God intended them."},
 
 { "No.":65,
-  "Writer": " Titus",
-  "Content":" In sympathetic concern, in gestures of helping, in standing up for the weak, in voicing affirmation, in words of understanding, in visits of solicitude, in nonjudgmental thoughts, in embraces of hospitality, You touch us in human kindness and hold us to your heart."},
+"Writer": " Titus",
+"Content":" In sympathetic concern, in gestures of helping, in standing up for the weak, in voicing affirmation, in words of understanding, in visits of solicitude, in nonjudgmental thoughts, in embraces of hospitality, You touch us in human kindness and hold us to your heart."},
 
 { "No.":66,
  "Writer": "Rumi",
@@ -265,545 +266,546 @@ var jsonObject ={
 
 { "No.":67,
 "Writer": "Henri J.M. Nouwen",
-  "Content":" Compassion asks us to go where it hurts, to enter into the places of pain, to share in brokenness, fear, confusion, and anguish. Compassion challenges us to cry out with those in misery, to mourn with those who are lonely, to weep with those in tears. Compassion requires us to be weak with the weak, vulnerable with the vulnerable, and powerless with the powerless. Compassion means full immersion in the condition of being human."},
+"Content":" Compassion asks us to go where it hurts, to enter into the places of pain, to share in brokenness, fear, confusion, and anguish. Compassion challenges us to cry out with those in misery, to mourn with those who are lonely, to weep with those in tears. Compassion requires us to be weak with the weak, vulnerable with the vulnerable, and powerless with the powerless. Compassion means full immersion in the condition of being human."},
 
 { "No.":68,
-  "Writer": "Frederick Buechner",
-  "Content":" Compassion is the sometimes fatal capacity for feeling what it is like to live inside somebody else's skin. It's the knowledge that there can never really be any peace and joy for me until there is peace and joy finally for you too."},
+"Writer": "Frederick Buechner",
+"Content":" Compassion is the sometimes fatal capacity for feeling what it is like to live inside somebody else's skin. It's the knowledge that there can never really be any peace and joy for me until there is peace and joy finally for you too."},
 
 { "No.":69,
-  "Writer": "Unknown",
-  "Content":"Calling softly to my secret self. Offering space to try again. Asking trust when I cave in to fear. Urging me to stand with strength. Whispering daily encouragement. Pleading with me to take risks. Warning when I am in trouble. Affirming belief in my endeavours. Reminding me time and again. To liberate my wings of goodness"},
+"Writer": "Unknown",
+"Content":"Calling softly to my secret self. Offering space to try again. Asking trust when I cave in to fear. Urging me to stand with strength. Whispering daily encouragement. Pleading with me to take risks. Warning when I am in trouble. Affirming belief in my endeavours. Reminding me time and again. To liberate my wings of goodness"},
 
 { "No.":70,
-  "Writer": "Unknown", "Content":" Wake us up to what needs doing, and what needs undoing. Wake us up to what must be let go, and what to draw closer. Wake us up to what enlarges love and what diminishes it. In all parts of our life, disturb and wake us up!"},
+"Writer": "Unknown", 
+"Content":" Wake us up to what needs doing, and what needs undoing. Wake us up to what must be let go, and what to draw closer. Wake us up to what enlarges love and what diminishes it. In all parts of our life, disturb and wake us up!"},
 
 { "No.":71,
- "Writer": "Erich Fromm",
- "Content": "Freedom is not a constant attribute which we either 'have' or 'have not.' In fact, there is no such thing as 'freedom' except as a word and an abstract concept. There is only one reality: the act of freeing ourselves in the process of making choices. In this process the degree of our capacity to make choices varies with each act, with our practice of life"},
+"Writer": "Erich Fromm",
+"Content": "Freedom is not a constant attribute which we either 'have' or 'have not.' In fact, there is no such thing as 'freedom' except as a word and an abstract concept. There is only one reality: theactof freeing ourselves in the process of making choices. In this process the degree of our capacity to make choices varies with each act, with our practice of life"},
 
 { "No.":72,
- "Writer": "Pema Chödrön",
- "Content":" True compassion does not come from wanting to help out those less fortunate than ourselves but from realizing our kinship with all beings."},
+"Writer": "Pema Chödrön",
+"Content":" True compassion does not come from wanting to help out those less fortunate than ourselves but from realizing our kinship with all beings."},
 
 { "No.":73,
-  "Writer": "Thích Nhất Hạnh",
-  "Content":" If you are motivated by loving kindness and compassion, there are many ways to bring happiness to others right now, starting with kind speech."},
+"Writer": "Thích Nhất Hạnh",
+"Content":" If you are motivated by loving kindness and compassion, there are many ways to bring happiness to others right now, starting with kind speech."},
 
 { "No.":74,
-  "Writer": " Tao Te Ching ",
-  "Content":" With compassion one becomes courageous. Compassion brings triumph when attacked; it brings security when maintained."},
+"Writer": " Tao Te Ching ",
+"Content":" With compassion one becomes courageous. Compassion brings triumph when attacked; it brings security when maintained."},
 
 { "No.":75,
-  "Writer": " Milan Kundera ",
-  "Content":" There is nothing heavier than compassion. Not even one's own pain weighs so heavy as the pain one feels for someone, for someone, pain intensified by the imagination and prolonged by a hundred echos."},
+"Writer": " Milan Kundera ",
+"Content":" There is nothing heavier than compassion. Not even one's own pain weighs so heavy as the pain one feels for someone, for someone, pain intensified by the imagination and prolonged by a hundred echos."},
 
 { "No.":76,
-  "Writer": "Pema Choron",
-  "Content":"Compassionate action involves working with ourselves as much as working with others."},
+"Writer": "Pema Choron",
+"Content":"Compassionate action involves working with ourselves as much as working with others."},
 
 { "No.":77,
-  "Writer": " Mother Teresa ",
-  "Content":" Compassion begins at home, and it is not how much we do but how much love we put in that action. Do not think that love has to be extraordinary. What we need is to love without getting tired."},
+"Writer": " Mother Teresa ",
+"Content":" Compassion begins at home, and it is not how much we do but how much love we put in that action. Do not think that love has to be extraordinary. What we need is to love without getting tired."},
 
 { "No.":78,
-  "Writer": " Cindy Spring ",
-  "Content":" By compassion we mean the deep feeling that comes when we recognize our soul's reflection in another person, when that other person's pain or joy becomes our own."},
+"Writer": " Cindy Spring ",
+"Content":" By compassion we mean the deep feeling that comes when we recognize our soul's reflection in another person, when that other person's pain or joy becomes our own."},
 
-{ "No.":79,  "Writer": " Arnold Toynbee ",   "Content":" Compassion is the desire that moves the individual self to widen the scope of its self-concern to embrace the whole of the universal self."},
+{ "No.":79,  "Writer": " Arnold Toynbee ", "Content":" Compassion is the desire that moves the individual self to widen the scope of its self-concern to embrace the whole of the universal self."},
 { "No.":80,
-  "Writer": "Shunryu Suzuki",
-  "Content":"Our way to practice is one step at a time, one breath at a time."},
+"Writer": "Shunryu Suzuki",
+"Content":"Our way to practice is one step at a time, one breath at a time."},
 
 { "No.":81,
-  "Writer": "Socrates",
-  "Content":" The highest realms of thought are impossible to reach without first attaining an understanding of compassion "},
+"Writer": "Socrates",
+"Content":" The highest realms of thought are impossible to reach without first attaining an understanding of compassion "},
 
 { "No.":82,
-  "Writer": " Desmond Tutu  ",
-  "Content":" Compassion is not just feeling with someone, but seeking to change the situation. Frequently people think compassion and love are merely sentimental. No! They are very demanding. If you are going to be compassionate, be prepared for action!"},
+"Writer": " Desmond Tutu",
+"Content":" Compassion is not just feeling with someone, but seeking to change the situation. Frequently people think compassion and love are merely sentimental. No! They are very demanding. If you are going to be compassionate, be prepared for action!"},
 
 { "No.":83,
-  "Writer": "Mahatma Gandhi",
-  "Content":" Be the change that you wish to see in the world."},
+"Writer": "Mahatma Gandhi",
+"Content":" Be the change that you wish to see in the world."},
 
 { "No.":84,
-  "Writer": " Frederick Buechner ",
-  "Content":"Compassion is sometimes the fatal capacity for feeling what it is like to live inside somebody else's skin. It is the knowledge that there can never really be any peace and joy for me until there is peace and joy finally for you too."},
+"Writer": " Frederick Buechner ",
+"Content":"Compassion is sometimes the fatal capacity for feeling what it is like to live inside somebody else's skin. It is the knowledge that there can never really be any peace and joy for me until there is peace and joy finally for you too."},
 
 { "No.":85,
  "Writer": " Matthew Fox",
  "Content":" Compassion is not sentiment but is making justice and doing works of mercy. Compassion is not a moral commandment but a flow and overflow of the fullest human and divine energies."},
 
 { "No.":86,
-  "Writer": " William Sloane ",
-  "Content":" Compassion and justice are companions, not choices. "},
+"Writer": " William Sloane ",
+"Content":" Compassion and justice are companions, not choices. "},
 
 { "No.":87,
-  "Writer": " Charlotte Joko Beck",
-  "Content":" In spiritual maturity, the opposite of injustice is not justice but compassion."},
+"Writer": " Charlotte Joko Beck",
+"Content":" In spiritual maturity, the opposite of injustice is not justice but compassion."},
 
 { "No.":88,
-  "Writer": "Elie Wiesel",
-  "Content":" There may be times when we are powerless to prevent injustice, but there must never be a time when we fail to protest."},
+"Writer": "Elie Wiesel",
+"Content":" There may be times when we are powerless to prevent injustice, but there must never be a time when we fail to protest."},
 
 { "No.":89,
-  "Writer": "Elie Wiesel",
-  "Content":" I swore never to be silent whenever and wherever human beings endure suffering and humiliation. We must always take sides."},
+"Writer": "Elie Wiesel",
+"Content":" I swore never to be silent whenever and wherever human beings endure suffering and humiliation. We must always take sides."},
 
 { "No.":90,
-  "Writer": " Ram Dass ",
-  "Content": "Compassion and pity are very different. Whereas compassion reflects the yearning of the heart to merge and take on some of the suffering, pity is a controlled set of thoughts designed to assure separateness. Compassion is the spontaneous response of love; pity, the involuntary reflex of fear"},
+"Writer": " Ram Dass ",
+"Content": "Compassion and pity are very different. Whereas compassion reflects the yearning of the heart to merge and take on some of the suffering, pity is a controlled set of thoughts designed to assure separateness. Compassion is the spontaneous response of love; pity, the involuntary reflex of fear"},
 
 { "No.":91,
-  "Writer": " Mahatma Gandhi ",
-  "Content":" Nonviolence means an ocean of compassion. It means shedding from us every trace of ill will for others. It does not mean abjectness or timidity, or fleeing in fear. It means, on the contrary, firmness of mind and courage, a resolute spirit."},
+"Writer": " Mahatma Gandhi ",
+"Content":" Nonviolence means an ocean of compassion. It means shedding from us every trace of ill will for others. It does not mean abjectness or timidity, or fleeing in fear. It means, on the contrary, firmness of mind and courage, a resolute spirit."},
 
 { "No.":92,
-  "Writer": "Dalai Lama XIV",
-  "Content":" You must not hate those who do wrong or harmful things; but with compassion, you must do what you can to stop them — for they are harming themselves, as well as those who suffer from their actions."},
+"Writer": "Dalai Lama XIV",
+"Content":" You must not hate those who do wrong or harmful things; but with compassion, you must do what you can to stop them — for they are harming themselves, as well as those who suffer from their actions."},
 
 { "No.":93,
-  "Writer": "Bertrand Russell",
-  "Content":" The root of the matter is a very simple and old fashioned thing... love or compassion. If you feel this, you have a motive for existence, a guide for action, a reason for courage, an imperative necessity for intellectual honesty."},
+"Writer": "Bertrand Russell",
+"Content":" The root of the matter is a very simple and old fashioned thing... love or compassion. If you feel this, you have a motive for existence, a guide for action, a reason for courage, an imperative necessity for intellectual honesty."},
 
- { "No.":94,
-  "Writer": "Dalai Lama XIV",
-  "Content":" When something needs to be done in the world to rectify the wrongs, if one is really concerned with benefiting others, one needs to be engaged, involved. This is action out of compassion."},
+{ "No.":94,
+"Writer": "Dalai Lama XIV",
+"Content":" When something needs to be done in the world to rectify the wrongs, if one is really concerned with benefiting others, one needs to be engaged, involved. This is action out of compassion."},
 
 { "No.":95,
-  "Writer": "Ann Nietzke",
-  "Content":" More and more, it seems to me that compassion dwells in the tough, not the tender-hearted, because it requires us to come to terms with our own capacity (or incapacity) for suffering, and it calls for action rather than sentiment. It also requires us to get past the guilt and resentment we feel when we come face to face with someone whose suffering is greater than our own."},
+"Writer": "Ann Nietzke",
+"Content":" More and more, it seems to me that compassion dwells in the tough, not the tender-hearted, because it requires us to come to terms with our own capacity (or incapacity) for suffering, and it calls for action rather than sentiment. It also requires us to get past the guilt and resentment we feel when we come face to face with someone whose suffering is greater than our own."},
 
 { "No.":96,
-  "Writer": "Dalai Lama XIV",
-  "Content":" I consider non-violence to be compassion in action. It doesn’t mean weakness, cowering in fear, or simply doing nothing. It is to act without violence, motivated by compassion, recognising the rights of others."},
+"Writer": "Dalai Lama XIV",
+"Content":" I consider non-violence to be compassion in action. It doesn’t mean weakness, cowering in fear, or simply doing nothing. It is to act without violence, motivated by compassion, recognising the rights of others."},
 
 { "No.":97,
-  "Writer": " Johann Wolfgang von Goethe ",
-  "Content":" Knowing is not enough; we must apply. Willing is not enough; we must do."},
+"Writer": " Johann Wolfgang von Goethe ",
+"Content":" Knowing is not enough; we must apply. Willing is not enough; we must do."},
 
 { "No.":98,
-  "Writer": " Johann Wolfgang von Goethe ",
-  "Content":" Doubt can only be removed by action. "},
+"Writer": " Johann Wolfgang von Goethe ",
+"Content":" Doubt can only be removed by action. "},
 
 { "No.":99,
-  "Writer": "Jack Kornfield",
-  "Content":" As we learn to bow, we discover that the heart holds more freedom and compassion than we could imagine."},
+"Writer": "Jack Kornfield",
+"Content":" As we learn to bow, we discover that the heart holds more freedom and compassion than we could imagine."},
 
 { "No.":100,
-  "Writer": "Tara Brach",
-  "Content":" Awakening self-compassion is often the greatest challenge people face on the spiritual path."},
+"Writer": "Tara Brach",
+"Content":" Awakening self-compassion is often the greatest challenge people face on the spiritual path."},
 
 { "No.":101,
-  "Writer": "Bryant McGill",
-  "Content":" Inside each of us there is a marvelous compass which greatly favors life, freedom and vitality."},
+"Writer": "Bryant McGill",
+"Content":" Inside each of us there is a marvelous compass which greatly favors life, freedom and vitality."},
 
 { "No.":102,
-  "Writer": "Ignatius of Loyola",
-  "Content":" Teach us to give and not to count the cost."},
+"Writer": "Ignatius of Loyola",
+"Content":" Teach us to give and not to count the cost."},
 
 { "No.":103,
-  "Writer": "Oscar A. Romero",
-  "Content":" Peace is the generous, tranquil contribution of all to the good of all. Peace is dynamism. Peace is generosity. It is right and it is duty."},
+"Writer": "Oscar A. Romero",
+"Content":" Peace is the generous, tranquil contribution of all to the good of all. Peace is dynamism. Peace is generosity. It is right and it is duty."},
 
 { "No.":104,
-  "Writer": "Nelson Mandela",
-  "Content":" I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear."},
+"Writer": "Nelson Mandela",
+"Content":" I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear."},
 
 { "No.":105,
-  "Writer": " Mark Twain",
-  "Content":" If we should deal out justice only, in this world, who would escape? No, it is better to be generous, and in the end more profitable, for it gains gratitude for us, and love."},
+"Writer": " Mark Twain",
+"Content":" If we should deal out justice only, in this world, who would escape? No, it is better to be generous, and in the end more profitable, for it gains gratitude for us, and love."},
 
 { "No.":106,
-  "Writer": " Robert Brault",
-  "Content":" Love thy neighbor, and if it requires that you bend your understanding of the truth, the Truth will understand. "},
+"Writer": " Robert Brault",
+"Content":" Love thy neighbor, and if it requires that you bend your understanding of the truth, the Truth will understand. "},
 
 { "No.":107,
-  "Writer": "Bob Marley",
-  "Content":" None but ourselves can free our minds."},
+"Writer": "Bob Marley",
+"Content":" None but ourselves can free our minds."},
 
 { "No.":108,
-  "Writer": "Bob Marley",
-  "Content":" One love, one heart, one destiny."},
+"Writer": "Bob Marley",
+"Content":" One love, one heart, one destiny."},
 
 { "No.":109,
-  "Writer": "Bob Marley",
-  "Content":" The greatness of a man is not in how much wealth he acquires, but in his integrity and his ability to affect those around him positively."},
+"Writer": "Bob Marley",
+"Content":" The greatness of a man is not in how much wealth he acquires, but in his integrity and his ability to affect those around him positively."},
 
 { "No.":110,
-  "Writer": "Bob Marley",
-  "Content":" To love is to risk, not being loved in return. To hope is to risk pain. to try is to risk failure. But risk must be taken because the greatest hazard in my life is to risk nothing."},
+"Writer": "Bob Marley",
+"Content":" To love is to risk, not being loved in return. To hope is to risk pain. to try is to risk failure. But risk must be taken because the greatest hazard in my life is to risk nothing."},
 
 { "No.":111,
-  "Writer": "Walt Whitman",
-  "Content":" Resist much, obey little."},
+"Writer": "Walt Whitman",
+"Content":" Resist much, obey little."},
 
 { "No.":112,
-  "Writer": "Henry David Thoreau",
-  "Content":" All change is a miracle to contemplate, but it is a miracle which is taking place every instant."},
+"Writer": "Henry David Thoreau",
+"Content":" All change is a miracle to contemplate, but it is a miracle which is taking place every instant."},
 
 { "No.":113,
-  "Writer": "Henry David Thoreau",
-  "Content":" Nature is as well adapted to our weakness as to our strength."},
+"Writer": "Henry David Thoreau",
+"Content":" Nature is as well adapted to our weakness as to our strength."},
 
 { "No.":114,
-  "Writer": "Paulo Coelho",
-  "Content":" Everybody has a creative potential and from the moment you can express this creative potential, you can start changing the world."},
+"Writer": "Paulo Coelho",
+"Content":" Everybody has a creative potential and from the moment you can express this creative potential, you can start changing the world."},
 
 { "No.":115,
-  "Writer": "Paulo Coelho",
-  "Content":" You have to take risks. We will only understand the miracle of life fully when we allow the unexpected to happen "},
+"Writer": "Paulo Coelho",
+"Content":" You have to take risks. We will only understand the miracle of life fully when we allow the unexpected to happen "},
 
- 
+
 { "No.":116,
-  "Writer": "Paulo Coelho",
-  "Content":" Be brave. Take risks. Nothing can substitute experience."},
+"Writer": "Paulo Coelho",
+"Content":" Be brave. Take risks. Nothing can substitute experience."},
 
 { "No.":117,
-  "Writer": "Khalil Gibran",
-  "Content":" I love you when you bow in your mosque, kneel in your temple, pray in your church. For you and I are sons of one religion, and it is the spirit."},
- 
+"Writer": "Khalil Gibran",
+"Content":" I love you when you bow in your mosque, kneel in your temple, pray in your church. For you and I are sons of one religion, and it is the spirit."},
+
 { "No.":118,
-  "Writer": "Aung San Suu Kyi",
-  "Content":" The only real prison is fear, and the only real freedom is freedom from fear."},
+"Writer": "Aung San Suu Kyi",
+"Content":" The only real prison is fear, and the only real freedom is freedom from fear."},
 
 { "No.":119,
-  "Writer": "Aung San Suu Kyi",
-  "Content":" I don't believe in people just hoping. We work for what we want. I always say that one has no right to hope without endeavor, so we work to try and bring about the situation that is necessary for the country, and we are confident that we will get to the negotiation table at one time or another."},
- 
+"Writer": "Aung San Suu Kyi",
+"Content":" I don't believe in people just hoping. We work for what we want. I always say that one has no right to hope without endeavor, so we work to try and bring about the situation that is necessary for the country, and we are confident that we will get to the negotiation table at one time or another."},
+
 { "No.":120,
-  "Writer": "Aung San Suu Kyi",
-  "Content":" Please use your liberty to promote ours."},
+"Writer": "Aung San Suu Kyi",
+"Content":" Please use your liberty to promote ours."},
 
 { "No.":121,
-  "Writer": "Aung San Suu Kyi",
-  "Content":" My top priority is for people to understand that they have the power to change things themselves. "},
- 
+"Writer": "Aung San Suu Kyi",
+"Content":" My top priority is for people to understand that they have the power to change things themselves. "},
+
 { "No.":122,
-  "Writer": "Aung San Suu Kyi",
-  "Content":" Every thought, every word, and every action that adds to the positive and the wholesome is a contribution to peace. Each and every one of us is capable of making such a contribution."},
+"Writer": "Aung San Suu Kyi",
+"Content":" Every thought, every word, and every action that adds to the positive and the wholesome is a contribution to peace. Each and every one of us is capable of making such a contribution."},
 
 { "No.":123,
-  "Writer": "Margaret Mead",
-  "Content":" Never doubt that a small group of thoughtful, committed, citizens can change the world. Indeed, it is the only thing that ever has."},
- 
+"Writer": "Margaret Mead",
+"Content":" Never doubt that a small group of thoughtful, committed, citizens can change the world. Indeed, it is the only thing that ever has."},
+
 { "No.":124,
-  "Writer": "Margaret Mead",
-  "Content":" I measure success in terms of the contributions an individual makes to her fellow human beings. "},
+"Writer": "Margaret Mead",
+"Content":" I measure success in terms of the contributions an individual makes to her fellow human beings. "},
 
 { "No.":125,
-  "Writer": " Wiliam Shakespeare",
-  "Content":" Love is not love/ Which alters when it alteration finds/ Or bends with the remover to remove: O no; it is an ever-fixed mark."},
+"Writer": " Wiliam Shakespeare",
+"Content":" Love is not love/ Which alters when it alteration finds/ Or bends with the remover to remove: O no; it is an ever-fixed mark."},
 
 { "No.":126,
-  "Writer": " Mumford and Sons ",
-  "Content":" Love; it will not betray you dismay or enslave you, it will set you free be more like the man you were made to be."},
+"Writer": " Mumford and Sons ",
+"Content":" Love; it will not betray you dismay or enslave you, it will set you free be more like the man you were made to be."},
 
 { "No.":127,
-  "Writer": " John Lennon ",
-  "Content":" Make love not war, that's all we're saying, just remember that."},
- 
+"Writer": " John Lennon ",
+"Content":" Make love not war, that's all we're saying, just remember that."},
+
 { "No.":128,
-  "Writer": " Mitra Sen ",
-  "Content":" Let us embrace the beauty of every culture and faith to create peace in our world."},
+"Writer": " Mitra Sen ",
+"Content":" Let us embrace the beauty of every culture and faith to create peace in our world."},
 
 { "No.":129,
-  "Writer": "Blaise Pascal",
-  "Content":" When one does not love too much, one does not love enough."},
- 
+"Writer": "Blaise Pascal",
+"Content":" When one does not love too much, one does not love enough."},
+
 { "No.":130,
-  "Writer": " Blaise Pascal ",
-  "Content":" The heart has its reasons which reason knows nothing of... We know the truth not only by the reason, but by the heart."},
+"Writer": " Blaise Pascal ",
+"Content":" The heart has its reasons which reason knows nothing of... We know the truth not only by the reason, but by the heart."},
 
 { "No.":131,
-  "Writer": " Blaise Pascal ",
-  "Content":" Reason's last step is the recognition that there are an infinite number of things which are beyond it."},
- 
+"Writer": " Blaise Pascal ",
+"Content":" Reason's last step is the recognition that there are an infinite number of things which are beyond it."},
+
 { "No.":132,
-  "Writer": "Blaise Pascal",
-  "Content":" In difficult times carry something beautiful in your heart."},
+"Writer": "Blaise Pascal",
+"Content":" In difficult times carry something beautiful in your heart."},
 
 { "No.":133,
-  "Writer": "Blaise Pascal",
-  "Content":" Kind words do not cost much. They never blister the tongue or lips. They make other people good-natured. They also produce their own image on men's souls, and a beautiful image it is."},
- 
+"Writer": "Blaise Pascal",
+"Content":" Kind words do not cost much. They never blister the tongue or lips. They make other people good-natured. They also produce their own image on men's souls, and a beautiful image it is."},
+
 { "No.":134,
 "Writer": "Hazrat Inayat Khan",
- "Content":" There are two aspects of individual harmony: the harmony between body and soul, and the harmony between individuals. All the tragedy in the world, in the individual and in the multitude, comes from lack of harmony. And harmony is the best given by producing harmony in one's own life."},
+"Content":" There are two aspects of individual harmony: the harmony between body and soul, and the harmony between individuals. All the tragedy in the world, in the individual and in the multitude, comes from lack of harmony. And harmony is the best given by producing harmony in one's own life."},
 
 { "No.":135,
-  "Writer": "Rumi",
-  "Content":" Listen, O drop, give yourself up without regret, and in exchange gain the Ocean. Listen, O drop, bestow upon yourself this honor, and in the arms of the Sea be secure. Who indeed should be so fortunate? An Ocean wooing a drop! In God's name, in God's name, sell and buy at once! Give a drop, and take this Sea full of pearls."},
- 
+"Writer": "Rumi",
+"Content":" Listen, O drop, give yourself up without regret, and in exchange gain the Ocean. Listen, O drop, bestow upon yourself this honor, and in the arms of the Sea be secure. Who indeed should be so fortunate? An Ocean wooing a drop! In God's name, in God's name, sell and buy at once! Give a drop, and take this Sea full of pearls."},
+
 { "No.":136,
-  "Writer": "Mahavamsa",
-  "Content":" All beings seek for happiness; so let your compassion extend itself to all."},
+"Writer": "Mahavamsa",
+"Content":" All beings seek for happiness; so let your compassion extend itself to all."},
 
 { "No.":137,
-  "Writer": "Ilyas Kassam",
-  "Content":" The path towards peace is not for the righteous, the ethical, the active and the compassionate to shit on the malicious, the complacent, the violent and the ignorant. The path towards peace is to be peaceful."},
- 
+"Writer": "Ilyas Kassam",
+"Content":" The path towards peace is not for the righteous, the ethical, the active and the compassionate to shit on the malicious, the complacent, the violent and the ignorant. The path towards peace is to be peaceful."},
+
 { "No.":138,
-  "Writer": "C.S. Lewis",
-  "Content":" If we find ourselves with a desire that nothing in this world can satisfy, the most probable explanation is that we were made for another world."},
+"Writer": "C.S. Lewis",
+"Content":" If we find ourselves with a desire that nothing in this world can satisfy, the most probable explanation is that we were made for another world."},
 
 { "No.":139,
-  "Writer": "C.S. Lewis",
-  "Content":" Love is not affectionate feeling, but a steady wish for the loved person's ultimate good as far as it can be obtained."},
- 
+"Writer": "C.S. Lewis",
+"Content":" Love is not affectionate feeling, but a steady wish for the loved person's ultimate good as far as it can be obtained."},
+
 { "No.":140,
-  "Writer": "C.S. Lewis",
-  "Content":" If you look for truth, you may find comfort in the end; if you look for comfort you will not get either comfort or truth only soft soap and wishful thinking to begin, and in the end, despair."},
+"Writer": "C.S. Lewis",
+"Content":" If you look for truth, you may find comfort in the end; if you look for comfort you will not get either comfort or truth only soft soap and wishful thinking to begin, and in the end, despair."},
 
 { "No.":141,
-  "Writer": "Ralph Waldo Emerson",
-  "Content":" You cannot do a kindness too soon because you never know how soon it will be too late."},
- 
+"Writer": "Ralph Waldo Emerson",
+"Content":" You cannot do a kindness too soon because you never know how soon it will be too late."},
+
 { "No.":142,
-  "Writer": "Tolstoy ",
-  "Content":" The antagonism between life and conscience may be removed either by a change of life or by a change of conscience."},
+"Writer": "Tolstoy ",
+"Content":" The antagonism between life and conscience may be removed either by a change of life or by a change of conscience."},
 
 { "No.":143,
-  "Writer": "William Maxwell",
-  "Content":" They looked at me, and were so full of delight in the pleasure they were giving me that some final thread of resistance gave way and I understood not only how entirely generous they were but also that generosity might be the greatest pleasure there is. "},
- 
+"Writer": "William Maxwell",
+"Content":" They looked at me, and were so full of delight in the pleasure they were giving me that some final thread of resistance gave way and I understood not only how entirely generous they were but also that generosity might be the greatest pleasure there is. "},
+
 { "No.":144,
-  "Writer": " Ryan Henry Ward ",
-  "Content":" Compassion is born from the imagination. To have the desire to be compassionate, you have to imagine a world that’s better than the one you live in."},
+"Writer": " Ryan Henry Ward ",
+"Content":" Compassion is born from the imagination. To have the desire to be compassionate, you have to imagine a world that’s better than the one you live in."},
 
 { "No.":145,
-  "Writer": "Rob Liano",
-  "Content":" The news can be poison to your soul, don't let it kill your joy, be compassionate but not consumed. Be empathetic not enraged."},
- 
+"Writer": "Rob Liano",
+"Content":" The news can be poison to your soul, don't let it kill your joy, be compassionate but not consumed. Be empathetic not enraged."},
+
 { "No.":146,
-  "Writer": "Brené Brown",
-  "Content":" Compassion is not a virtue -- it is a commitment. It's not something we have or don't have -- it's something we choose to practice."},
+"Writer": "Brené Brown",
+"Content":" Compassion is not a virtue -- it is a commitment. It's not something we have or don't have -- it's something we choose to practice."},
 
 { "No.":147,
-  "Writer": "Amit Ray",
-  "Content":" Compassion is the signature of Higher Consciousness. Non-violence is the tool to evolve into the Higher Consciousness. "},
+"Writer": "Amit Ray",
+"Content":" Compassion is the signature of Higher Consciousness. Non-violence is the tool to evolve into the Higher Consciousness. "},
 
 { "No.":148,
-  "Writer": "Satish Kumar",
-  "Content":" Someone, somewhere, needs to take courage to break the cycle of violence."},
+"Writer": "Satish Kumar",
+"Content":" Someone, somewhere, needs to take courage to break the cycle of violence."},
 
 { "No.":149,
-  "Writer": "Bruce Lee",
-  "Content":" It is compassion rather than the principle of justice which can guard us against being unjust to our fellow men."},
+"Writer": "Bruce Lee",
+"Content":" It is compassion rather than the principle of justice which can guard us against being unjust to our fellow men."},
 
 { "No.":150,
-  "Writer": "Cornel West",
-  "Content":" Those who have never despaired have neither lived nor loved. Hope is inseparable from despair. Those of us who truly hope make despair a constant companion whom we out-wrestle every day owing to our commitment to justice, love, and hope."},
+"Writer": "Cornel West",
+"Content":" Those who have never despaired have neither lived nor loved. Hope is inseparable from despair. Those of us who truly hope make despair a constant companion whom we out-wrestle every day owing to our commitment to justice, love, and hope."},
 
 { "No.":151,
-  "Writer": "Cornel West",
-  "Content":" When ordinary people wake up, elites begin to tremble in their boots. They can't get away with their abuse. They can't get away with subjection. They can't get away with subjugation. They can't get away with exploitation. They can't get away with domination. It takes courage for folk to stand up."},
+"Writer": "Cornel West",
+"Content":" When ordinary people wake up, elites begin to tremble in their boots. They can't get away with their abuse. They can't get away with subjection. They can't get away with subjugation. They can't get away with exploitation. They can't get away with domination. It takes courage for folk to stand up."},
 
 { "No.":152,
-  "Writer": "Cornel West",
-  "Content":" None of us alone can save the nation or the world. But each of us can make a positive difference if we commit ourselves to do so."},
+"Writer": "Cornel West",
+"Content":" None of us alone can save the nation or the world. But each of us can make a positive difference if we commit ourselves to do so."},
 
 { "No.":153,
-  "Writer": "Cornel West",
-  "Content":" You must let suffering speak, if you want to hear the truth."},
+"Writer": "Cornel West",
+"Content":" You must let suffering speak, if you want to hear the truth."},
 
 { "No.":154,
-  "Writer": "Cornel West",
-  "Content":" Empathy is not simply a matter of trying to imagine what others are going through, but having the will to muster enough courage to do something about it. In a way, empathy is predicated upon hope."},
+"Writer": "Cornel West",
+"Content":" Empathy is not simply a matter of trying to imagine what others are going through, but having the will to muster enough courage to do something about it. In a way, empathy is predicated upon hope."},
 
 { "No.":155,
-  "Writer": "Cornel West",
-  "Content":" You can't lead the people if you don't love the people. You can't save the people if you don't serve the people."},
+"Writer": "Cornel West",
+"Content":" You can't lead the people if you don't love the people. You can't save the people if you don't serve the people."},
 
 
 { "No.":156,
-  "Writer": "Cornel West",
-  "Content":" Never forget that justice is what love looks like in public."},
+"Writer": "Cornel West",
+"Content":" Never forget that justice is what love looks like in public."},
 
 { "No.":157,
-  "Writer": "Cornel West",
-  "Content":" We have to recognise that there cannot be relationships unless there is commitment, unless there is loyalty, unless there is love, patience, persistence."},
+"Writer": "Cornel West",
+"Content":" We have to recognise that there cannot be relationships unless there is commitment, unless there is loyalty, unless there is love, patience, persistence."},
 
 
 { "No.":158,
-  "Writer": "Pablo Casals",
-  "Content":" I  feel the capacity to care is the thing which gives life its deepest significance."},
+"Writer": "Pablo Casals",
+"Content":" I  feel the capacity to care is the thing which gives life its deepest significance."},
 
 { "No.":159,
-  "Writer": " Cornel West",
-  "Content":" That’s why love is so inseparable from any talk about truth and death, because we know that love is fundamentally a death of an old self that was isolated and the emergence of a new self now entangled with another self, the self that you fall in love with."},
+"Writer": "Cornel West",
+"Content":" That’s why love is so inseparable from any talk about truth and death, because we know that love is fundamentally a death of an old self that was isolated and the emergence of a new self now entangled with another self, the self that you fall in love with."},
 
 { "No.":160,
-  "Writer": "Maya Angelou",
-  "Content":" Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently."},
+"Writer": "Maya Angelou",
+"Content":" Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently."},
 
 { "No.":161,
-  "Writer": "Noam Chomsky",
-  "Content":" We shouldn't be looking for heroes, we should be looking for good ideas."},
+"Writer": "Noam Chomsky",
+"Content":" We shouldn't be looking for heroes, we should be looking for good ideas."},
 
 { "No.":162,
-  "Writer": "Noam Chomsky",
-  "Content":" Optimism is a strategy for making a better future. Because unless you believe that the future can be better, you are unlikely to step up and take responsibility for making it so."},
+"Writer": "Noam Chomsky",
+"Content":" Optimism is a strategy for making a better future. Because unless you believe that the future can be better, you are unlikely to step up and take responsibility for making it so."},
 
 { "No.":163,
-  "Writer": "Noam Chomsky",
-  "Content":" It is the responsibility of intellectuals to speak the truth and expose lies."},
+"Writer": "Noam Chomsky",
+"Content":" It is the responsibility of intellectuals to speak the truth and expose lies."},
 
 
 { "No.":164,
-  "Writer": " Noam Chomsky",
-  "Content":" If you assume that there is no hope, you guarantee that there will be no hope. If you assume that there is an instinct for freedom, that there are opportunities to change things, then there is a possibility that you can contribute to making a better world."},
+"Writer": "Noam Chomsky",
+"Content":" If you assume that there is no hope, you guarantee that there will be no hope. If you assume that there is an instinct for freedom, that there are opportunities to change things, then there is a possibility that you can contribute to making a better world."},
 
 { "No.":165,
-  "Writer": "Noam Chomsky",
-  "Content":" If you want to change the world you’d better try to understand it. That doesn’t mean listening to a talk or reading a book, though that’s helpful sometimes. You learn from participating. You learn from others. You learn from the people you’re trying to organize. We all have to gain the understanding and the experience to formulate and implement ideas."},
+"Writer": "Noam Chomsky",
+"Content":" If you want to change the world you’d better try to understand it. That doesn’t mean listening to a talk or reading a book, though that’s helpful sometimes. You learn from participating. You learn from others. You learn from the people you’re trying to organize. We all have to gain the understanding and the experience to formulate and implement ideas."},
 
 { "No.":166,
-  "Writer": " Noam Chomsky",
-  "Content":" Discovery is the ability to be puzzled by simple things."},
+"Writer": " Noam Chomsky",
+"Content":" Discovery is the ability to be puzzled by simple things."},
 
 { "No.":167,
-  "Writer": " Erich Fromm",
-  "Content":" Is love an art? Then it requires knowledge and effort."},
+"Writer": "Erich Fromm",
+"Content":" Is love an art? Then it requires knowledge and effort."},
 
 
 { "No.":168,
-  "Writer": "Erich Fromm",
-  "Content":" Love means to commit oneself without guarantee, to give oneself completely in the hope that our love will produce love in the loved person. Love is an act of faith, and whoever is of little faith is also of little love. "},
+"Writer": "Erich Fromm",
+"Content":" Love means to commit oneself without guarantee, to give oneself completely in the hope that our love will produce love in the loved person. Love is an act of faith, and whoever is of little faith is also of little love. "},
 
 { "No.":169,
-  "Writer": "Erich Fromm",
-  "Content":" Love is not primarily a relationship to a specific person; it is an attitude, an ordination of character which determines the relatedness of the person to the whole world as a whole, not toward one object of love."},
+"Writer": "Erich Fromm",
+"Content":" Love is not primarily a relationship to a specific person; it is an attitude, an ordination of character which determines the relatedness of the person to the whole world as a whole, not toward one object of love."},
 
 
 { "No.":170,
-  "Writer": " Erich Fromm",
-  "Content":" Creativity requires the courage to let go of certainties."},
+"Writer": "Erich Fromm",
+"Content":" Creativity requires the courage to let go of certainties."},
 
 { "No.":171,
-  "Writer": "Erich Fromm",
-  "Content":" Love is a decision, it is a judgment, it is a promise. If love were only a feeling, there would be no basis for the promise to love each other forever. A feeling comes and it may go. How can I judge that it will stay forever, when my act does not involve judgment and decision."},
+"Writer": "Erich Fromm",
+"Content":" Love is a decision, it is a judgment, it is a promise. If love were only a feeling, there would be no basis for the promise to love each other forever. A feeling comes and it may go. How can I judge that it will stay forever, when my act does not involve judgment and decision."},
 
 
 { "No.":172,
-  "Writer": "Charles Taylor",
-  "Content": "We become full human agents, capable of understanding ourselves, and hence of defining our identity, through our acquisition of rich human languages of expression."},
+"Writer": "Charles Taylor",
+"Content": "We become full human agents, capable of understanding ourselves, and hence of defining our identity, through our acquisition of rich human languages of expression."},
 
 { "No.":173,
-  "Writer": "Erich Fromm",
-  "Content": "To have faith requires courage, the ability to take a risk, the readiness even to accept pain and disappointment. Whoever insists on safety and security as primary conditions of life cannot have faith; whoever shuts himself off in a system of defense, where distance and possession are his means of security, makes himself a prisoner. To be loved, and to love, need courage, the courage to judge certain values as of ultimate concern – and to take the jump and to stake everything on these values."},
+"Writer": "Erich Fromm",
+"Content": "To have faith requires courage, the ability to take a risk, the readiness even to accept pain and disappointment. Whoever insists on safety and security as primary conditions of life cannot have faith; whoever shuts himself off in a system of defense, where distance and possession are his means of security, makes himself a prisoner. To be loved, and to love, need courage, the courage to judge certain values as of ultimate concern – and to take the jump and to stake everything on these values."},
 
 { "No.":174,
-  "Writer": "Erich Fromm",
-  "Content":" Wenn ich zu einem anderen sagen kann: 'Ich liebe dich', muss ich auch sagen können: 'Ich liebe in dir auch alle anderen, ich liebe durch dich die ganze Welt, ich liebe in dir auch mich selbst."},
+"Writer": "Erich Fromm",
+"Content":" Wenn ich zu einem anderen sagen kann: 'Ich liebe dich', muss ich auch sagen können: 'Ich liebe in dir auch alle anderen, ich liebe durch dich die ganze Welt, ich liebe in dir auch mich selbst."},
 
 { "No.":175,
-  "Writer": "J.R.R. Tolkien",
-  "Content":" All we have to decide is what to do with the time that is given us."},
+"Writer": "J.R.R. Tolkien",
+"Content":" All we have to decide is what to do with the time that is given us."},
 
 { "No.":176,
-  "Writer": "J.R.R. Tolkien",
-  "Content":" Courage is found in unlikely places."},
+"Writer": "J.R.R. Tolkien",
+"Content":" Courage is found in unlikely places."},
 
 { "No.":177,
-  "Writer": "J.R.R. Tolkien",
-  "Content":" A man that flies from his fear may find that he has only taken a short cut to meet it."},
+"Writer": "J.R.R. Tolkien",
+"Content":" A man that flies from his fear may find that he has only taken a short cut to meet it."},
 
 { "No.":178,
-  "Writer": "J.R.R. Tolkien",
-  "Content":" Where there's life there's hope."},
+"Writer": "J.R.R. Tolkien",
+"Content":" Where there's life there's hope."},
 
 { "No.":179,
-  "Writer": " Frida Kahlo",
-  "Content":"Feet, what do I need them for if I have wings to fly."},
+"Writer": " Frida Kahlo",
+"Content":"Feet, what do I need them for if I have wings to fly."},
 
 
 { "No.":180,
  "Writer": "Ellen", "Content":" I learned compassion from being discriminated against. Everything bad that's ever happened to me has taught me compassion."},
 
 { "No.":181,
-  "Writer": " Tennessee Williams ", "Content":" I don't ask for your pity, but just for your understanding—not even that—no. Just for your recognition of me in you, and the enemy, time, in us all."},
+"Writer": " Tennessee Williams ", "Content":" I don't ask for your pity, but just for your understanding—not even that—no. Just for your recognition of me in you, and the enemy, time, in us all."},
 
 
 { "No.":182,
-  "Writer": " Cheri Huber ",
-  "Content":" Getting where you want to be has everything to do with awareness, and nothing to do with willpower."},
+"Writer": " Cheri Huber ",
+"Content":" Getting where you want to be has everything to do with awareness, and nothing to do with willpower."},
 
 { "No.":183,
-  "Writer": " Brett Hoebel ",
-  "Content":" If I could give one tip for people - it's not an exercise or nutrition regimen. It's to walk your talk and believe in yourself, because at the end of the day, the dumbbell and diet don't get you in shape. It's your accountability to your word."},
+"Writer": " Brett Hoebel ",
+"Content":" If I could give one tip for people - it's not an exercise or nutrition regimen. It's to walk your talk and believe in yourself, because at the end of the day, the dumbbell and diet don't get you in shape. It's your accountability to your word."},
 
 { "No.":184,
-  "Writer": " Cheri Huber ",
-  "Content":" Life is that gentle conversation making life more enjoyable for a human being. And, out of that gentleness and enjoyment grows everything we wish for everyone and everything."},
+"Writer": " Cheri Huber ",
+"Content":" Life is that gentle conversation making life more enjoyable for a human being. And, out of that gentleness and enjoyment grows everything we wish for everyone and everything."},
 
 { "No.":185,
-  "Writer": "Lao Tzu ",
-  "Content": "Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love."},
+"Writer": "Lao Tzu ",
+"Content": "Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love."},
 
 { "No.":186,
-  "Writer": "William James",
-  "Content":" The greatest weapon against stress is our ability to choose one thought over another."},
+"Writer": "William James",
+"Content":" The greatest weapon against stress is our ability to choose one thought over another."},
 
 { "No.":187,
-  "Writer": "Lady Dorothy Neville",
-  "Content":" The real art of conversation is not only to say the right thing at the right time and place, but to leave unsaid the wrong thing at the tempting moment."},
+"Writer": "Lady Dorothy Neville",
+"Content":" The real art of conversation is not only to say the right thing at the right time and place, but to leave unsaid the wrong thing at the tempting moment."},
 
 { "No.":188,
-  "Writer": "Rumi",
-  "Content":" It's your road, and yours alone. Others may walk it with you, but no one can walk it for you."},
+"Writer": "Rumi",
+"Content":" It's your road, and yours alone. Others may walk it with you, but no one can walk it for you."},
 
 { "No.":189,
-  "Writer": "Confucius ",
-  "Content":" Wherever you go, go with all your heart."},
+"Writer": "Confucius ",
+"Content":" Wherever you go, go with all your heart."},
 
 { "No.":190,
-  "Writer": "Jim Rohn",
-  "Content":" Take care of the body. It’s the only place you have to live."},
+"Writer": "Jim Rohn",
+"Content":" Take care of the body. It’s the only place you have to live."},
 
 { "No.":191,
-  "Writer": "John Lennon",
-  "Content": "You may say I'm a dreamer, but I'm not the only one. I hope someday you'll join us. And the world will live as one."},
+"Writer": "John Lennon",
+"Content": "You may say I'm a dreamer, but I'm not the only one. I hope someday you'll join us. And the world will live as one."},
 
 { "No.":192,
-  "Writer": " Ralph Waldo Emerson",
-  "Content":" Do what you are afraid to do."},
+"Writer": " Ralph Waldo Emerson",
+"Content":" Do what you are afraid to do."},
 
 { "No.":193,
-  "Writer": "Jiddu Krishnamurti",
-  "Content":" The more you know yourself, the more clarity there is. Self-knowledge has no end - you don't come to an achievement, you don't come to a conclusion. It is an endless river."},
+"Writer": "Jiddu Krishnamurti",
+"Content":" The more you know yourself, the more clarity there is. Self-knowledge has no end - you don't come to an achievement, you don't come to a conclusion. It is an endless river."},
 
 { "No.":194,
-  "Writer": "Pema Chodron",
-  "Content":" We don't sit in meditation to become good meditators. We sit in meditation so that we'll become more awake in our lives."},
+"Writer": "Pema Chodron",
+"Content":" We don't sit in meditation to become good meditators. We sit in meditation so that we'll become more awake in our lives."},
 
 { "No.":195,
-  "Writer": "Maya Angelou",
-  "Content":" Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently."},
+"Writer": "Maya Angelou",
+"Content":" Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently."},
 
 { "No.":196,
-  "Writer": "Henry David Thoreau",
-  "Content":" We live but a fraction of our life. Why do we not let in the flood, raise the gates, and set all our wheels in motion?"},
+"Writer": "Henry David Thoreau",
+"Content":" We live but a fraction of our life. Why do we not let in the flood, raise the gates, and set all our wheels in motion?"},
 
 { "No.":197,
-  "Writer": " Dalai Lama ",
-  "Content":" World peace must develop from inner peace. Peace is not just mere absence of violence. Peace is the manifestation of human compassion."},
+"Writer": " Dalai Lama ",
+"Content":" World peace must develop from inner peace. Peace is not just mere absence of violence. Peace is the manifestation of human compassion."},
 
 { "No.":198,
 "Writer": "Soen Nakagawa",
 "Content":" All beings are flowers – blossoming - in a blossoming universe."},
 
 { "No.":199,
-  "Writer": "Rumi",
-  "Content":"If all you can do is crawl, start crawling."},
+"Writer": "Rumi",
+"Content":"If all you can do is crawl, start crawling."},
 
 { "No.":200,
-  "Writer": "Frederick Buechner",
-  "Content":"Listen to your life. See it for the fathomless mystery it is. In the boredom and pain of it, not less than in the excitement and gladness; touch, taste, smell your way to the holy and hidden heart of it, because in the last analysis all moments are key moments, and life itself is grace."},
+"Writer": "Frederick Buechner",
+"Content":"Listen to your life. See it for the fathomless mystery it is. In the boredom and pain of it, not less than in the excitement and gladness; touch, taste, smell your way to the holy and hidden heart of it, because in the last analysis all moments are key moments, and life itself is grace."},
 
 { "No.":201,
-  "Writer": "Henri Nouwen",
+"Writer": "Henri Nouwen",
 "Content":"Did I offer peace today? Did I bring a smile to someone's face? Did I say words of healing? Did I let go of my anger and resentment? Did I forgive? Did I love?' These are the real questions."},
 
 { "No.":202,
@@ -1362,8 +1364,7 @@ var jsonObject ={
 
 { "No.":341,
 "Writer": "Atisa",
-"Content":" The greatest precept is continual awareness.
-"},
+"Content":" The greatest precept is continual awareness."},
 
 { "No.":342,
 "Writer": "Atisa",
