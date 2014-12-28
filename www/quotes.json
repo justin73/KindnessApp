@@ -8,7 +8,7 @@ var jsonObject ={
   "Quote":[
 { "No.":1,
  "Writer": "Pema Chodron",
-"Content": "Compassion is not a relationship between the healer and the wounded. It’s a relationship between equals "},
+"Content": "Compassion is not a relationship between the healer and the wounded. It's a relationship between equals "},
 
 { "No.":2,
 "Writer": "Kahlil Gibran",
@@ -24,7 +24,7 @@ var jsonObject ={
 
 { "No.":5,
 "Writer": "Brené Brown",
- "Content":"You’re imperfect, and you’re wired for struggle, but you are worthy of love and belonging"},
+ "Content":"You're imperfect, and you're wired for struggle, but you are worthy of love and belonging"},
 
 { "No.":6,
 "Writer": "Jim Rohn",
@@ -32,7 +32,7 @@ var jsonObject ={
 
 
 { "No.":7,  "Writer": "Thich Nhat Hanh",
-"Content":"To be beautiful means to be yourself. You don’t need to be accepted by others. You need to accept yourself"},
+"Content":"To be beautiful means to be yourself. You don't need to be accepted by others. You need to accept yourself"},
 
 
 { "No.":8,
@@ -45,11 +45,11 @@ var jsonObject ={
 
 { "No.":10,
 "Writer": "Guy Finley",
-"Content":"You don’t need strength to let go of something. What you really need is understanding"},
+"Content":"You don't need strength to let go of something. What you really need is understanding"},
 
 { "No.":11,
 "Writer": "John Green",
-"Content":"I don’t know a perfect person. I only know flawed people who are still worth loving"},
+"Content":"I don't know a perfect person. I only know flawed people who are still worth loving"},
 
 { "No.":12,
 "Writer": "Unknown",
@@ -69,7 +69,7 @@ var jsonObject ={
 
 { "No.":16,
 "Writer": "Norman Vincent Peale",
-"Content":" Life’s blows cannot break a person whose spirit is warmed by the fire of enthusiasm."},
+"Content":" Life's blows cannot break a person whose spirit is warmed by the fire of enthusiasm."},
 
 { "No.":17,
 "Writer": "Thich Nhat Hanh",
@@ -77,13 +77,13 @@ var jsonObject ={
 
 { "No.":18,
 "Writer": "Unknown",
-"Content":" Maybe it’s not about the happy ending. Maybe it’s about the story "},
+"Content":" Maybe it's not about the happy ending. Maybe it's about the story "},
 
 { "No.":19, "Writer": "Carl Bard","Content":" Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending."},
 
 { "No.":20,
 "Writer": "Mary Anne Radmacher",
-"Content":" Courage doesn’t always roar. Sometimes courage is the quiet voice at the end of the day saying, ‘I will try again tomorrow.’"},
+"Content":" Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, ‘I will try again tomorrow.'"},
 
 { "No.":21,
 "Writer": "Daisaku Ikeda",
@@ -94,7 +94,8 @@ var jsonObject ={
 "Content":" Clear thinking requires courage rather than intelligence "},
 
 { "No.":23,
- "Writer": "Ambrose Redmoon", "Content":" Courage is not the absence of fear, but rather the judgment that something else is more important than fear "},
+ "Writer": "Ambrose Redmoon",
+ "Content":" Courage is not the absence of fear, but rather the judgment that something else is more important than fear "},
 
 { "No.":24,
 "Writer": "Christine Mason Miller",
@@ -199,7 +200,7 @@ var jsonObject ={
 
 { "No.":50,
 "Writer": "Claude Bernard",
-"Content":" C’est ce que nous pensons déjà connaître qui nous empêche souvent d’apprendre."},
+"Content":" C'est ce que nous pensons déjà connaître qui nous empêche souvent d'apprendre."},
 
 { "No.":51,
 "Writer": "Anne Frank",
@@ -250,7 +251,7 @@ var jsonObject ={
 "Content":" Too often we underestimate the power of a touch, a smile, a kind word, a listening ear, an honest compliment, or the smallest act of caring, all of which have the potential to turn a life around."},
 
 { "No.":63,
-"Writer": " Martin Luther King Jr.", 
+"Writer": " Martin Luther King Jr.",
 "Content":" True compassion is more than flinging a coin to a beggar; it comes to see that an edifice which produces beggars needs restructuring."},
 { "No.":64,
  "Writer": "Fyodor Dostoyevsky",
@@ -277,7 +278,7 @@ var jsonObject ={
 "Content":"Calling softly to my secret self. Offering space to try again. Asking trust when I cave in to fear. Urging me to stand with strength. Whispering daily encouragement. Pleading with me to take risks. Warning when I am in trouble. Affirming belief in my endeavours. Reminding me time and again. To liberate my wings of goodness"},
 
 { "No.":70,
-"Writer": "Unknown", 
+"Writer": "Unknown",
 "Content":" Wake us up to what needs doing, and what needs undoing. Wake us up to what must be let go, and what to draw closer. Wake us up to what enlarges love and what diminishes it. In all parts of our life, disturb and wake us up!"},
 
 { "No.":71,
@@ -379,7 +380,7 @@ var jsonObject ={
 
 { "No.":96,
 "Writer": "Dalai Lama XIV",
-"Content":" I consider non-violence to be compassion in action. It doesn’t mean weakness, cowering in fear, or simply doing nothing. It is to act without violence, motivated by compassion, recognising the rights of others."},
+"Content":" I consider non-violence to be compassion in action. It doesn't mean weakness, cowering in fear, or simply doing nothing. It is to act without violence, motivated by compassion, recognising the rights of others."},
 
 { "No.":97,
 "Writer": " Johann Wolfgang von Goethe ",
@@ -572,7 +573,7 @@ var jsonObject ={
 
 { "No.":144,
 "Writer": " Ryan Henry Ward ",
-"Content":" Compassion is born from the imagination. To have the desire to be compassionate, you have to imagine a world that’s better than the one you live in."},
+"Content":" Compassion is born from the imagination. To have the desire to be compassionate, you have to imagine a world that's better than the one you live in."},
 
 { "No.":145,
 "Writer": "Rob Liano",
@@ -634,7 +635,7 @@ var jsonObject ={
 
 { "No.":159,
 "Writer": "Cornel West",
-"Content":" That’s why love is so inseparable from any talk about truth and death, because we know that love is fundamentally a death of an old self that was isolated and the emergence of a new self now entangled with another self, the self that you fall in love with."},
+"Content":" That's why love is so inseparable from any talk about truth and death, because we know that love is fundamentally a death of an old self that was isolated and the emergence of a new self now entangled with another self, the self that you fall in love with."},
 
 { "No.":160,
 "Writer": "Maya Angelou",
@@ -659,7 +660,7 @@ var jsonObject ={
 
 { "No.":165,
 "Writer": "Noam Chomsky",
-"Content":" If you want to change the world you’d better try to understand it. That doesn’t mean listening to a talk or reading a book, though that’s helpful sometimes. You learn from participating. You learn from others. You learn from the people you’re trying to organize. We all have to gain the understanding and the experience to formulate and implement ideas."},
+"Content":" If you want to change the world you'd better try to understand it. That doesn't mean listening to a talk or reading a book, though that's helpful sometimes. You learn from participating. You learn from others. You learn from the people you're trying to organize. We all have to gain the understanding and the experience to formulate and implement ideas."},
 
 { "No.":166,
 "Writer": " Noam Chomsky",
@@ -762,7 +763,7 @@ var jsonObject ={
 
 { "No.":190,
 "Writer": "Jim Rohn",
-"Content":" Take care of the body. It’s the only place you have to live."},
+"Content":" Take care of the body. It's the only place you have to live."},
 
 { "No.":191,
 "Writer": "John Lennon",
@@ -810,11 +811,11 @@ var jsonObject ={
 
 { "No.":202,
 "Writer": "Lynne Twist",
-"Content":" When you let go of trying to get more of what you don’t really need, it frees up oceans of energy to make a difference with what you have. When you make a difference with what you have, it expands."},
+"Content":" When you let go of trying to get more of what you don't really need, it frees up oceans of energy to make a difference with what you have. When you make a difference with what you have, it expands."},
 
 { "No.":203,
 "Writer": "William James",
-"Content":" To change one’s life: Start immediately. Do it flamboyantly. No exceptions."},
+"Content":" To change one's life: Start immediately. Do it flamboyantly. No exceptions."},
 
 { "No.":204,
 "Writer": "William Wordsworth",
@@ -950,7 +951,7 @@ var jsonObject ={
 
 { "No.":237,
 "Writer": "Dalai Lama",
-"Content":" Each of us in our own way can try to spread compassion into people’s hearts. Western civilizations these days place great importance on filling the human 'brain' with knowledge, but no one seems to care about filling the human 'heart' with compassion. This is what the real role of religion is."},
+"Content":" Each of us in our own way can try to spread compassion into people's hearts. Western civilizations these days place great importance on filling the human 'brain' with knowledge, but no one seems to care about filling the human 'heart' with compassion. This is what the real role of religion is."},
 
 { "No.":238,
 "Writer": "Desmond Tutu",
@@ -1113,7 +1114,7 @@ var jsonObject ={
 
 { "No.":278,
 "Writer": "Rabindranath Tagore",
-"Content":" You can’t cross the sea merely by standing and staring at the water "},
+"Content":" You can't cross the sea merely by standing and staring at the water "},
 
 { "No.":279,
 "Writer": "Rabindranath Tagore",
@@ -1193,7 +1194,7 @@ var jsonObject ={
 
 { "No.":298,
 "Writer": "Bonnie Myotai Treace",
-"Content":" Rage — whether in reaction to social injustice, or to our leaders’ insanity, or to those who threaten or harm us — is a powerful energy that, with diligent practice, can be transformed into fierce compassion."},
+"Content":" Rage — whether in reaction to social injustice, or to our leaders' insanity, or to those who threaten or harm us — is a powerful energy that, with diligent practice, can be transformed into fierce compassion."},
 
 { "No.":299,
 "Writer": "Richard Feynman",
@@ -1225,7 +1226,7 @@ var jsonObject ={
 
 { "No.":306,
 "Writer": "Antoine de Saint-Exupéry",
-"Content":" 'People have forgotten this truth,' the fox said. 'But you mustn’t forget it. You become responsible forever for what you’ve tamed. You’re responsible for your rose.'"},
+"Content":" 'People have forgotten this truth,' the fox said. 'But you mustn't forget it. You become responsible forever for what you've tamed. You're responsible for your rose.'"},
 
 { "No.":307,
 "Writer": "Sigmund Freud",
@@ -1448,7 +1449,7 @@ var jsonObject ={
 
 { "No.":362,
 "Writer": "Viktor E. Frankl",
-"Content":" Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s own way."},
+"Content":" Everything can be taken from a man but one thing: the last of the human freedoms—to choose one's attitude in any given set of circumstances, to choose one's own way."},
 
 { "No.":363,
 "Writer": "Viktor E. Frankl",

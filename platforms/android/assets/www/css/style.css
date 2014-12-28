@@ -344,6 +344,26 @@ li.ui-sad:before{
 	margin:0 10%;
 	padding:1em 0;
 }
+
+.faq_item{
+	text-align:left;
+}
+.faq_item h1 ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit ui-icon-carat-u{
+	font-size:1.5em;
+}
+.faq_item h4{
+	font-size:1em;
+	color: orange;
+}
+.faq_item ul li{
+	font-size:1em;
+	color: orange;
+}
+.faq_item ul li b{
+	font-weight:600;
+	color: orange;
+}
+
 @media screen and (min-device-width: 400px) {
     body {
         background-color: lightblue;
