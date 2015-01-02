@@ -20,6 +20,11 @@
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/Receiver.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/ReceiverActivity.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/Restore.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/jp/wizcorp/phonegap/plugin/localNotification/AlarmHelper.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/jp/wizcorp/phonegap/plugin/localNotification/AlarmOptions.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/jp/wizcorp/phonegap/plugin/localNotification/AlarmReceiver.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/jp/wizcorp/phonegap/plugin/localNotification/AlarmRestoreOnBoot.class \
+/Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/jp/wizcorp/phonegap/plugin/localNotification/LocalNotification.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/file/ContentFilesystem.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/file/DirectoryManager.class \
@@ -72,4 +77,3 @@
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/media/AudioPlayer.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/classes/org/apache/cordova/media/FileHelper.class \
 /Users/dai/dev/KindnessApp/platforms/android/ant-build/dexedLibs/classes-2537c23d2bb4004693f21a608a67bca9.jar \
-/Users/dai/dev/KindnessApp/platforms/android/ant-build/dexedLibs/android-support-v4-b2dc3f29d845fe07539a23f499d2cb4e.jar \

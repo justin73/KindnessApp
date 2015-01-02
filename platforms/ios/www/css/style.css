@@ -115,8 +115,37 @@ tspan {
     display:inline-block;
     border-radius:50%;
     background-color:#405559;
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
+    color:white;
+    text-shadow:none;
+    vertical-align:bottom;
+    margin-right:3px;
+    margin-left:3px;
+    cursor: pointer;
+}
+.btn-time-update:active, .btn-reset:active, .btn-stop:active {
+    background-color: orange;
+}
+h5{
+	margin-top:18px;
+}
+.btn-day {
+    display:inline-block;
+    border:1px solid #405559;
+    color: #405559;
+    width:30px;
+    height:30px;
+    text-shadow:none;
+    line-height: 6px;
+    margin-right:3px;
+    margin-left:3px;
+    cursor: pointer;
+}
+
+.btn-day-selected {
+    display:inline-block;
+    background-color:#405559;
     color:white;
     text-shadow:none;
     vertical-align:bottom;
@@ -125,16 +154,36 @@ tspan {
     cursor: pointer;
 }
 
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current {
+    background: #405559 !important;
+    box-shadow: #334447 0px 1px 3px 0px inset !important;
+    text-shadow: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
+    color: orange !important;
+}
+
+.btn-dialog {
+    background-color: orange !important;
+    color: white !important;
+    text-shadow: none !important;
+}
+a {
+    text-shadow: none !important;
+}
 .clock_container{
     position: fixed;
-    top: 100px;
+    top: 70px;
     left: 0;
     right:0;
     z-index:2;
 }
 
 .extra_container{
-    margin-top:50px;
+    margin-top:10px;
     text-align:center;
 }
 
@@ -145,76 +194,75 @@ tspan {
 .face{
     margin-top:30px;
     margin-left:20px;
-    width:80px;
-    height:80px;
+    width:64px;
+    height:64px;
     border-radius:50%;
     display:inline-block;
     cursor: pointer;
 }
 .left-eye{
-    width:2px;
-    height:2px;
+    width:1px;
+    height:1px;
     border-radius:50%;
-    background-color:#cc0f18;
+    background-color:#ef2929;
     margin-top:14px;
     margin-left:3px;
     display:inline-block;
 }
 .left-eye.satisfied{
-    background-color:#00931c;
+    background-color:#73d216;
 }
 .left-eye.ok{
-    background-color:#005793;
+    background-color:#729fcf;
 }
 .right-eye.ok{
-    background-color:#005793;
+    background-color:#729fcf;
 }
 .right-eye{
     display:inline-block;
-    width: 2px;
-    height: 2px;
+    width: 1px;
+    height: 1px;
     border-radius:50%;
-    background-color:#cc0f18;
+    background-color:#ef2929;
     margin-top:14px;
     margin-left:10px;
 }
 .right-eye.satisfied{
-    background-color:#00931c;
+    background-color:#73d216;
 }
 .satisfied{
-    color:#00931c;
-    border:8px solid #00931c;}
+    color:#73d216;
+    border:8px solid #73d216;}
 .unsatisfied{
-    color:#cc0f18;
-    border:8px solid #cc0f18;}
+    color:#ef2929;
+    border:8px solid #ef2929;}
 .ok{
-    color:#005793;
-    border:8px solid #005793;}
+    color:#729fcf;
+    border:8px solid #729fcf;}
 .mouth{
-    width:36px;
+    width:28px;
     height:2px;
-    border:4px solid #005793;
-    background-color:#005793;
-    margin-left:20px;
-    margin-top:15px;
+    border:4px solid #729fcf;
+    background-color:#729fcf;
+    margin-left:14px;
+    margin-top:5px;
 }
 .sad-mouth{
-    height:20px;
-    width:35px;
+    height:10px;
+    width:20px;
     border-radius:90px 90px 0 0;
-    margin:5px auto 0;
-    border:8px solid #cc0f18;
+    margin:0px auto 0;
+    border:8px solid #ef2929;
     border-bottom:none;
     position:relative;
     background:transparent;
-
 }
 .smiley-mouth{
-    height:20px;
-    width:35px;
+    height:10px;
+    width:20px;
     border-radius: 0 0 90px 90px;
-    margin:8px auto 0;
-    border:8px solid #00931c;
+    margin:4px auto 0;
+    border:8px solid #73d216;
     border-top:none;
     position:relative;
     background:transparent;
@@ -223,14 +271,80 @@ tspan {
 .logo {
     position: absolute;
     top: 10px;
-    left: 40px;
+    left: 60px;
 }
 
 .page-title {
     color: #181818 !important;
-    font-size: 24px !important;
+    font-size: 20px !important;
 }
 
 .quote {
     font-family: PetitFormalScript;
+}
+
+li.ui-happy:before{
+    content: url('../img/smiley-happy.png');
+    margin: 0 5px;
+}
+
+.ui-happy {
+    color: #73d216 !important;
+}
+
+li.ui-neutral:before{
+    content: url('../img/smiley-neutral.png');
+    margin: 0 5px;
+}
+
+.ui-neutral {
+    color: #729fcf !important;
+}
+
+li.ui-sad:before{
+    content: url('../img/smiley-sad.png');
+    margin: 0 5px;
+}
+
+.ui-sad {
+    color: #ef2929 !important;
+    margin: 0 5px;
+}
+
+.alarm-time {
+    font-size: 32px;
+}
+
+.alarm-inactive {
+    color: grey !important;
+}
+
+.alarm-active {
+    color: orange !important;
+}
+#starting-timer{
+	overflow-y:hidden;
+	}
+#quoteContainer{
+	display:none;}
+.ui-mobile .ui-page-active{
+	overflow-y:hidden}
+.ui-content{
+	padding:0px;
+}
+.ui-header .ui-title, .ui-footer .ui-title{
+	margin:0 10%;
+	padding:1em 0;
+}
+
+.clockpicker {
+    margin-bottom: 54px;
+}
+
+.clockpicker .form-control {
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    font-size: 54px;
+    text-align: center;
 }

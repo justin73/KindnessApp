@@ -2,30 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3844bda9-8461-4ab7-ab26-46cb95d3a739" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/l10n.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/index.html.BACKUP.31505.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/index.html.BASE.31505.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/index.html.LOCAL.31505.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/index.html.REMOTE.31505.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/index.html.orig" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/countdown.html" afterPath="$PROJECT_DIR$/www/data.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/libs/android-support-v13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/bootstrap-clockpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/bootstrap-clockpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/jquery-clockpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/jquery-clockpicker.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/.fetch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/TODO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/horn.caf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/src/android/AlarmHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/src/android/AlarmOptions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/src/android/AlarmReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/src/android/AlarmRestoreOnBoot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/src/android/LocalNotification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/src/ios/LocalNotification.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/src/ios/LocalNotification.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.localnotification/www/LocalNotification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/.fetch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/libs/android/android-support-v4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/android/LocalNotification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/android/Options.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/android/Receiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/android/ReceiverActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/android/Restore.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/ios/APPLocalNotification.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/ios/APPLocalNotification.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/wp8/LocalNotification.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/wp8/Options.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/.fetch.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/.fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/browser/DeviceProxy.js" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/browser/DeviceProxy.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KindessAppUpdate.rtf" afterPath="$PROJECT_DIR$/KindessAppUpdate.rtf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/KindnessApp.iml" afterPath="$PROJECT_DIR$/.idea/KindnessApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/alarmManager.html" afterPath="$PROJECT_DIR$/www/alarmManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/RELEASENOTES.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/RELEASENOTES.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/calendar.html" afterPath="$PROJECT_DIR$/www/calendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/dailyQuote.html" afterPath="$PROJECT_DIR$/www/dailyQuote.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/endingTimer.html" afterPath="$PROJECT_DIR$/www/endingTimer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/kindness-app.js" afterPath="$PROJECT_DIR$/www/js/kindness-app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/plugin.xml" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/tests/plugin.xml" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/tests/plugin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/setAlarm.html" afterPath="$PROJECT_DIR$/www/setAlarm.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/startingTimer.html" afterPath="$PROJECT_DIR$/www/startingTimer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KindnessApp.iws" />
@@ -49,61 +74,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dailyQuote.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/dailyQuote.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="15" selection-start="787" selection-end="814" vertical-scroll-proportion="-7.5416665" vertical-offset="89" max-vertical-offset="570">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.ini" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/data.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="7" selection-start="601" selection-end="601" vertical-scroll-proportion="-14.64" vertical-offset="159" max-vertical-offset="615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setAlarm.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/setAlarm.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="41" selection-start="2488" selection-end="2488" vertical-scroll-proportion="-8.416667" vertical-offset="683" max-vertical-offset="1140">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="startingTimer.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="startingTimer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/startingTimer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7364864" vertical-offset="771" max-vertical-offset="1215">
+            <state line="77" column="49" selection-start="3783" selection-end="3783" vertical-scroll-proportion="0.0" vertical-offset="875" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alarmManager.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/alarmManager.html">
+      <file leaf-file-name="kindness-app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/kindness-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="57" selection-start="1485" selection-end="1485" vertical-scroll-proportion="-12.25" vertical-offset="126" max-vertical-offset="570">
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="286" column="24" selection-start="10913" selection-end="10913" vertical-scroll-proportion="-13.153846" vertical-offset="3948" max-vertical-offset="5775">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/calendar.html">
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="93" selection-start="738" selection-end="738" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="540">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="793" max-vertical-offset="1500">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="246" column="18" selection-start="4874" selection-end="4874" vertical-scroll-proportion="0.3997006" vertical-offset="3423" max-vertical-offset="5340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalNotification.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/LocalNotification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="19" selection-start="1142" selection-end="1142" vertical-scroll-proportion="-6.230769" vertical-offset="318" max-vertical-offset="3735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlarmRestoreOnBoot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/AlarmRestoreOnBoot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="-11.115385" vertical-offset="26" max-vertical-offset="915">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlarmReceiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/AlarmReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="49" selection-start="367" selection-end="367" vertical-scroll-proportion="-5.769231" vertical-offset="0" max-vertical-offset="1350">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/project.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="32" selection-start="3036" selection-end="3036" vertical-scroll-proportion="-9.538462" vertical-offset="802" max-vertical-offset="1470">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-clockpicker.min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/css/jquery-clockpicker.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="4128" selection-start="4495" selection-end="4495" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,16 +177,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/css/style.css" />
-        <option value="$PROJECT_DIR$/www/js/kindness-app.js" />
         <option value="$PROJECT_DIR$/www/js/l10n.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/calendar.html" />
         <option value="$PROJECT_DIR$/www/alarmManager.html" />
         <option value="$PROJECT_DIR$/www/dailyQuote.html" />
         <option value="$PROJECT_DIR$/www/endingTimer.html" />
-        <option value="$PROJECT_DIR$/www/setAlarm.html" />
         <option value="$PROJECT_DIR$/www/data.ini" />
+        <option value="$PROJECT_DIR$/www/css/jquery-clockpicker.min.css" />
+        <option value="$PROJECT_DIR$/www/setAlarm.html" />
+        <option value="$PROJECT_DIR$/www/startingTimer.html" />
+        <option value="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/AlarmReceiver.java" />
+        <option value="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/build.xml" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/kindness-app.js" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
       </list>
     </option>
   </component>
@@ -168,6 +228,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,7 +289,225 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.appplant.cordova.plugin.local-notification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jp.wizcorp.phonegap.plugin.localNotificationPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jp.wizcorp.phonegap.plugin.localNotificationPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jp.wizcorp.phonegap.plugin.localNotificationPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jp.wizcorp.phonegap.plugin.localNotificationPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jp.wizcorp.phonegap.plugin.localNotificationPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jp.wizcorp.phonegap.plugin.localNotificationPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jp.wizcorp.phonegap.plugin.localNotificationPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,11 +545,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/forde/Cours/Zigah, Kwaku/DidiCourse/week3/odopod" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="recentsLimit" value="5" />
@@ -279,11 +557,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/www/sound" />
+      <recent name="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/libs" />
       <recent name="$PROJECT_DIR$/www/js" />
+      <recent name="$PROJECT_DIR$/www/sound" />
       <recent name="$PROJECT_DIR$/www" />
       <recent name="$PROJECT_DIR$/www/css" />
-      <recent name="$PROJECT_DIR$/www/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -355,10 +636,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32849604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27152777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27152777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -367,10 +647,11 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32849604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -398,40 +679,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/js/kindness-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/datetimepicker-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/alarmManager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/setAlarm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/endingTimer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -451,9 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/jquery.zenclock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/style.css">
@@ -534,9 +779,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/calendar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/jquery.mobile-1.4.5.min.css">
@@ -598,63 +841,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/jquery.zenclock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/jw-jqm-cal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="18" selection-start="5909" selection-end="5909" vertical-scroll-proportion="-6.7222223" vertical-offset="4272" max-vertical-offset="5145">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/l10n.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1158" column="0" selection-start="39024" selection-end="39024" vertical-scroll-proportion="0.0" vertical-offset="8009" max-vertical-offset="17160">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/kindness-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="357" column="8" selection-start="12402" selection-end="12402" vertical-scroll-proportion="-167.0" vertical-offset="1013" max-vertical-offset="5580">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/alarmManager.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="57" selection-start="1485" selection-end="1485" vertical-scroll-proportion="-12.25" vertical-offset="126" max-vertical-offset="570">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="28" column="57" selection-start="1485" selection-end="1485" vertical-scroll-proportion="-12.25" vertical-offset="126" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/calendar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="93" selection-start="738" selection-end="738" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="540">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="17" column="93" selection-start="738" selection-end="738" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/endingTimer.html">
@@ -664,37 +866,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/data.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="68" selection-start="3302" selection-end="3327" vertical-scroll-proportion="0.86870897" vertical-offset="998" max-vertical-offset="2205">
-          <folding />
-        </state>
+        <state line="35" column="7" selection-start="601" selection-end="601" vertical-scroll-proportion="-14.64" vertical-offset="159" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/dailyQuote.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="15" selection-start="787" selection-end="814" vertical-scroll-proportion="-7.5416665" vertical-offset="89" max-vertical-offset="570">
-          <folding />
-        </state>
+        <state line="18" column="15" selection-start="787" selection-end="814" vertical-scroll-proportion="-7.5416665" vertical-offset="89" max-vertical-offset="570" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/data.ini">
+    <entry file="file://$PROJECT_DIR$/www/js/l10n.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="7" selection-start="601" selection-end="601" vertical-scroll-proportion="-14.64" vertical-offset="159" max-vertical-offset="615">
+        <state line="1130" column="36" selection-start="38111" selection-end="38128" vertical-scroll-proportion="-0.46153846" vertical-offset="16638" max-vertical-offset="17160" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/bootstrap-clockpicker.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/jquery-clockpicker.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4128" selection-start="4495" selection-end="4495" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/setAlarm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="41" selection-start="2488" selection-end="2488" vertical-scroll-proportion="-8.416667" vertical-offset="683" max-vertical-offset="1140">
+        <state line="61" column="18" selection-start="2732" selection-end="2732" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/startingTimer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7364864" vertical-offset="771" max-vertical-offset="1215">
+        <state line="77" column="49" selection-start="3783" selection-end="3783" vertical-scroll-proportion="0.0" vertical-offset="875" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/LocalNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="19" selection-start="1142" selection-end="1142" vertical-scroll-proportion="-6.230769" vertical-offset="318" max-vertical-offset="3735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/AlarmRestoreOnBoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="-11.115385" vertical-offset="26" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/AlarmReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="49" selection-start="367" selection-end="367" vertical-scroll-proportion="-5.769231" vertical-offset="0" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="32" selection-start="3036" selection-end="3036" vertical-scroll-proportion="-9.538462" vertical-offset="802" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="25" selection-start="2203" selection-end="2203" vertical-scroll-proportion="-6.25" vertical-offset="570" max-vertical-offset="2190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/kindness-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="286" column="24" selection-start="10913" selection-end="10913" vertical-scroll-proportion="-13.153846" vertical-offset="3948" max-vertical-offset="5775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="246" column="18" selection-start="4874" selection-end="4874" vertical-scroll-proportion="0.3997006" vertical-offset="3423" max-vertical-offset="5340">
           <folding />
         </state>
       </provider>

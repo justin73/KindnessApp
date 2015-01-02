@@ -11,3 +11,232 @@ https://developer.apple.com/icloud/documentation/data-storage/
 
 2014-11-01 08:20:44.262 KindnessApp[40477:1015477] Resetting plugins due to page load.
 2014-11-01 08:20:44.736 KindnessApp[40477:1015477] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Bundle/Application/5CE69009-1F46-4F31-BD83-52857477DE8D/KindnessApp.app/www/index.html
+2015-01-02 09:47:17.124 KindnessApp[1657:15326] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Data/Application/490AEC62-8AE1-44D6-BB8A-1B554C2BAA1E/Library/Cookies/Cookies.binarycookies
+2015-01-02 09:47:17.221 KindnessApp[1657:15326] Apache Cordova native platform version 3.6.3 is starting.
+2015-01-02 09:47:17.221 KindnessApp[1657:15326] Multi-tasking -> Device: YES, App: YES
+2015-01-02 09:47:17.242 KindnessApp[1657:15326] Unlimited access to network resources
+2015-01-02 09:47:17.246 KindnessApp[1657:15326] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-01-02 09:47:17.695 KindnessApp[1657:15326] [CDVTimer][file] 2.207041ms
+2015-01-02 09:47:17.695 KindnessApp[1657:15326] CDVPlugin class LocalNotification (pluginName: localnotification) does not exist.
+2015-01-02 09:47:17.695 KindnessApp[1657:15326] [CDVTimer][localnotification] 0.109017ms
+2015-01-02 09:47:17.696 KindnessApp[1657:15326] [CDVTimer][TotalPluginStartup] 2.569973ms
+2015-01-02 09:47:17.807 KindnessApp[1657:15326] Resetting plugins due to page load.
+2015-01-02 09:47:18.186 KindnessApp[1657:15326] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Bundle/Application/927AB346-83D4-4D44-812B-5FB06DFA48E4/KindnessApp.app/www/index.html
+2015-01-02 09:47:18.281 KindnessApp[1657:15326] onload
+2015-01-02 09:47:18.282 KindnessApp[1657:15326] CDVPlugin class LocalNotification (pluginName: LocalNotification) does not exist.
+2015-01-02 09:47:18.282 KindnessApp[1657:15326] ERROR: Plugin 'LocalNotification' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-01-02 09:47:18.282 KindnessApp[1657:15326] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "LocalNotification",
+  "ready",
+  [
+
+  ]
+]
+2015-01-02 09:47:18.282 KindnessApp[1657:15326] device ready
+2015-01-02 09:47:18.282 KindnessApp[1657:15326] log1
+2015-01-02 09:47:18.298 KindnessApp[1657:15326] table created
+2015-01-02 09:47:45.521 KindnessApp[1657:15326] WARN: [l10n] #reminders is undefined.
+2015-01-02 09:47:45.997 KindnessApp[1657:15326] select meditation 1
+2015-01-02 09:47:45.997 KindnessApp[1657:15326] select meditation 2
+2015-01-02 09:47:46.010 KindnessApp[1657:15326] select alarms success: 0
+2015-01-02 09:47:47.205 KindnessApp[1657:15326] CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:47:47.205 KindnessApp[1657:15326] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:47:50.116 KindnessApp[1657:15326] 1
+2015-01-02 09:47:51.029 KindnessApp[1657:15326] store: Fri Jan 02 2015 09:47:51 GMT-0500 (EST)
+2015-01-02 09:47:51.029 KindnessApp[1657:15326] currentState0
+2015-01-02 09:47:55.226 KindnessApp[1657:15326] 5
+2015-01-02 09:47:56.545 KindnessApp[1657:15326] currentState0
+2015-01-02 09:48:00.057 KindnessApp[1657:15326] CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:48:00.057 KindnessApp[1657:15326] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:48:00.061 KindnessApp[1657:15326] WARN: [l10n] #history is undefined.
+2015-01-02 09:48:00.527 KindnessApp[1657:15326] select meditation 1
+2015-01-02 09:48:00.527 KindnessApp[1657:15326] select meditation 2
+2015-01-02 09:48:00.568 KindnessApp[1657:15326] select meditation success: 0
+2015-01-02 09:48:02.737 KindnessApp[1657:15326] CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:48:02.737 KindnessApp[1657:15326] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:48:04.471 KindnessApp[1657:15326] CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:48:04.471 KindnessApp[1657:15326] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:48:04.504 KindnessApp[1657:15326] WARN: [l10n] #reminders is undefined.
+2015-01-02 09:48:04.946 KindnessApp[1657:15326] select meditation 1
+2015-01-02 09:48:04.946 KindnessApp[1657:15326] select meditation 2
+2015-01-02 09:48:04.958 KindnessApp[1657:15326] select alarms success: 0
+2015-01-02 09:48:05.917 KindnessApp[1657:15326] CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:48:05.917 KindnessApp[1657:15326] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:48:05.922 KindnessApp[1657:15326] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-02 09:48:05.922 KindnessApp[1657:15326] WARN: [l10n] #su is undefined.
+2015-01-02 09:48:05.922 KindnessApp[1657:15326] WARN: [l10n] #mo is undefined.
+2015-01-02 09:48:05.922 KindnessApp[1657:15326] WARN: [l10n] #tu is undefined.
+2015-01-02 09:48:05.922 KindnessApp[1657:15326] WARN: [l10n] #we is undefined.
+2015-01-02 09:48:05.923 KindnessApp[1657:15326] WARN: [l10n] #th is undefined.
+2015-01-02 09:48:05.923 KindnessApp[1657:15326] WARN: [l10n] #fr is undefined.
+2015-01-02 09:48:05.923 KindnessApp[1657:15326] WARN: [l10n] #sa is undefined.
+2015-01-02 09:48:05.923 KindnessApp[1657:15326] WARN: [l10n] #add is undefined.
+2015-01-02 09:48:05.923 KindnessApp[1657:15326] WARN: [l10n] #cancel is undefined.
+2015-01-02 09:48:16.737 KindnessApp[1657:15326] insert alarm
+2015-01-02 09:48:16.775 KindnessApp[1657:15326] WARN: [l10n] #reminders is undefined.
+2015-01-02 09:48:16.799 KindnessApp[1657:15326] 18
+2015-01-02 09:48:16.799 KindnessApp[1657:15326] 0
+2015-01-02 09:48:17.299 KindnessApp[1657:15326] select meditation 1
+2015-01-02 09:48:17.300 KindnessApp[1657:15326] select meditation 2
+2015-01-02 09:48:17.323 KindnessApp[1657:15326] select alarms success: 1
+2015-01-02 09:48:17.323 KindnessApp[1657:15326] 0011000
+2015-01-02 09:48:20.252 KindnessApp[1657:15326] CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:48:20.252 KindnessApp[1657:15326] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:52:31.102 KindnessApp[1657:15326] CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:52:31.102 KindnessApp[1657:15326] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-02 09:52:31.107 KindnessApp[1657:15326] WARN: [l10n] #start-here is undefined.
+2015-01-02 09:59:38.634 KindnessApp[2210:20594] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Data/Application/4937BF02-4E43-4BE6-A3B1-D6E4A265AB49/Library/Cookies/Cookies.binarycookies
+2015-01-02 09:59:38.723 KindnessApp[2210:20594] Apache Cordova native platform version 3.6.3 is starting.
+2015-01-02 09:59:38.723 KindnessApp[2210:20594] Multi-tasking -> Device: YES, App: YES
+2015-01-02 09:59:38.727 KindnessApp[2210:20594] Unlimited access to network resources
+2015-01-02 09:59:38.730 KindnessApp[2210:20594] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-01-02 09:59:38.980 KindnessApp[2210:20594] [CDVTimer][file] 9.772956ms
+2015-01-02 09:59:38.980 KindnessApp[2210:20594] CDVPlugin class LocalNotification (pluginName: localnotification) does not exist.
+2015-01-02 09:59:38.980 KindnessApp[2210:20594] [CDVTimer][localnotification] 0.105023ms
+2015-01-02 09:59:38.980 KindnessApp[2210:20594] [CDVTimer][TotalPluginStartup] 10.163009ms
+2015-01-02 09:59:39.104 KindnessApp[2210:20594] Resetting plugins due to page load.
+2015-01-02 09:59:39.381 KindnessApp[2210:20594] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Bundle/Application/3C28248A-DD00-4723-994B-1F088D764DC9/KindnessApp.app/www/index.html
+2015-01-02 09:59:39.477 KindnessApp[2210:20594] onload
+2015-01-02 09:59:39.477 KindnessApp[2210:20594] CDVPlugin class LocalNotification (pluginName: LocalNotification) does not exist.
+2015-01-02 09:59:39.478 KindnessApp[2210:20594] ERROR: Plugin 'LocalNotification' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-01-02 09:59:39.478 KindnessApp[2210:20594] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "LocalNotification",
+  "ready",
+  [
+
+  ]
+]
+2015-01-02 09:59:39.478 KindnessApp[2210:20594] device ready
+2015-01-02 09:59:39.478 KindnessApp[2210:20594] log1
+2015-01-02 10:00:46.991 KindnessApp[2210:20594] WARN: [l10n] #start-here is undefined.
+2015-01-02 10:02:46.960 KindnessApp[2707:22782] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Data/Application/3ECDA75A-33BB-40F6-A925-E8FFEA7E4A57/Library/Cookies/Cookies.binarycookies
+2015-01-02 10:02:47.036 KindnessApp[2707:22782] Apache Cordova native platform version 3.6.3 is starting.
+2015-01-02 10:02:47.036 KindnessApp[2707:22782] Multi-tasking -> Device: YES, App: YES
+2015-01-02 10:02:47.041 KindnessApp[2707:22782] Unlimited access to network resources
+2015-01-02 10:02:47.044 KindnessApp[2707:22782] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-01-02 10:02:47.280 KindnessApp[2707:22782] [CDVTimer][file] 2.444983ms
+2015-01-02 10:02:47.280 KindnessApp[2707:22782] CDVPlugin class LocalNotification (pluginName: localnotification) does not exist.
+2015-01-02 10:02:47.280 KindnessApp[2707:22782] [CDVTimer][localnotification] 0.147998ms
+2015-01-02 10:02:47.280 KindnessApp[2707:22782] [CDVTimer][TotalPluginStartup] 2.936006ms
+2015-01-02 10:02:47.324 KindnessApp[2707:22782] Resetting plugins due to page load.
+2015-01-02 10:02:47.588 KindnessApp[2707:22782] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Bundle/Application/D5358B8F-1ED1-4762-8815-2E32DE6F14CE/KindnessApp.app/www/index.html
+2015-01-02 10:02:47.693 KindnessApp[2707:22782] onload
+2015-01-02 10:02:47.693 KindnessApp[2707:22782] CDVPlugin class LocalNotification (pluginName: LocalNotification) does not exist.
+2015-01-02 10:02:47.693 KindnessApp[2707:22782] ERROR: Plugin 'LocalNotification' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-01-02 10:02:47.693 KindnessApp[2707:22782] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "LocalNotification",
+  "ready",
+  [
+
+  ]
+]
+2015-01-02 10:02:47.693 KindnessApp[2707:22782] device ready
+2015-01-02 10:02:47.694 KindnessApp[2707:22782] log1
+2015-01-02 10:03:50.579 KindnessApp[2707:22782] 1
+2015-01-02 10:03:54.023 KindnessApp[2707:22782] 5
+2015-01-02 10:03:55.029 KindnessApp[2707:22782] store: Fri Jan 02 2015 10:03:55 GMT-0500 (EST)
+2015-01-02 10:03:55.030 KindnessApp[2707:22782] currentState0
+2015-01-02 12:49:33.380 KindnessApp[4106:38148] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Data/Application/3D1290BD-D430-45AF-87CB-CC4A94C4F7AC/Library/Cookies/Cookies.binarycookies
+2015-01-02 12:49:33.509 KindnessApp[4106:38148] Apache Cordova native platform version 3.6.3 is starting.
+2015-01-02 12:49:33.509 KindnessApp[4106:38148] Multi-tasking -> Device: YES, App: YES
+2015-01-02 12:49:33.523 KindnessApp[4106:38148] Unlimited access to network resources
+2015-01-02 12:49:33.526 KindnessApp[4106:38148] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-01-02 12:49:34.010 KindnessApp[4106:38148] [CDVTimer][file] 2.510011ms
+2015-01-02 12:49:34.010 KindnessApp[4106:38148] CDVPlugin class LocalNotification (pluginName: localnotification) does not exist.
+2015-01-02 12:49:34.010 KindnessApp[4106:38148] [CDVTimer][localnotification] 0.154972ms
+2015-01-02 12:49:34.010 KindnessApp[4106:38148] [CDVTimer][TotalPluginStartup] 3.024995ms
+2015-01-02 12:49:34.191 KindnessApp[4106:38148] Resetting plugins due to page load.
+2015-01-02 12:49:34.696 KindnessApp[4106:38148] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Bundle/Application/5E6648F5-D859-4F55-A6E4-CC419B018BCF/KindnessApp.app/www/index.html
+2015-01-02 12:49:34.808 KindnessApp[4106:38148] onload
+2015-01-02 12:49:34.809 KindnessApp[4106:38148] CDVPlugin class LocalNotification (pluginName: LocalNotification) does not exist.
+2015-01-02 12:49:34.809 KindnessApp[4106:38148] ERROR: Plugin 'LocalNotification' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-01-02 12:49:34.809 KindnessApp[4106:38148] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "LocalNotification",
+  "ready",
+  [
+
+  ]
+]
+2015-01-02 12:49:34.809 KindnessApp[4106:38148] device ready
+2015-01-02 12:49:34.809 KindnessApp[4106:38148] log1
+2015-01-02 12:50:33.496 KindnessApp[4106:38148] 1
+2015-01-02 12:50:34.193 KindnessApp[4106:38148] store: Fri Jan 02 2015 12:50:34 GMT-0500 (EST)
+2015-01-02 12:50:34.193 KindnessApp[4106:38148] currentState0
+2015-01-02 12:50:35.246 KindnessApp[4106:38148] Found resource '/Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Bundle/Application/5E6648F5-D859-4F55-A6E4-CC419B018BCF/KindnessApp.app/www/audio/gong.wav' in the web folder.
+2015-01-02 12:50:35.758 KindnessApp[4106:38148] Playing audio sample 'audio/gong.wav'
+2015-01-02 12:50:35.768 KindnessApp[4106:38148] THREAD WARNING: ['Media'] took '521.679688' ms. Plugin should use a background thread.
+2015-01-02 12:50:35.814 KindnessApp[4106:38148] WARN: [l10n] #time-up is undefined.
+2015-01-02 12:50:35.814 KindnessApp[4106:38148] WARN: [l10n] #how-are-you-feeling is undefined.
+2015-01-02 12:50:36.337 KindnessApp[4106:38148] init ending timer
+2015-01-02 12:50:57.199 KindnessApp[4106:38148] Finished playing audio sample 'audio/gong.wav'
+2015-01-02 12:50:57.200 KindnessApp[4106:38148] playAudio():Audio Success
+2015-01-02 12:54:27.695 KindnessApp[4639:40834] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Data/Application/D262592F-C178-44A1-BCA8-26B78B37CE7A/Library/Cookies/Cookies.binarycookies
+2015-01-02 12:54:27.773 KindnessApp[4639:40834] Apache Cordova native platform version 3.6.3 is starting.
+2015-01-02 12:54:27.773 KindnessApp[4639:40834] Multi-tasking -> Device: YES, App: YES
+2015-01-02 12:54:27.777 KindnessApp[4639:40834] Unlimited access to network resources
+2015-01-02 12:54:27.780 KindnessApp[4639:40834] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-01-02 12:54:28.019 KindnessApp[4639:40834] [CDVTimer][file] 2.110004ms
+2015-01-02 12:54:28.019 KindnessApp[4639:40834] CDVPlugin class LocalNotification (pluginName: localnotification) does not exist.
+2015-01-02 12:54:28.019 KindnessApp[4639:40834] [CDVTimer][localnotification] 0.104010ms
+2015-01-02 12:54:28.019 KindnessApp[4639:40834] [CDVTimer][TotalPluginStartup] 2.463996ms
+2015-01-02 12:54:28.059 KindnessApp[4639:40834] Resetting plugins due to page load.
+2015-01-02 12:54:28.314 KindnessApp[4639:40834] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Bundle/Application/117ACFD3-23D7-4200-B3D3-D0A5FF274E78/KindnessApp.app/www/index.html
+2015-01-02 12:54:28.421 KindnessApp[4639:40834] onload
+2015-01-02 12:54:28.422 KindnessApp[4639:40834] CDVPlugin class LocalNotification (pluginName: LocalNotification) does not exist.
+2015-01-02 12:54:28.422 KindnessApp[4639:40834] ERROR: Plugin 'LocalNotification' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-01-02 12:54:28.422 KindnessApp[4639:40834] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "LocalNotification",
+  "ready",
+  [
+
+  ]
+]
+2015-01-02 12:54:28.422 KindnessApp[4639:40834] device ready
+2015-01-02 12:54:28.422 KindnessApp[4639:40834] log1
+2015-01-02 12:54:28.439 KindnessApp[4639:40834] table created
+2015-01-02 12:54:36.144 KindnessApp[4639:40834] 1
+2015-01-02 12:54:36.703 KindnessApp[4639:40834] store: Fri Jan 02 2015 12:54:36 GMT-0500 (EST)
+2015-01-02 12:54:36.703 KindnessApp[4639:40834] currentState0
+2015-01-02 12:54:37.732 KindnessApp[4639:40834] Found resource '/Users/dai/Library/Developer/CoreSimulator/Devices/E7CC0DA1-5903-4010-A841-8A48415DA6D8/data/Containers/Bundle/Application/117ACFD3-23D7-4200-B3D3-D0A5FF274E78/KindnessApp.app/www/audio/gong.wav' in the web folder.
+2015-01-02 12:54:37.771 KindnessApp[4639:40834] Playing audio sample 'audio/gong.wav'
+2015-01-02 12:54:38.166 KindnessApp[4639:40834] THREAD WARNING: ['Media'] took '433.860107' ms. Plugin should use a background thread.
+2015-01-02 12:54:38.188 KindnessApp[4639:40834] WARN: [l10n] #time-up is undefined.
+2015-01-02 12:54:38.189 KindnessApp[4639:40834] WARN: [l10n] #how-are-you-feeling is undefined.
+2015-01-02 12:54:38.712 KindnessApp[4639:40834] init ending timer
+2015-01-02 12:54:59.587 KindnessApp[4639:40834] Finished playing audio sample 'audio/gong.wav'
+2015-01-02 12:54:59.589 KindnessApp[4639:40834] playAudio():Audio Success

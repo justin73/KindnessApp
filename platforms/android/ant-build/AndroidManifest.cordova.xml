@@ -9,27 +9,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:label="@string/app_name" android:name="com.phonegap.plugins.localnotification.LocalNotification">
-            <intent-filter />
-        </activity>
-        <receiver android:name="com.phonegap.plugins.localnotification.AlarmReceiver" />
-        <receiver android:name="com.phonegap.plugins.localnotification.AlarmRestoreOnBoot">
+        <receiver android:name="jp.wizcorp.phonegap.plugin.localNotification.AlarmReceiver" />
+        <receiver android:name="jp.wizcorp.phonegap.plugin.localNotification.AlarmRestoreOnBoot">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="de.appplant.cordova.plugin.localnotification.Receiver" />
-        <receiver android:name="de.appplant.cordova.plugin.localnotification.Restore">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-        <activity android:launchMode="singleInstance" android:name="de.appplant.cordova.plugin.localnotification.ReceiverActivity" />
     </application>
     <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="19" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 </manifest>

@@ -1,13 +1,14 @@
-var db;
+var db = null;
 function openDb() {
+    if (db == null) {
+        db = window.openDatabase("Database", "1.0", "Kindness", 200000);
+        db.transaction(checkDatabaseExists);
 
-    db = window.openDatabase("Database", "1.0", "Kindness", 200000);
-    db.transaction(checkDatabaseExists);
-
-    function checkDatabaseExists(tx) {
-        tx.executeSql('CREATE TABLE IF NOT EXISTS MEDITATION (id INTEGER PRIMARY KEY, startDate INTEGER, endDate INTEGER, duration INTEGER, feeling INTEGER)');
-        tx.executeSql('CREATE TABLE IF NOT EXISTS ALARM (id INTEGER PRIMARY KEY, hour INTEGER, minute INTEGER, days TEXT)');
-        console.log('table created')
+        function checkDatabaseExists(tx) {
+            tx.executeSql('CREATE TABLE IF NOT EXISTS MEDITATION (id INTEGER PRIMARY KEY, startDate INTEGER, endDate INTEGER, duration INTEGER, feeling INTEGER)');
+            tx.executeSql('CREATE TABLE IF NOT EXISTS ALARM (id INTEGER PRIMARY KEY, hour INTEGER, minute INTEGER, days TEXT)');
+            console.log('table created')
+        }
     }
 }
 
@@ -211,7 +212,7 @@ function initSetAlarm(init) {
 
         function insertAlarm(tx) {
             console.log("insert alarm")
-            var time = dateTimePicker.val().split(":");
+            var time = $('.clockpicker .form-control').val().split(":");
             var hour = parseInt(time[0]);
             var minute = parseInt(time[1]);
 
@@ -258,19 +259,24 @@ function initSetAlarm(init) {
         $("#btn-dialog-add-alarm").on("click", function() {
             db.transaction(insertAlarm);
         });
-        var dateTimePicker = $('#datetimepicker3').datetimepicker({
-            datepicker:false,
-            format:'H:i',
-            step:5,
-            inline:true
+//        var dateTimePicker = $('#datetimepicker3').datetimepicker({
+//            datepicker:false,
+//            format:'H:i',
+//            step:5,
+//            inline:true
+//        });
+        $('.clockpicker').clockpicker({
+            placement: 'bottom',
+            align: 'left',
+            donetext: 'Done'
         });
-
+        $('.clockpicker .form-control').prop('readonly', true);
     }
 }
 
 function playGong() {
     src = 'audio/gong.wav';
-    if (device.platform == 'Android') {
+    if (window.device.platform == 'Android') {
         src = '/android_asset/www/' + src;
     }
 
@@ -298,9 +304,16 @@ function initQuote() {
 //    $("#quote").html(jsonObject.Quote[days].Content);
 //    $("#author").html(jsonObject.Quote[days].Writer);
 }
+$( document ).on( "pagecontainerbeforehide", function ( event, ui ) {
+
+    if (typeof ui.toPage !== 'undefined') {
+        document.webL10n.translate(ui.toPage[0]);
+    }
+});
 
 $(document).on('pagecontainershow', function (e, ui) {
 
+    openDb();
     var ThisPage = $(':mobile-pagecontainer').pagecontainer('getActivePage').attr('id');
 
     switch (ThisPage) {

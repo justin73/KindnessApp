@@ -1,0 +1,324 @@
+
+
+
+@font-face {
+    font-family: "PetitFormalScript";
+    src: url(../fonts/PetitFormalScript-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(../fonts/Comfortaa-Regular.ttf);
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(../fonts/Comfortaa-Light.ttf);
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(../fonts/Comfortaa-Bold.ttf);
+    font-weight: 700;
+}
+
+body {
+    font-family: Comfortaa;
+    background-image:url(../img/6-zen-garden-dirk-ercken.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.content{
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align:center;
+    color: #405559;
+}
+
+.ui-header, .ui-footer {
+    opacity: 0.7;
+    background-color: white !important;
+    border: none;
+    height: 65px;
+}
+
+.ui-page {
+    background: none;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited{
+    color: orange;
+    text-shadow:none;
+    border: none;
+    background: none;
+}
+.ui-page-theme-a .ui-btn:hover {
+    background: none;
+}
+.face{
+    width: 300px;
+    height: 300px;
+    border: 8px solid #405559;
+    border-radius: 50%;
+    margin: 70px auto;
+}
+
+.flexslider {
+    background: none;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-start {
+    -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+    transition: all 1s;
+    opacity: 0;
+    width:50%;
+    display:block;
+    text-align:center;
+    background-color:orange !important;
+    padding:10px;
+    text-decoration:none;
+    font-weight:200;
+    font-size: 24px;
+    height: 20px;
+    color:white !important;
+    text-shadow: none;
+    margin: 15px auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.holder {
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+tspan {
+    pointer-events: none;
+}
+
+.btn-time-update, .btn-reset, .btn-stop {
+    display:inline-block;
+    border-radius:50%;
+    background-color:#405559;
+    width:30px;
+    height:30px;
+    color:white;
+    text-shadow:none;
+    vertical-align:bottom;
+    margin-right:3px;
+    margin-left:3px;
+    cursor: pointer;
+}
+h5{
+	margin-top:18px;
+}
+.btn-day {
+    display:inline-block;
+    border:1px solid #405559;
+    color: #405559;
+    width:30px;
+    height:30px;
+    text-shadow:none;
+    line-height: 6px;
+    margin-right:3px;
+    margin-left:3px;
+    cursor: pointer;
+}
+
+.btn-day-selected {
+    display:inline-block;
+    background-color:#405559;
+    color:white;
+    text-shadow:none;
+    vertical-align:bottom;
+    margin-right:3px;
+    margin-left:3px;
+    cursor: pointer;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current {
+    background: #405559 !important;
+    box-shadow: #334447 0px 1px 3px 0px inset !important;
+    text-shadow: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
+    color: orange !important;
+}
+
+.btn-dialog {
+    background-color: orange !important;
+    color: white !important;
+    text-shadow: none !important;
+}
+a {
+    text-shadow: none !important;
+}
+.clock_container{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right:0;
+    z-index:2;
+}
+
+.extra_container{
+    margin-top:10px;
+    text-align:center;
+}
+
+.ui-btn {
+   box-shadow: none;
+}
+
+.face{
+    margin-top:30px;
+<<<<<<< HEAD
+    margin-left:20px;
+    width:72px;
+    height:72px;
+=======
+    width:80px;
+    height:80px;
+>>>>>>> 3ae5c351f3f8a402eb063ce71592afbb946c9bff
+    border-radius:50%;
+    display:inline-block;
+    cursor: pointer;
+}
+.left-eye{
+    width:2px;
+    height:2px;
+    border-radius:50%;
+    background-color:#cc0f18;
+    margin-top:14px;
+    margin-left:3px;
+    display:inline-block;
+}
+.left-eye.satisfied{
+    background-color:#00931c;
+}
+.left-eye.ok{
+    background-color:#005793;
+}
+.right-eye.ok{
+    background-color:#005793;
+}
+.right-eye{
+    display:inline-block;
+    width: 2px;
+    height: 2px;
+    border-radius:50%;
+    background-color:#cc0f18;
+    margin-top:14px;
+    margin-left:10px;
+}
+.right-eye.satisfied{
+    background-color:#00931c;
+}
+.satisfied{
+    color:#00931c;
+    border:8px solid #00931c;}
+.unsatisfied{
+    color:#cc0f18;
+    border:8px solid #cc0f18;}
+.ok{
+    color:#005793;
+    border:8px solid #005793;}
+.mouth{
+    width:36px;
+    height:2px;
+    border:4px solid #005793;
+    background-color:#005793;
+    margin-left:15px;
+    margin-top:10px;
+}
+.sad-mouth{
+    height:15px;
+    width:30px;
+    border-radius:90px 90px 0 0;
+    margin:0px auto 0;
+    border:8px solid #cc0f18;
+    border-bottom:none;
+    position:relative;
+    background:transparent;
+}
+.smiley-mouth{
+    height:15px;
+    width:30px;
+    border-radius: 0 0 90px 90px;
+    margin:8px auto 0;
+    border:8px solid #00931c;
+    border-top:none;
+    position:relative;
+    background:transparent;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.page-title {
+    color: #181818 !important;
+    font-size: 20px !important;
+}
+
+.quote {
+    font-family: PetitFormalScript;
+}
+
+.ui-happy {
+    color: #00931c !important;
+}
+
+.ui-neutral {
+    color: #005793 !important;
+}
+
+.ui-sad {
+    color: #cc0f18 !important;
+}
+
+.alarm-time {
+    font-size: 32px;
+}
+
+.alarm-inactive {
+    color: grey !important;
+}
+
+.alarm-active {
+    color: orange !important;
+}
+#starting-timer{
+	overflow-y:hidden;
+	}
+#quoteContainer{
+	display:none;}
+.ui-mobile .ui-page-active{
+	overflow-y:hidden}
+.ui-content{
+	padding:0px;
+}
+.ui-header .ui-title, .ui-footer .ui-title{
+	margin:0 10%;
+	padding:1em 0;
+}

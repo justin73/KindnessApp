@@ -176,7 +176,7 @@ a {
 }
 .clock_container{
     position: fixed;
-    top: 100px;
+    top: 70px;
     left: 0;
     right:0;
     z-index:2;
@@ -303,6 +303,7 @@ li.ui-neutral:before{
 
 li.ui-sad:before{
     content: url('../img/smiley-sad.png');
+    margin: 0 5px;
 }
 
 .ui-sad {
@@ -334,4 +335,16 @@ li.ui-sad:before{
 .ui-header .ui-title, .ui-footer .ui-title{
 	margin:0 10%;
 	padding:1em 0;
+}
+
+.clockpicker {
+    margin-bottom: 54px;
+}
+
+.clockpicker .form-control {
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    font-size: 54px;
+    text-align: center;
 }

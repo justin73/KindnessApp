@@ -161,20 +161,6 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/com.phonegap.plugins.localnotification/www/LocalNotification.js",
-        "id": "com.phonegap.plugins.localnotification.LocalNotification",
-        "clobbers": [
-            "LocalNotification"
-        ]
-    },
-    {
-        "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js",
-        "id": "de.appplant.cordova.plugin.local-notification.LocalNotification",
-        "clobbers": [
-            "plugin.notification.local"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.media/www/MediaError.js",
         "id": "org.apache.cordova.media.MediaError",
         "clobbers": [
@@ -203,6 +189,13 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/www/phonegap/plugin/localNotification/localNotification.js",
+        "id": "jp.wizcorp.phonegap.plugin.localNotificationPlugin.localNotificationPlugin",
+        "clobbers": [
+            "window.localNotification"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.device/www/device.js",
         "id": "org.apache.cordova.device.device",
         "clobbers": [
@@ -215,11 +208,10 @@ module.exports.metadata =
 {
     "org.apache.cordova.console": "0.2.11",
     "org.apache.cordova.file": "1.3.1",
-    "com.phonegap.plugins.localnotification": "1.0.1",
-    "de.appplant.cordova.plugin.local-notification": "0.8.0dev",
     "org.apache.cordova.media": "0.2.14",
     "org.apache.cordova.globalization": "0.3.2",
-    "org.apache.cordova.device": "0.2.13-dev"
+    "jp.wizcorp.phonegap.plugin.localNotificationPlugin": "2.1.0",
+    "org.apache.cordova.device": "0.2.13"
 }
 // BOTTOM OF METADATA
 });
