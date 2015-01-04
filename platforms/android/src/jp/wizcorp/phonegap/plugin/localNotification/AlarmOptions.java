@@ -6,6 +6,7 @@ import java.util.Calendar;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+import android.util.Log;
 
 /**
  * Class that helps to store the options that can be specified per alarm.
@@ -47,15 +48,18 @@ public class AlarmOptions {
 
 	        // Parse string representing the date
 	        String textDate = options.optString("date");
-	        if (!"".equals(textDate)) {
+            if (!"".equals(textDate)) {
+                Log.d("Saved date", textDate);
 		        String[] datePart = textDate.split("/");
-		        int month = Integer.parseInt(datePart[0]);
-		        int day = Integer.parseInt(datePart[1]);
-		        int year = Integer.parseInt(datePart[2]);
-		        int hour = Integer.parseInt(datePart[3]);
-		        int min = Integer.parseInt(datePart[4]);
-
-		        cal.set(year, month, day, hour, min);
+                if (datePart.length > 4) {
+                    int month = Integer.parseInt(datePart[0]);
+                    int day = Integer.parseInt(datePart[1]);
+                    int year = Integer.parseInt(datePart[2]);
+                    int hour = Integer.parseInt(datePart[3]);
+                    int min = Integer.parseInt(datePart[4]);
+                    
+                    cal.set(year, month, day, hour, min);
+                }
 	        }
 
 	        String optString = options.optString("message");

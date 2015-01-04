@@ -38,9 +38,11 @@
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/dailyQuote.html \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/data.ini \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/endingTimer.html \
+/Users/dai/dev/KindnessApp/platforms/android/assets/www/faq.html \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/fonts \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/img \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/index.html \
+/Users/dai/dev/KindnessApp/platforms/android/assets/www/index.html.orig \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/js \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/phonegap.js \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/plugins \
@@ -48,6 +50,7 @@
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/sass \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/setAlarm.html \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/startingTimer.html \
+/Users/dai/dev/KindnessApp/platforms/android/assets/www/startingTimer.html.orig \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/audio/gong.wav \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/css/bootstrap-clockpicker.min.css \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/css/bootstrap.min.css \

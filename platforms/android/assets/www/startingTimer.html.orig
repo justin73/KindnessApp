@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+	<title>My Compassion App 2.0 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/flexslider.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css" >
+    <link rel="stylesheet" href="css/jw-jqm-cal.css" />
+    <link rel="stylesheet" href="css/bootstrap-clockpicker.min.css" >
+    <link rel="stylesheet" href="css/jquery-clockpicker.min.css" />
+    <link href="css/jquery.datetimepicker.css" rel="stylesheet">
+    <script type="text/javascript" language="javascript" src="quotes.json"></script>
+    <script src="phonegap.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/raphael.js"></script>
+    <script src="js/jquery.zenclock.js"></script>
+    <script src="js/kindness-app.js"></script>
+<<<<<<< HEAD
+    <script src="js/jw-jqm-cal.js"></script>
+    <script src="js/jquery.datetimepicker.js"></script>
+    <script src="js/de.appplant.cordova.plugin.local-notification/www/local-notification.js"></script>
+    <script src="js/l10n.js"></script>
+    <script src="js/bootstrap-clockpicker.min.js"></script>
+    <script src="js/jquery-clockpicker.min.js"></script>
+    <link rel="prefetch" type="application/l10n" href="data.ini" />
+=======
+    <script src="js/jquery.zenclock.js"></script>
+>>>>>>> 16923158c016ea86d0ef50ce01ab0b449cbb721c
+</head>
+<body>
+
+    <div data-role="page" id="starting-timer" style="height:100%">
+    	<div data-role="header" data-position="fixed">
+            <a class='ui-btn-left' href="index.html" data-transition="flip"/><i class="fa fa-angle-left" style="font-size: 3em;font-weight:600;"></i></a><h1 class="page-title">Meditation Timer</h1>
+<<<<<<< HEAD
+        	<a class='ui-btn-right' href='http://montrealcitymission.blogspot.ca/' target="_blank"><i class="fa fa-info" style="font-size: 3em;"></i></a>
+=======
+        	<a class='ui-btn-right' href='faq.html' data-transition="flip"><i class="fa fa-info" style="font-size: 3em;"></i></a>
+>>>>>>> 16923158c016ea86d0ef50ce01ab0b449cbb721c
+        </div>
+        <div class="content" data-role="content" >
+        	<div class="background"></div>
+          	<div class="clock_container">
+            <div class="holder" style="width: 70%; height: 70%">
+            </div>
+			 <div class="extra_container">
+                <div class="btn-time-update btn-setup-timer" value="-10">
+                	<div style="margin-top: -11px;">
+                    	<h5>-10</h5>
+                    </div>
+                </div>
+                <div class="btn-time-update btn-setup-timer" value="-5">
+                	<div style="margin-top: -11px;">
+                    	<h5>-5</h5>
+                    </div>
+                </div>
+                <div class="btn-time-update btn-setup-timer" value="-1">
+                	<div style="margin-top: -11px;">
+                    	<h5>-1</h5>
+                    </div>
+                </div>
+                <div class="btn-reset">
+<<<<<<< HEAD
+                	<div style="margin-top: 6px;">
+=======
+                	<div style="margin-top: 5px;">
+>>>>>>> 16923158c016ea86d0ef50ce01ab0b449cbb721c
+                    	<i class="fa fa-undo "></i>
+                    </div>
+                </div>
+                 <div class="btn-stop" style="display: none">
+<<<<<<< HEAD
+                     <div style="margin-top: 6px;">
+=======
+                     <div style="margin-top: 5x;">
+>>>>>>> 16923158c016ea86d0ef50ce01ab0b449cbb721c
+                         <i class="fa fa-stop"></i>
+                     </div>
+                 </div>
+                <div class="btn-time-update btn-setup-timer" value="1">
+                	<div style="margin-top: -11px;">
+                    	<h5>+1</h5>
+                    </div>
+                </div>
+               <div class="btn-time-update btn-setup-timer" value="5">
+                	<div style="margin-top: -11px;">
+                    	<h5>+5</h5>
+                    </div>
+                </div>
+               <div class="btn-time-update btn-setup-timer" value="10">
+                	<div style="margin-top: -11px;">
+                    	<h5>+10</h5>
+                    </div>
+                </div>
+             </div>
+			</div>
+        </div> 
+        <div data-role="footer" data-position="fixed" style="text-align:center;">
+        	<a style="float:left;" href="alarmManager.html" data-transition="flip" ><i class="fa fa-clock-o" style="font-size:3em"></i></a>
+        	<a  style="float:right;" href="calendar.html" data-transition="flip"><i class="fa fa-calendar" style="font-size:3em;"></i></a>
+        </div>
+    </div>
+
+</body>

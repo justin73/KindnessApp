@@ -34,6 +34,8 @@ body {
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
+
 .content{
     background-repeat:no-repeat;
     background-size:cover;
@@ -124,6 +126,15 @@ tspan {
     margin-left:3px;
     cursor: pointer;
 }
+
+.btn-time-update > div {
+    margin-top: -11px;
+}
+
+.btn-reset > div, .btn-stop > div  {
+    margin-top: 6px;
+}
+
 .btn-time-update:active, .btn-reset:active, .btn-stop:active {
     background-color: orange;
 }
@@ -141,6 +152,10 @@ h5{
     margin-right:3px;
     margin-left:3px;
     cursor: pointer;
+}
+
+.btn-day > div {
+    margin-top: -7px;
 }
 
 .btn-day-selected {
@@ -326,7 +341,16 @@ li.ui-sad:before{
 	overflow-y:hidden;
 	}
 #quoteContainer{
-	display:none;}
+	display:none;
+	text-align:center;
+	margin-top:50px;}
+#quoteContainer #quote{
+	padding:20px;
+}
+#quoteContainer #author{
+	text-align: right;margin-right:20px;
+}
+
 .ui-mobile .ui-page-active{
 	overflow-y:hidden}
 .ui-content{
@@ -336,6 +360,30 @@ li.ui-sad:before{
 	margin:0 10%;
 	padding:1em 0;
 }
+.faq_item{
+	text-align:left;
+}
+.faq_item h1 ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit ui-icon-carat-u{
+	font-size:1.5em;
+}
+.faq_item h4{
+	font-size:1em;
+	color: orange;
+}
+.faq_item ul li{
+	font-size:1em;
+	color: orange;
+}
+.faq_item ul li b{
+	font-weight:600;
+	color: orange;
+}
+
+/*@media screen and (min-device-width: 400px) {*/
+    /*body {*/
+        /*background-color: lightblue;*/
+    /*}*/
+/*}*/
 
 .clockpicker {
     margin-bottom: 54px;
@@ -347,4 +395,70 @@ li.ui-sad:before{
     height: 100px;
     font-size: 54px;
     text-align: center;
+}
+
+
+@media (min-width: 500px) {
+    body {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 68px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .holder {
+        margin-top: 180px;
+    }
+
+    .ui-btn {
+        font-size: 20px !important;
+    }
+
+    .btn-time-update, .btn-reset, .btn-stop {
+        width:60px;
+        height:60px;
+        font-size: 32px;
+    }
+
+    .ui-header .ui-btn, .ui-footer .ui-btn {
+        font-size: 14px !important;
+    }
+
+    .btn-time-update > div {
+        margin-top: -6px;
+    }
+
+    .btn-reset > div, .btn-stop > div  {
+        margin-top: 11px;
+    }
+
+    .jq-calendar-wrapper table tr {
+        height: 90px;
+    }
+
+    .jq-calendar-wrapper, .jq-calendar-wrapper a  {
+        font-size: 32px !important;
+    }
+
+    .btn-day {
+        width:45px;
+        height:45px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .btn-day > div {
+        margin-top: 0;
+    }
+
+    .jq-calendar-wrapper .ui-btn-icon-left:after, .jq-calendar-wrapper .ui-btn-icon-right:after,
+    .jq-calendar-wrapper .ui-btn-icon-top:after, .jq-calendar-wrapper .ui-btn-icon-bottom:after, .jq-calendar-wrapper .ui-btn-icon-notext:after {
+        width: 32px;
+        height: 32px;
+
+    }
 }

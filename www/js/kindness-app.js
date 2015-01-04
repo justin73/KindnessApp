@@ -23,7 +23,7 @@ function initStartingTimer() {
     //var height = $content.height();
     //var holderSize = Math.min(width - 20, height-150);
     //console.log("width:"+width+", height"+height)
-    $('.holder').width(290).height(290);
+    $('.holder').width($(window).width()*0.8).height($(window).width()*0.8);
     $('.holder').zenclock({onStart:function(startDate, duration) {
         console.log("store: " + startDate);
         window.localStorage.setItem("startDate", startDate.getTime());
