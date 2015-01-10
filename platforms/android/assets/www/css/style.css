@@ -103,6 +103,13 @@ body {
     text-align: center;
 }
 
+
+.content {
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+}
+
+
 .holder {
     margin: 0 auto;
     cursor: pointer;
@@ -397,6 +404,20 @@ li.ui-sad:before{
     text-align: center;
 }
 
+
+.ui-header .ui-btn, .ui-header .ui-link, .ui-footer .ui-btn, .ui-footer .ui-link {
+    -webkit-transition: all 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+
+.ui-header .ui-link, .ui-footer .ui-link {
+    background: none;
+}
+
+.ui-header .ui-link:active, .ui-footer .ui-link:active, .ui-header .ui-link:hover, .ui-footer .ui-link:hover {
+    background: none;
+    color: #405559;
+}
 
 @media (min-width: 500px) {
     body {

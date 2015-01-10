@@ -241,3 +241,5 @@ https://developer.apple.com/icloud/documentation/data-storage/
 2015-01-02 12:54:59.587 KindnessApp[4639:40834] Finished playing audio sample 'audio/gong.wav'
 2015-01-02 12:54:59.589 KindnessApp[4639:40834] playAudio():Audio Success
 2015-01-03 00:01:01.069 KindnessApp[4639:63840] 00:01:01.046 WARNING:   246: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2015-01-03 22:04:31.450 KindnessApp[4639:237389] 22:04:31.448 WARNING:   246: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2015-01-04 02:16:30.157 KindnessApp[4639:295306] 02:16:30.157 WARNING:   246: Default audio device changed. Restart the simulator to have it use the newly-selected device.
