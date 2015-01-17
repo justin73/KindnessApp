@@ -2,11 +2,333 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3844bda9-8461-4ab7-ab26-46cb95d3a739" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KindessAppUpdate.rtf" afterPath="$PROJECT_DIR$/KindessAppUpdate.rtf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/local-notification.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/.fetch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/Address.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/Connection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/ConnectionPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/HttpResponseCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/OkHttpClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/OkResponseCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/ResponseSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/Route.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/TunnelRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/AbstractOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/Base64.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/DiskLruCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/Dns.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/FaultRecoveringOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/NamedRunnable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/Platform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/StrictLineReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/Util.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/AbstractHttpInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/AbstractHttpOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HeaderParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpAuthenticator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpDate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpEngine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpResponseCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpTransport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpURLConnectionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpsURLConnectionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/OkResponseCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/OkResponseCacheAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/RawHeaders.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/RequestHeaders.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/ResponseHeaders.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/RetryableOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/RouteSelector.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/SpdyTransport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/Transport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/UnknownLengthHttpInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/IncomingStreamHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/Ping.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/Settings.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/SpdyConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/SpdyReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/SpdyStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/SpdyWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/App.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/AuthenticationToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/CallbackContext.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/Config.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/CordovaActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/CordovaArgs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/CordovaChromeClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/CordovaResourceApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/DirectoryManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/DroidGap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/ExifHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/ExposedJsApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/FileHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/IceCreamCordovaWebViewClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/JSONUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/LOG.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/LinearLayoutSoftKeyboardDetect.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/NativeToJsMessageQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/PluginEntry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/PluginManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/PluginResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/ScrollEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/CordovaLib/src/org/apache/cordova/Whitelist.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/assets/www/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/assets/www/cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/assets/www/cordova_plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/assets/www/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/assets/www/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/assets/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/assets/www/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/assets/www/phonegap/plugin/localNotification/localNotification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/android_sdk_version" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/build" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/build.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/check_reqs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/clean" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/clean.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/defaults.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/android_sdk_version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/appinfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/check_reqs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/clean.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/device.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/emulator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/exec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/install-device" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/install-device.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/install-emulator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/install-emulator.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/list-devices" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/list-devices.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/list-emulator-images" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/list-emulator-images.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/list-started-emulators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/list-started-emulators.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/start-emulator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/lib/start-emulator.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/log.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/.bin/shjs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/q/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/q/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/q/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/q/benchmark/compare-with-callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/q/benchmark/scenarios.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/q/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/q/q.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/q/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/.documentup.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/make.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/scripts/generate-docs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/scripts/run-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/shell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/cat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/cd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/chmod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/cp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/dirs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/echo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/exec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/grep.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/ls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/mkdir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/mv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/popd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/pushd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/pwd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/rm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/sed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/tempdir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/to.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/toEnd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/node_modules/shelljs/src/which.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/run.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/version" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/cordova/version.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/libs/android-support-v13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/platform_www/cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/res/drawable-hdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/res/drawable-ldpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/res/drawable-mdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/res/drawable-xhdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/res/drawable/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/res/xml/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/io/cordova/hellocordova/HelloCordova.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/AlarmHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/AlarmOptions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/AlarmReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/AlarmRestoreOnBoot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/LocalNotification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDV.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVAvailability.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVConfigParser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVConfigParser.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVDebug.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVJSON.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVJSON.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVPlugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVPlugin.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVPluginResult.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVPluginResult.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVShared.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVShared.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVTimer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVTimer.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVWhitelist.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/CDVWhitelist.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/NSData+Base64.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/NSData+Base64.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/CordovaLib_Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/CordovaLib/cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Classes/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Classes/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Classes/MainViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Classes/MainViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Classes/MainViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/HelloCordova-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/HelloCordova-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Plugins/LocalNotification/LocalNotification.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Plugins/LocalNotification/LocalNotification.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Plugins/LocalNotification/WizDebugLog.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/de.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/en.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/es.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon-small@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/icons/icon@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/se.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/splash/Default-568h@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/splash/Default-Landscape~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/splash/Default-Portrait~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/splash/Default@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/Resources/splash/Default~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/HelloCordova/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/apple_ios_version" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/apple_osx_version" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/apple_xcode_version" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/build.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/check_reqs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/clean" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/defaults.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/emulate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/lib/copy-www-build-step.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/lib/install-device" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/lib/install-emulator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/lib/list-devices" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/lib/list-emulator-images" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/lib/list-started-emulators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/lib/sim.applescript" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/lib/start-emulator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/cordova/version" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/platform_www/cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/www/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/www/cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/www/cordova_plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/www/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/www/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/www/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/ios/www/phonegap/plugin/localNotification/localNotification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/plugins/android.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/plugins/ios.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/www/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/www/cordova_plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/www/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/www/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/www/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/www/phonegap/plugin/localNotification/localNotification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/de.appplant.cordova.plugin.local-notification/www/local-notification.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/KindnessApp.iml" afterPath="$PROJECT_DIR$/.idea/KindnessApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/alarmManager.html" afterPath="$PROJECT_DIR$/www/alarmManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/calendar.html" afterPath="$PROJECT_DIR$/www/calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/dailyQuote.html" afterPath="$PROJECT_DIR$/www/dailyQuote.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/endingTimer.html" afterPath="$PROJECT_DIR$/www/endingTimer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/faq.html" afterPath="$PROJECT_DIR$/www/faq.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/kindness-app.js" afterPath="$PROJECT_DIR$/www/js/kindness-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/setAlarm.html" afterPath="$PROJECT_DIR$/www/setAlarm.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/startingTimer.html" afterPath="$PROJECT_DIR$/www/startingTimer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KindnessApp.iws" />
@@ -30,37 +352,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="59" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.45454547" vertical-offset="30" max-vertical-offset="2190">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/www/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="381" selection-end="381" vertical-scroll-proportion="-3.0384614" vertical-offset="26" max-vertical-offset="825">
-              <folding />
+            <state line="2" column="19" selection-start="42" selection-end="42" vertical-scroll-proportion="-0.0" vertical-offset="30" max-vertical-offset="2280">
+              <folding>
+                <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="local-notification.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/de.appplant.cordova.plugin.local-notification/www/local-notification.js">
+        <entry file="file://$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="19" selection-start="608" selection-end="608" vertical-scroll-proportion="-5.3461537" vertical-offset="26" max-vertical-offset="5460">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3930">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kindness-app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/kindness-app.js">
+      <file leaf-file-name="LocalNotification.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/android/LocalNotification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="187" column="37" selection-start="7588" selection-end="7588" vertical-scroll-proportion="-8.846154" vertical-offset="2575" max-vertical-offset="5805">
+            <state line="67" column="5" selection-start="0" selection-end="12894" vertical-scroll-proportion="0.29829547" vertical-offset="795" max-vertical-offset="6165">
               <folding />
             </state>
           </provider>
@@ -90,9 +411,10 @@
         <option value="$PROJECT_DIR$/www/endingTimer.html" />
         <option value="$PROJECT_DIR$/www/setAlarm.html" />
         <option value="$PROJECT_DIR$/www/startingTimer.html" />
-        <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/js/kindness-app.js" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/android/LocalNotification.java" />
       </list>
     </option>
   </component>
@@ -173,11 +495,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -191,11 +509,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="de.appplant.cordova.plugin.local-notification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -220,22 +552,12 @@
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KindnessApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemId" value="de.appplant.cordova.plugin.local-notification" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jp.wizcorp.phonegap.plugin.localNotificationPlugin" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,59 +575,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jp.wizcorp.phonegap.plugin.localNotificationPlugin" />
+              <option name="myItemId" value="de.appplant.cordova.plugin.local-notification" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KindnessApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KindnessApp" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jp.wizcorp.phonegap.plugin.localNotificationPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KindnessApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KindnessApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jp.wizcorp.phonegap.plugin.localNotificationPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,6 +630,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -362,23 +648,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -437,7 +715,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27152777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3048611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -445,12 +723,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32849604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -471,13 +749,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/www/endingTimer.html</url>
-          <line>28</line>
+          <line>46</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/js/jquery.zenclock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -486,7 +769,13 @@
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,31 +935,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1500" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/LocalNotification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="19" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="3735" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/AlarmRestoreOnBoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="915" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/src/jp/wizcorp/phonegap/plugin/localNotification/AlarmReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="49" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="32" selection-start="3036" selection-end="3036" vertical-scroll-proportion="0.0" vertical-offset="802" max-vertical-offset="1470" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/jquery-clockpicker.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="4128" selection-start="4495" selection-end="4495" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210" />
@@ -705,9 +969,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/platforms/android/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/www/js/kindness-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717" />
+        <state line="327" column="8" selection-start="11965" selection-end="11966" vertical-scroll-proportion="0.0" vertical-offset="4570" max-vertical-offset="5805">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/style.css">
@@ -728,35 +994,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="57" selection-start="548" selection-end="548" vertical-scroll-proportion="0.23809524" vertical-offset="0" max-vertical-offset="693">
           <folding>
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="381" selection-end="381" vertical-scroll-proportion="-3.0384614" vertical-offset="26" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/de.appplant.cordova.plugin.local-notification/www/local-notification.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="608" selection-end="608" vertical-scroll-proportion="-5.3461537" vertical-offset="26" max-vertical-offset="5460">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/kindness-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="37" selection-start="7588" selection-end="7588" vertical-scroll-proportion="-8.846154" vertical-offset="2575" max-vertical-offset="5805">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="59" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.45454547" vertical-offset="30" max-vertical-offset="2190">
+        <state line="2" column="19" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="2190">
+          <folding>
+            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3930">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/android/LocalNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="5" selection-start="0" selection-end="12894" vertical-scroll-proportion="0.29829547" vertical-offset="795" max-vertical-offset="6165">
           <folding />
         </state>
       </provider>

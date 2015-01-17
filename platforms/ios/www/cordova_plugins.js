@@ -201,6 +201,14 @@ module.exports = [
         "clobbers": [
             "device"
         ]
+    },
+    {
+        "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js",
+        "id": "de.appplant.cordova.plugin.local-notification.LocalNotification",
+        "clobbers": [
+            "cordova.plugins.notification.local",
+            "plugin.notification.local"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -211,7 +219,8 @@ module.exports.metadata =
     "org.apache.cordova.media": "0.2.14",
     "org.apache.cordova.globalization": "0.3.2",
     "jp.wizcorp.phonegap.plugin.localNotificationPlugin": "2.1.0",
-    "org.apache.cordova.device": "0.2.13"
+    "org.apache.cordova.device": "0.2.13",
+    "de.appplant.cordova.plugin.local-notification": "0.8.0dev"
 }
 // BOTTOM OF METADATA
 });

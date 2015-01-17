@@ -175,17 +175,17 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/jp.wizcorp.phonegap.plugin.localNotificationPlugin/www/phonegap/plugin/localNotification/localNotification.js",
-        "id": "jp.wizcorp.phonegap.plugin.localNotificationPlugin.localNotificationPlugin",
-        "clobbers": [
-            "window.localNotification"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.device/www/device.js",
         "id": "org.apache.cordova.device.device",
         "clobbers": [
             "device"
+        ]
+    },
+    {
+        "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js",
+        "id": "de.appplant.cordova.plugin.local-notification.LocalNotification",
+        "clobbers": [
+            "plugin.notification.local"
         ]
     }
 ];
@@ -196,8 +196,8 @@ module.exports.metadata =
     "org.apache.cordova.file": "1.3.1",
     "org.apache.cordova.media": "0.2.14",
     "org.apache.cordova.globalization": "0.3.2",
-    "jp.wizcorp.phonegap.plugin.localNotificationPlugin": "2.1.0",
-    "org.apache.cordova.device": "0.2.13"
+    "org.apache.cordova.device": "0.2.13",
+    "de.appplant.cordova.plugin.local-notification": "0.7.8"
 }
 // BOTTOM OF METADATA
 });

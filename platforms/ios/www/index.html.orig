@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+    <title>My Compassion App 2.0 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/flexslider.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css" >
+    <link rel="stylesheet" href="css/jw-jqm-cal.css" />
+    <link rel="stylesheet" href="css/bootstrap-clockpicker.min.css" >
+    <link rel="stylesheet" href="css/jquery-clockpicker.min.css" />
+    <link href="css/jquery.datetimepicker.css" rel="stylesheet">
+    <link rel="prefetch" type="application/l10n" href="data.ini" />
+    <script src="phonegap.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/raphael.js"></script>
+    <script src="js/jquery.zenclock.js"></script>
+    <script src="js/kindness-app.js"></script>
+    <script src="js/jw-jqm-cal.js"></script>
+    <script src="js/jquery.datetimepicker.js"></script>
+    <script src="js/de.appplant.cordova.plugin.local-notification/www/local-notification.js"></script>
+    <script src="js/l10n.js"></script>
+<<<<<<< HEAD
+    <script src="js/bootstrap-clockpicker.min.js"></script>
+    <script src="js/jquery-clockpicker.min.js"></script>
+    <link rel="prefetch" type="application/l10n" href="data.ini" />
+=======
+    <script type="text/javascript" src="l10n.js"></script>
+    <script type="text/javascript" language="javascript" src="quotes.json"></script>
+    <script>
+		$(document).ready(function(e){
+			var applaunchCount = window.localStorage.getItem('launchCount');
+			var start = new Date(window.localStorage.getItem("startDate"));
+			var end = new Date();
+	        //Check if it already exists or not
+	        if (applaunchCount) {
+	            //This is a second time launch, and count = applaunchCount
+				var diff = new Date(end - start);
+				var days = Math.floor(diff/1000/60/60/24);
+				$('.flexslider').css('display','none');
+				$('#quoteContainer').css('display','block');
+				$("#quote").html(jsonObject.Quote[days].Content);
+				$("#author").html(jsonObject.Quote[days].Writer);
+	            $(".btn-start").css("opacity", "1");				
+	        } else {
+	            //Local storage is not set, hence first time launch. set the local storage item
+	            window.localStorage.setItem('launchCount', 1);
+	            var startdate = new Date(); 
+			  	var datetime = startdate.getFullYear()+'-'+(startdate.getMonth()+1)+'-'+startdate.getDate();
+			  	window.localStorage.setItem("startDate",datetime);
+	        }
+			
+		});
+	</script>
+>>>>>>> 16923158c016ea86d0ef50ce01ab0b449cbb721c
+</head>
+<body onload="onLoad()">
+<div data-role="page" id="homePage" style="height:100%">
+    <div data-role="header" data-position="fixed">
+        <img src="img/logo.png" class="logo" style="left:5px;"/> <h1 class="page-title" style="font-size:14px;" >Kindness App</h1>
+    </div>
+    <div class="content" data-role="content">
+        <div class="flexslider">
+            <ul class="slides">
+            	<li>
+                    <br/>
+                    <br/>
+
+                    <h2>The MTL CITY Mission Kindness App</h2>
+                    <br/>
+
+                    <p>This app helps you think about kindness in your life and how being kind can make a difference in the world Ð every day. You can read more about our app here.</p>
+
+                    <br/>
+                    <br/>
+                </li>
+                <li>
+                    <br/>
+                    <br/>
+
+                    <h2>A simple way to put kindness into your life</h2>
+                    <br/>
+
+                    <p>The Kindness App sends you a daily kindness quote and helps you set aside some time to think about how you can be a source of kindness. This guide has ideas about how to do that.</p>
+
+                    <br/>
+                </li>
+                <li>
+                    <br/>
+                    <br/>
+
+                    <h2>The Montreal City Mission</h2>
+                    <br/>
+
+                    <p>The Montreal City Mission believes that kindness leads to hospitality and hospitality creates a more just and liveable city. Learn more about us and our work with refugees, seniors and inner city children.</p>
+
+<<<<<<< HEAD
+                    <p>the journey from exclusion to community.</p>
+                    <br/>
+                </li>
+            </ul>
+            
+=======
+                    <br/>
+                    <br/>
+                </li>         
+            </ul>        
+>>>>>>> 16923158c016ea86d0ef50ce01ab0b449cbb721c
+        </div>
+        <div id="quoteContainer">
+          		<h1>Daily Quote</h1>
+                <br/><br/>
+            	<h3 id="quote"></h3>
+                <br/>
+                <h4 id="author"></h4>
+
+       </div>
+    </div>
+    <div class="center" data-role="footer" data-position="fixed">
+        <a class="btn-start"
+                href="startingTimer.html"  data-l10n-id="start-here" data-transition="flip">Start Here</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function doResize() {
+        var winhight = $.mobile.getScreenHeight();
+        var headhight = $('[data-role="header"]').first().outerHeight();
+        var foothight = $('[data-role="footer"]').first().outerHeight();
+        var $content = $('[data-role="content"]');
+        newhight = winhight - headhight - foothight;
+        $content.css('min-height', newhight + 'px');
+    }
+    $(document).bind('pageshow', doResize);
+    $(document).delegate("#homePage", "pageinit", function () {
+        $('.flexslider').flexslider({
+            directionNav: false,
+            animation: "slide",
+            slideshow: false,
+            animationLoop:false,
+            end: function(){
+                $(".btn-start").css("opacity", "1");
+            }
+        });
+    });
+    $(window).bind('resize orientationchange', doResize);
+</script>
+</body>

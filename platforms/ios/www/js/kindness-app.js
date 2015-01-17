@@ -23,7 +23,7 @@ function initStartingTimer() {
     //var height = $content.height();
     //var holderSize = Math.min(width - 20, height-150);
     //console.log("width:"+width+", height"+height)
-    $('.holder').width(290).height(290);
+    $('.holder').width($(window).width()*0.8).height($(window).width()*0.8);
     $('.holder').zenclock({onStart:function(startDate, duration) {
         console.log("store: " + startDate);
         window.localStorage.setItem("startDate", startDate.getTime());
@@ -185,7 +185,7 @@ function initAlarmManager(init) {
                 console.log(dataId)
                 tx.executeSql('DELETE FROM ALARM WHERE ID=?', [dataId]);
                 for (var i = 0; i <= 7; i++) {
-                    window.plugin.notification.local.cancel(dataId+"_"+i);
+                    localNotification.cancel(dataId+"_"+i);
                 }
             });
         });
@@ -240,7 +240,7 @@ function initSetAlarm(init) {
                         if (dayAfter > currentDate) {
                             console.log('okok' + dayAfter);
 
-                            window.plugin.notification.local.add({
+                            localNotification.add({
                                 id:         results.insertId+"_"+i,
                                 date:       dayAfter,
                                 title:    "Meditation Reminder",
@@ -340,6 +340,8 @@ $(document).on('pagecontainershow', function (e, ui) {
             initSetAlarm(false);
             break;
     }
+
+    $('.content').css("opacity", 1);
 });
 
 $(document).on('pagecontainercreate', function (e, ui) {
