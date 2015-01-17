@@ -185,7 +185,7 @@ function initAlarmManager(init) {
                 console.log(dataId)
                 tx.executeSql('DELETE FROM ALARM WHERE ID=?', [dataId]);
                 for (var i = 0; i <= 7; i++) {
-                    localNotification.cancel(dataId+"_"+i);
+                    window.plugin.cancel(dataId+"_"+i);
                 }
             });
         });
@@ -240,7 +240,7 @@ function initSetAlarm(init) {
                         if (dayAfter > currentDate) {
                             console.log('okok' + dayAfter);
 
-                            localNotification.add({
+                            window.plugin.add({
                                 id:         results.insertId+"_"+i,
                                 date:       dayAfter,
                                 title:    "Meditation Reminder",

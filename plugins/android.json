@@ -13,15 +13,11 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Globalization\"><param name=\"android-package\" value=\"org.apache.cordova.globalization.Globalization\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"jp.wizcorp.phonegap.plugin.localNotification.LocalNotification\" /></feature>",
+                            "xml": "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>",
                             "count": 1
                         },
                         {
@@ -32,12 +28,31 @@
                             "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.localnotification.LocalNotification\" /></feature>",
                             "count": 1
                         }
-                    ],
-                    "/widget": []
+                    ]
                 }
             },
             "AndroidManifest.xml": {
                 "parents": {
+                    "/manifest/application": [
+                        {
+                            "xml": "<receiver android:name=\"de.appplant.cordova.plugin.localnotification.Receiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:name=\"de.appplant.cordova.plugin.localnotification.Restore\"><intent-filter><action android:name=\"android.intent.action.BOOT_COMPLETED\" /></intent-filter></receiver>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:launchMode=\"singleInstance\" android:name=\"de.appplant.cordova.plugin.localnotification.ReceiverActivity\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />",
+                            "count": 1
+                        }
+                    ],
                     "/*": [
                         {
                             "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
@@ -55,69 +70,31 @@
                             "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
                             "count": 1
                         }
-                    ],
-                    "/manifest/application": [
-                        {
-                            "xml": "<receiver android:name=\"jp.wizcorp.phonegap.plugin.localNotification.AlarmReceiver\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<receiver android:name=\"jp.wizcorp.phonegap.plugin.localNotification.AlarmRestoreOnBoot\"><intent-filter><action android:name=\"android.intent.action.BOOT_COMPLETED\" /></intent-filter></receiver>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.localnotification.Receiver\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.localnotification.DeleteIntentReceiver\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<receiver android:name=\"de.appplant.cordova.plugin.localnotification.Restore\"><intent-filter><action android:name=\"android.intent.action.BOOT_COMPLETED\" /></intent-filter></receiver>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<activity android:launchMode=\"singleInstance\" android:name=\"de.appplant.cordova.plugin.localnotification.ReceiverActivity\" android:theme=\"@android:style/Theme.NoDisplay\" />",
-                            "count": 1
-                        }
-                    ],
-                    "/manifest": [
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />",
-                            "count": 2
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
-                            "count": 1
-                        }
                     ]
                 }
             }
         }
     },
     "installed_plugins": {
-        "org.apache.cordova.console": {
-            "PACKAGE_NAME": "com.mcm.kindnessapp"
-        },
         "org.apache.cordova.file": {
-            "PACKAGE_NAME": "com.mcm.kindnessapp"
-        },
-        "org.apache.cordova.media": {
-            "PACKAGE_NAME": "com.mcm.kindnessapp"
+            "PACKAGE_NAME": "org.montrealcitymission.kindnessapp"
         },
         "org.apache.cordova.globalization": {
-            "PACKAGE_NAME": "com.mcm.kindnessapp"
+            "PACKAGE_NAME": "org.montrealcitymission.kindnessapp"
         },
-        "jp.wizcorp.phonegap.plugin.localNotificationPlugin": {
-            "PACKAGE_NAME": "com.mcm.kindnessapp"
+        "org.apache.cordova.media": {
+            "PACKAGE_NAME": "org.montrealcitymission.kindnessapp"
         },
-        "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.mcm.kindnessapp"
+        "org.apache.cordova.console": {
+            "PACKAGE_NAME": "org.montrealcitymission.kindnessapp"
         },
         "de.appplant.cordova.plugin.local-notification": {
-            "PACKAGE_NAME": "com.mcm.kindnessapp"
+            "PACKAGE_NAME": "org.montrealcitymission.kindnessapp"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "org.montrealcitymission.kindnessapp"
+        }
+    }
 }

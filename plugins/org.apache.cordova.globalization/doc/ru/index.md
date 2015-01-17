@@ -60,7 +60,7 @@
 
 ### Поддерживаемые платформы
 
-*   Amazon Fire ОС
+*   Amazon Fire OS
 *   Android
 *   BlackBerry 10
 *   Firefox OS
@@ -77,11 +77,11 @@
     );
     
 
-### Android причуды
+### Особенности Android
 
 *   Возвращает ISO 639-двухбуквенный код языка 1, верхний регистр ISO 3166-1 код и вариант, разделенных дефисами. Примеры: «en», «en US», «США»
 
-### Windows Phone 8 причуды
+### Особенности Windows Phone 8
 
 *   Код языка возвращает двухбуквенный ISO 639-1 и ISO 3166-1 код региональный вариант, соответствующий «Язык» установка, разделенных дефисом.
 *   Обратите внимание, что региональный вариант является свойством параметра «Язык» и не определяется параметром отношения "Страна/регион" на Windows Phone.
@@ -101,7 +101,7 @@
 
 ### Поддерживаемые платформы
 
-*   Amazon Fire ОС
+*   Amazon Fire OS
 *   Android
 *   BlackBerry 10
 *   Firefox OS
@@ -118,11 +118,11 @@
     );
     
 
-### Android причуды
+### Особенности Android
 
 *   Java не различает набор «langauge» и установить «локаль», поэтому этот метод является по существу таким же, как`navigator.globalizatin.getPreferredLanguage()`.
 
-### Windows Phone 8 причуды
+### Особенности Windows Phone 8
 
 *   Возвращает ISO 639-1 двухбуквенный код языка и код ISO 3166-1 страны региональный вариант соответствующего параметра «Региональный формат», разделенных дефисом.
 
@@ -152,7 +152,7 @@
 
 ### Поддерживаемые платформы
 
-*   Amazon Fire ОС
+*   Amazon Fire OS
 *   Android
 *   BlackBerry 10
 *   Firefox OS
@@ -268,7 +268,7 @@
 
 ### Поддерживаемые платформы
 
-*   Amazon Fire ОС
+*   Amazon Fire OS
 *   Android
 *   BlackBerry 10
 *   Firefox OS
@@ -320,7 +320,7 @@
     {formatLength: «короткая», селектор: «Дата и время»}
     
 
-`options.formatLength`Может быть `short` , `medium` , `long` , или `full` . `options.selector`Может быть `date` , `time` или`date and
+`options.formatLength` может быть `short`, `medium`, `long` или `full`. `options.selector`Может быть `date` , `time` или`date and
 time`.
 
 ### Поддерживаемые платформы
@@ -420,7 +420,7 @@ time`.
     {Тип: «десятичных»}
     
 
-`options.type`Может быть `decimal` , `percent` , или`currency`.
+`options.type` может быть `decimal`, `percent` или `currency`.
 
 ### Поддерживаемые платформы
 
@@ -523,7 +523,7 @@ time`.
 
 ### Поддерживаемые платформы
 
-*   Amazon Fire ОС
+*   Amazon Fire OS
 *   Android
 *   BlackBerry 10
 *   iOS
@@ -573,7 +573,7 @@ time`.
     {formatLength: «короткая», селектор: «Дата и время»}
     
 
-`options.formatLength`Может быть `short` , `medium` , `long` , или `full` . `options.selector`Может быть `date` , `time` или`date and
+`options.formatLength` может быть `short`, `medium`, `long` или `full`. `options.selector`Может быть `date` , `time` или`date and
 time`.
 
 Если есть ошибка при разборе строки даты, то `errorCallback` выполняет с `GlobalizationError` объект в качестве параметра. Ожидаемый код ошибки`GlobalizationError.PARSING_ERROR`.
@@ -623,7 +623,7 @@ time`.
     {Тип: «десятичных»}
     
 
-`options.type`Может быть `decimal` , `percent` , или`currency`.
+`options.type` может быть `decimal`, `percent` или `currency`.
 
 ### Поддерживаемые платформы
 

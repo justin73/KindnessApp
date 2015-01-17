@@ -54,13 +54,13 @@ Busque la etiqueta de idioma BCP 47 el idioma actual del cliente.
 
 ### Descripción
 
-Devuelve la etiqueta de identificador de idioma compatible con BCP-47 a la `successCallback` con un `properties` objeto como parámetro. Ese objeto debe tener un `value` propiedad con un `String` valor.
+Devuelve la etiqueta de identificador de idioma compatible con BCP-47 a la `successCallback` con un `properties` objeto como parámetro. Ese objeto debe tener una `value` de propiedad con un valor de `String`.
 
-Si hay un error al obtener el idioma, entonces el `errorCallback` se ejecuta con un `GlobalizationError` objeto como parámetro. Código esperado del error es`GlobalizationError.UNKNOWN_ERROR`.
+Si hay un error al obtener el idioma, entonces el `errorCallback` ejecuta con un objeto `GlobalizationError` como un parámetro. Código esperado del error es`GlobalizationError.UNKNOWN_ERROR`.
 
 ### Plataformas soportadas
 
-*   Amazon fuego OS
+*   Amazon fire OS
 *   Android
 *   BlackBerry 10
 *   Firefox OS
@@ -95,13 +95,13 @@ Devuelve la etiqueta compatible con BCP 47 para la configuración regional actua
 
 ### Descripción
 
-Devuelve el identificador BCP 47 local conforme a la `successCallback` con un `properties` objeto como parámetro. Ese objeto debe tener un `value` propiedad con un `String` valor. La etiqueta de configuración regional consistirá en un código de idioma de dos letras minúsculas, código de país de dos letras mayúsculas y códigos de la variante (no especificados), separados por un guión.
+Devuelve el identificador BCP 47 local conforme a la `successCallback` con un `properties` objeto como parámetro. Ese objeto debe tener una `value` de propiedad con un valor de `String`. La etiqueta de configuración regional consistirá en un código de idioma de dos letras minúsculas, código de país de dos letras mayúsculas y códigos de la variante (no especificados), separados por un guión.
 
-Si hay un error al obtener la configuración regional, entonces el `errorCallback` se ejecuta con un `GlobalizationError` objeto como parámetro. Código esperado del error es`GlobalizationError.UNKNOWN_ERROR`.
+Si hay un error al obtener la configuración regional, entonces el `errorCallback` ejecuta con un objeto `GlobalizationError` como un parámetro. Código esperado del error es`GlobalizationError.UNKNOWN_ERROR`.
 
 ### Plataformas soportadas
 
-*   Amazon fuego OS
+*   Amazon fire OS
 *   Android
 *   BlackBerry 10
 *   Firefox OS
@@ -135,24 +135,24 @@ Devuelve una fecha con formato como una cadena según la configuración regional
 
 ### Descripción
 
-Devuelve la fecha con formato `String` vía un `value` propiedad accesible desde el objeto pasado como parámetro para el`successCallback`.
+Devuelve la fecha con formato `String` mediante una propiedad de `value` accesible desde el objeto pasado como parámetro a la `successCallback`.
 
-Los entrantes `date` parámetro debe ser del tipo`Date`.
+El parámetro entrantes `date` debe ser de tipo `Date`.
 
-Si hay un error de formato de la fecha, entonces el `errorCallback` se ejecuta con un `GlobalizationError` objeto como parámetro. Código esperado del error es`GlobalizationError.FORMATTING_ERROR`.
+Si hay un error de formato de la fecha, entonces el `errorCallback` ejecuta con un objeto `GlobalizationError` como un parámetro. Código esperado del error es`GlobalizationError.FORMATTING_ERROR`.
 
-El `options` parámetro es opcional, y sus valores por defecto son:
+El parámetro `options` es opcional, y sus valores por defecto son:
 
-    {formatLength: selector de 'corto',: 'fecha y hora'}
+    {formatLength:'short', selector:'date and time'}
     
 
-El `options.formatLength` puede ser `short` , `medium` , `long` , o`full`.
+El `options.formatLength` puede ser de `short`, `medium`, `long` o `full`.
 
-El `options.selector` puede ser `date` , `time` o`date and time`.
+El `options.selector` puede ser la `date`, la `time` o la `date and time`.
 
 ### Plataformas soportadas
 
-*   Amazon fuego OS
+*   Amazon fire OS
 *   Android
 *   BlackBerry 10
 *   Firefox OS
@@ -182,14 +182,14 @@ Si el navegador está configurado la `en_US` local, muestra un cuadro de diálog
 
 ## navigator.globalization.getCurrencyPattern
 
-Devuelve una cadena de patrón para analizar valores de divisas según las preferencias del usuario y código de moneda ISO 4217 del cliente y el formato.
+Devuelve una cadena de patrón para analizar los valores de divisas según las preferencias del usuario y código de moneda ISO 4217 del cliente y el formato.
 
      navigator.globalization.getCurrencyPattern(currencyCode, successCallback, errorCallback);
     
 
 ### Descripción
 
-Devuelve el patrón a la `successCallback` con un `properties` objeto como parámetro. Ese objeto debe contener las siguientes propiedades:
+Devuelve el patrón a la `successCallback` con un objeto de `properties` como un parámetro. Ese objeto debe contener las siguientes propiedades:
 
 *   **patrón**: el patrón de la moneda para analizar los valores de la moneda y el formato. Los patrones siguen [Unicode técnica estándar #35][1]. *(String)*
 
@@ -205,9 +205,9 @@ Devuelve el patrón a la `successCallback` con un `properties` objeto como pará
 
  [1]: http://unicode.org/reports/tr35/tr35-4.html
 
-Los entrantes `currencyCode` parámetro debe ser un `String` de uno de los códigos de moneda ISO 4217, por ejemplo 'USD'.
+El parámetro entrantes `currencyCode` debe ser una `String` de uno de los códigos de moneda ISO 4217, por ejemplo 'USD'.
 
-Si hay un error obteniendo el patrón, entonces el `errorCallback` se ejecuta con un `GlobalizationError` objeto como parámetro. Código esperado del error es`GlobalizationError.FORMATTING_ERROR`.
+Si hay un error obteniendo el patrón, entonces el `errorCallback` ejecuta con un objeto `GlobalizationError` como un parámetro. Código esperado del error es`GlobalizationError.FORMATTING_ERROR`.
 
 ### Plataformas soportadas
 
@@ -246,29 +246,29 @@ Resultado esperado:
 
 ## navigator.globalization.getDateNames
 
-Devuelve una matriz de los nombres de los meses o días de la semana, dependiendo de las preferencias del usuario y el calendario del cliente.
+Devuelve una matriz de los nombres de los meses o días de la semana, dependiendo de las preferencias del usuario y calendario del cliente.
 
     navigator.globalization.getDateNames(successCallback, errorCallback, options);
     
 
 ### Descripción
 
-Devuelve la matriz de nombres de la `successCallback` con un `properties` objeto como parámetro. Ese objeto contiene un `value` propiedad con un `Array` de `String` valores. Los nombres de funciones de matriz a partir desde el primer mes en el año o el primer día de la semana, dependiendo de la opción seleccionada.
+Devuelve la matriz de nombres a la `successCallback` con un objeto de `properties` como un parámetro. Ese objeto contiene una propiedad de `value` con una `Array` de valores de `String`. Los nombres de funciones de matriz a partir de ya sea el primer mes en el año o el primer día de la semana, dependiendo de la opción seleccionada.
 
-Si hay un error obteniendo los nombres, entonces el `errorCallback` se ejecuta con un `GlobalizationError` objeto como parámetro. Código esperado del error es`GlobalizationError.UNKNOWN_ERROR`.
+Si hay un error en la obtención de los nombres, entonces el `errorCallback` ejecuta con un objeto `GlobalizationError` como un parámetro. Código esperado del error es`GlobalizationError.UNKNOWN_ERROR`.
 
-El `options` parámetro es opcional, y sus valores por defecto son:
+El parámetro `options` es opcional, y sus valores por defecto son:
 
     {type:'wide', item:'months'}
     
 
-El valor de `options.type` puede ser `narrow` o`wide`.
+El valor de `options.type` puede ser `narrow` o `wide`.
 
-El valor de `options.item` puede ser `months` o`days`.
+El valor de `options.item` puede ser `months` o `days`.
 
 ### Plataformas soportadas
 
-*   Amazon fuego OS
+*   Amazon fire OS
 *   Android
 *   BlackBerry 10
 *   Firefox OS
@@ -296,14 +296,14 @@ Cuando el navegador se establece en el `en_US` local, este ejemplo muestra una s
 
 ## navigator.globalization.getDatePattern
 
-Devuelve una cadena de patrón para analizar las fechas según las preferencias del cliente usuario y el formato.
+Devuelve una cadena de patrón para analizar las fechas según las preferencias del usuario del cliente y el formato.
 
     navigator.globalization.getDatePattern(successCallback, errorCallback, options);
     
 
 ### Descripción
 
-Devuelve el patrón a la `successCallback` . El objeto se pasa como parámetro contiene las siguientes propiedades:
+Devuelve el patrón a la `successCallback`. El objeto se pasa como parámetro contiene las siguientes propiedades:
 
 *   **patrón**: el patrón para analizar las fechas y el formato de fecha y hora. Los patrones siguen [Unicode técnica estándar #35][1]. *(String)*
 
@@ -313,15 +313,14 @@ Devuelve el patrón a la `successCallback` . El objeto se pasa como parámetro c
 
 *   **dst_offset**: el desplazamiento horario actual en segundos entre no-horario del cliente de huso horario y día del cliente ahorro de zona horaria. *(Número)*
 
-Si hay un error obteniendo el patrón, el `errorCallback` se ejecuta con un `GlobalizationError` objeto como parámetro. Código esperado del error es`GlobalizationError.PATTERN_ERROR`.
+Si hay un error obteniendo el patrón, el `errorCallback` se ejecuta con un objeto `GlobalizationError` como un parámetro. Código esperado del error es`GlobalizationError.PATTERN_ERROR`.
 
-El `options` parámetro es opcional y por defecto los siguientes valores:
+El parámetro `options` es opcional y por defecto para los siguientes valores:
 
-    {formatLength: selector de 'corto',: 'fecha y hora'}
+    {formatLength:'short', selector:'date and time'}
     
 
-El `options.formatLength` puede ser `short` , `medium` , `long` , o `full` . El `options.selector` puede ser `date` , `time` o`date and
-time`.
+El `options.formatLength` puede ser de `short`, `medium`, `long` o `full`. El `options.selector` puede ser la `date`, la `time` o la `date and time`.
 
 ### Plataformas soportadas
 
@@ -356,16 +355,16 @@ Cuando el navegador se establece en el `en_US` local, este ejemplo muestra un cu
 
 ## navigator.globalization.getFirstDayOfWeek
 
-Devuelve el primer día de la semana según las preferencias del usuario y el calendario del cliente.
+Devuelve el primer día de la semana según las preferencias del usuario y calendario del cliente.
 
     navigator.globalization.getFirstDayOfWeek(successCallback, errorCallback);
     
 
 ### Descripción
 
-Los días de la semana están contados a partir de la 1, donde 1 se supone que es el domingo. Devuelve el día de la `successCallback` con un `properties` objeto como parámetro. Ese objeto debe tener un `value` propiedad con un `Number` valor.
+Los días de la semana están contados a partir de la 1, donde 1 se supone que es el domingo. Devuelve el día de la `successCallback` con un objeto de `properties` como un parámetro. Ese objeto debe tener una `value` de propiedad con un valor de `Number`.
 
-Si hay un error obteniendo el patrón, entonces el `errorCallback` se ejecuta con un `GlobalizationError` objeto como parámetro. Código esperado del error es`GlobalizationError.UNKNOWN_ERROR`.
+Si hay un error obteniendo el patrón, entonces el `errorCallback` ejecuta con un objeto `GlobalizationError` como un parámetro. Código esperado del error es`GlobalizationError.UNKNOWN_ERROR`.
 
 ### Plataformas soportadas
 
@@ -388,14 +387,14 @@ Cuando el navegador se establece en el `en_US` local, muestra un cuadro de diál
 
 ## navigator.globalization.getNumberPattern
 
-Devuelve una cadena de patrón para analizar números según las preferencias del cliente usuario y el formato.
+Devuelve una cadena de patrón para analizar números según las preferencias del usuario del cliente y el formato.
 
     navigator.globalization.getNumberPattern(successCallback, errorCallback, options);
     
 
 ### Descripción
 
-Devuelve el patrón a la `successCallback` con un `properties` objeto como parámetro. Ese objeto contiene las siguientes propiedades:
+Devuelve el patrón a la `successCallback` con un objeto de `properties` como un parámetro. Ese objeto contiene las siguientes propiedades:
 
 *   **patrón**: el patrón del número a analizar números y el formato. Los patrones siguen [Unicode técnica estándar #35][1]. *(String)*
 
@@ -413,14 +412,14 @@ Devuelve el patrón a la `successCallback` con un `properties` objeto como pará
 
 *   **agrupación**: el símbolo de la agrupación para analizar y dar formato. *(String)*
 
-Si hay un error obteniendo el patrón, entonces el `errorCallback` se ejecuta con un `GlobalizationError` objeto como parámetro. Código esperado del error es`GlobalizationError.PATTERN_ERROR`.
+Si hay un error obteniendo el patrón, entonces el `errorCallback` ejecuta con un objeto `GlobalizationError` como un parámetro. Código esperado del error es`GlobalizationError.PATTERN_ERROR`.
 
-El `options` parámetro es opcional, y los valores por defecto son:
+El parámetro `options` es opcional, y los valores por defecto son:
 
-    {tipo: 'decimal'}
+    {type:'decimal'}
     
 
-El `options.type` puede ser `decimal` , `percent` , o`currency`.
+El `options.type` puede ser `decimal`, `percent` o `currency`.
 
 ### Plataformas soportadas
 
@@ -475,9 +474,9 @@ Indica si el horario de verano es en efecto para una fecha determinada usando la
 
 ### Descripción
 
-Indica si es o no horario de verano en efecto a la `successCallback` con un `properties` objeto como parámetro. Ese objeto debe tener un `dst` propiedad con un `Boolean` valor. A `true` valor indica que el horario de verano es en efecto para la fecha determinada, y `false` indica que no es.
+Indica o no horario de verano es en efecto el `successCallback` con un objeto de `properties` como un parámetro. Ese objeto debe tener una propiedad con un valor `Boolean` de `dst`. Un valor `true` indica que el horario de verano está en efecto para la fecha dada, y `false` indica que no es.
 
-El parámetro entrantes `date` debe ser de tipo`Date`.
+El parámetro entrantes `date` debe ser de tipo `Date`.
 
 Si hay un error de lectura de la fecha, entonces el `errorCallback` se ejecuta. Código esperado del error es`GlobalizationError.UNKNOWN_ERROR`.
 
@@ -492,7 +491,7 @@ Si hay un error de lectura de la fecha, entonces el `errorCallback` se ejecuta. 
 
 ### Ejemplo
 
-Durante el verano, y si el navegador está configurado para una zona horaria DST habilitado, esto debería mostrar un cuadro de diálogo emergente con texto similar a `dst: true` :
+Durante el verano, y si el navegador está configurado para una zona horaria DST habilitado, esto debe mostrar un cuadro de diálogo emergente con texto similar a `dst: true`:
 
     navigator.globalization.isDayLightSavingsTime(
         new Date(),
@@ -503,27 +502,27 @@ Durante el verano, y si el navegador está configurado para una zona horaria DST
 
 ## navigator.globalization.numberToString
 
-Devuelve un número con formato como una cadena según las preferencias del cliente usuario.
+Devuelve un número con formato como una cadena según las preferencias del usuario del cliente.
 
     navigator.globalization.numberToString(number, successCallback, errorCallback, options);
     
 
 ### Descripción
 
-Devuelve la cadena con formato de número a la `successCallback` con un `properties` objeto como parámetro. Ese objeto debe tener un `value` propiedad con un `String` valor.
+Devuelve la cadena con formato de número a la `successCallback` con un objeto de `properties` como un parámetro. Ese objeto debe tener una `value` de propiedad con un valor de `String`.
 
-Si hay un error de formato del número, entonces el `errorCallback` se ejecuta con un `GlobalizationError` objeto como parámetro. Código esperado del error es`GlobalizationError.FORMATTING_ERROR`.
+Si hay un error de formato del número, entonces el `errorCallback` ejecuta con un objeto `GlobalizationError` como un parámetro. Código esperado del error es`GlobalizationError.FORMATTING_ERROR`.
 
-El `options` parámetro es opcional, y sus valores por defecto son:
+El parámetro `options` es opcional, y sus valores por defecto son:
 
-    {tipo: 'decimal'}
+    {type:'decimal'}
     
 
-El `options.type` puede ser 'decimal', '%' o 'moneda'.
+El `options.type` puede ser 'decimal', 'percent' o 'currency'.
 
 ### Plataformas soportadas
 
-*   Amazon fuego OS
+*   Amazon fire OS
 *   Android
 *   BlackBerry 10
 *   iOS
@@ -550,7 +549,7 @@ Analiza una fecha con formato como una cadena, según las preferencias del usuar
 
 ### Descripción
 
-Devuelve la fecha para la devolución de llamada con éxito un `properties` objeto como parámetro. Ese objeto debe tener las siguientes propiedades:
+Devuelve la fecha para la devolución de llamada de éxito con un objeto de `properties` como un parámetro. Ese objeto debe tener las siguientes propiedades:
 
 *   **año**: el año de cuatro dígitos. *(Número)*
 
@@ -566,17 +565,16 @@ Devuelve la fecha para la devolución de llamada con éxito un `properties` obje
 
 *   **milisegundo**: los milisegundos (de 0-999), no está disponibles en todas las plataformas. *(Número)*
 
-Los entrantes `dateString` parámetro debe ser del tipo`String`.
+El parámetro entrantes `dateString` debe ser de tipo `String`.
 
-El `options` parámetro es opcional y por defecto los siguientes valores:
+El parámetro `options` es opcional y por defecto para los siguientes valores:
 
-    {formatLength: selector de 'corto',: 'fecha y hora'}
+    {formatLength:'short', selector:'date and time'}
     
 
-El `options.formatLength` puede ser `short` , `medium` , `long` , o `full` . El `options.selector` puede ser `date` , `time` o`date and
-time`.
+El `options.formatLength` puede ser de `short`, `medium`, `long` o `full`. El `options.selector` puede ser la `date`, la `time` o la `date and time`.
 
-Si hay un error al analizar la cadena de fecha, entonces el `errorCallback` se ejecuta con un `GlobalizationError` objeto como parámetro. Código esperado del error es`GlobalizationError.PARSING_ERROR`.
+Si hay un error al analizar la cadena de fecha, entonces el `errorCallback` ejecuta con un objeto `GlobalizationError` como un parámetro. Código esperado del error es`GlobalizationError.PARSING_ERROR`.
 
 ### Plataformas soportadas
 
@@ -607,23 +605,23 @@ Cuando el navegador se establece en el `en_US` local, muestra un cuadro de diál
 
 ## navigator.globalization.stringToNumber
 
-Analiza un número con formato como una cadena según las preferencias del cliente usuario y devuelve el número correspondiente.
+Analiza un número con formato como una cadena según las preferencias del usuario del cliente y devuelve el número correspondiente.
 
     navigator.globalization.stringToNumber(string, successCallback, errorCallback, options);
     
 
 ### Descripción
 
-Devuelve el número de la `successCallback` con un `properties` objeto como parámetro. Ese objeto debe tener un `value` propiedad con un `Number` valor.
+Devuelve el número de la `successCallback` con un objeto de `properties` como un parámetro. Ese objeto debe tener una `value` de propiedad con un valor de `Number`.
 
-Si hay un error al analizar la cadena de número, entonces el `errorCallback` se ejecuta con un `GlobalizationError` objeto como parámetro. Código esperado del error es`GlobalizationError.PARSING_ERROR`.
+Si hay un error al analizar la cadena número, entonces el `errorCallback` ejecuta con un objeto `GlobalizationError` como un parámetro. Código esperado del error es`GlobalizationError.PARSING_ERROR`.
 
-El `options` parámetro es opcional y por defecto los siguientes valores:
+El parámetro `options` es opcional y por defecto para los siguientes valores:
 
-    {tipo: 'decimal'}
+    {type:'decimal'}
     
 
-El `options.type` puede ser `decimal` , `percent` , o`currency`.
+El `options.type` puede ser `decimal`, `percent` o `currency`.
 
 ### Plataformas soportadas
 

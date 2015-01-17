@@ -29,6 +29,15 @@ displayed in English but dates, times, etc., are displayed as they are in France
 Unfortunately, most mobile platforms currently do not make a distinction between
 these settings. 
 
+This plugin defines global `navigator.globalization` object.
+
+Although in the global scope, it is not available until after the `deviceready` event.
+
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+        console.log(navigator.globalization);
+    }
+
 ## Installation
 
     cordova plugin add org.apache.cordova.globalization
@@ -195,6 +204,14 @@ options:
         function () { alert('Error getting dateString\n'); },
         { formatLength: 'short', selector: 'date and time' }
     );
+### Android Quirks
+- `formatLength` options are a subset of Unicode 
+  [UTS #35](http://unicode.org/reports/tr35/tr35-4.html). The default option 
+  `short` depends on a user selected date format within 
+  `Settings -> System -> Date & time -> Choose date format`,
+  which provide a `year` pattern only with 4 digits, not 2 digits.
+  This means that it is not completely aligned with 
+  [ICU](http://demo.icu-project.org/icu-bin/locexp?d_=en_US&_=en_US).
 
 ### Windows Phone 8 Quirks
 

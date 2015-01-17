@@ -1,21 +1,12 @@
-# view AndroidManifest.xml #generated:6
--keep class com.mcm.kindnessapp.KindnessApp { <init>(...); }
-
-# view AndroidManifest.xml #generated:19
--keep class de.appplant.cordova.plugin.localnotification.DeleteIntentReceiver { <init>(...); }
-
-# view AndroidManifest.xml #generated:18
+# view AndroidManifest.xml #generated:12
 -keep class de.appplant.cordova.plugin.localnotification.Receiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:25
+# view AndroidManifest.xml #generated:18
 -keep class de.appplant.cordova.plugin.localnotification.ReceiverActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:20
+# view AndroidManifest.xml #generated:13
 -keep class de.appplant.cordova.plugin.localnotification.Restore { <init>(...); }
 
-# view AndroidManifest.xml #generated:12
--keep class jp.wizcorp.phonegap.plugin.localNotification.AlarmReceiver { <init>(...); }
-
-# view AndroidManifest.xml #generated:13
--keep class jp.wizcorp.phonegap.plugin.localNotification.AlarmRestoreOnBoot { <init>(...); }
+# view AndroidManifest.xml #generated:6
+-keep class org.montrealcitymission.kindnessapp.CordovaApp { <init>(...); }
 
