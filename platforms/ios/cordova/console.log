@@ -1055,3 +1055,139 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-01-19 21:04:24.026 KindnessApp[23711:987653] 1111111
 2015-01-19 21:04:24.026 KindnessApp[23711:987653] 1111111
 2015-01-19 21:04:24.026 KindnessApp[23711:987653] 1111111
+2015-01-22 21:49:39.143 KindnessApp[39071:1828525] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/B9E64275-DAC1-40AD-AA3E-EE94295CB991/Library/Cookies/Cookies.binarycookies
+2015-01-22 21:49:39.397 KindnessApp[39071:1828525] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-22 21:49:39.397 KindnessApp[39071:1828525] Multi-tasking -> Device: YES, App: YES
+2015-01-22 21:49:39.410 KindnessApp[39071:1828525] Unlimited access to network resources
+2015-01-22 21:49:39.419 KindnessApp[39071:1828525] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-22 21:49:39.859 KindnessApp[39071:1828525] [CDVTimer][file] 9.101033ms
+2015-01-22 21:49:39.859 KindnessApp[39071:1828525] [CDVTimer][localnotification] 0.055969ms
+2015-01-22 21:49:39.859 KindnessApp[39071:1828525] [CDVTimer][localnotification] 0.008047ms
+2015-01-22 21:49:39.860 KindnessApp[39071:1828525] [CDVTimer][TotalPluginStartup] 9.692967ms
+2015-01-22 21:49:40.098 KindnessApp[39071:1828525] Resetting plugins due to page load.
+2015-01-22 21:49:40.616 KindnessApp[39071:1828525] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/D50B1654-21F4-4E8B-A2DE-9F6A28F852AC/KindnessApp.app/www/index.html
+2015-01-22 21:49:40.699 KindnessApp[39071:1828525] onload
+2015-01-22 21:49:40.699 KindnessApp[39071:1828525] device ready
+2015-01-22 21:49:40.699 KindnessApp[39071:1828525] log1
+2015-01-22 21:50:44.172 KindnessApp[39071:1828525] 1
+2015-01-22 21:50:45.085 KindnessApp[39071:1828525] store: Thu Jan 22 2015 21:50:45 GMT-0500 (EST)
+2015-01-22 21:50:45.085 KindnessApp[39071:1828525] currentState0
+2015-01-22 21:50:46.124 KindnessApp[39071:1828525] Found resource '/Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/D50B1654-21F4-4E8B-A2DE-9F6A28F852AC/KindnessApp.app/www/audio/gong.wav' in the web folder.
+2015-01-22 21:50:46.764 KindnessApp[39071:1828525] Playing audio sample 'audio/gong.wav'
+2015-01-22 21:50:46.776 KindnessApp[39071:1828525] THREAD WARNING: ['Media'] took '652.054688' ms. Plugin should use a background thread.
+2015-01-22 21:50:46.830 KindnessApp[39071:1828525] WARN: [l10n] #time-up is undefined.
+2015-01-22 21:50:46.830 KindnessApp[39071:1828525] WARN: [l10n] #how-are-you-feeling is undefined.
+2015-01-22 21:50:47.359 KindnessApp[39071:1828525] init ending timer
+2015-01-22 21:51:01.366 KindnessApp[39071:1828525] Today is 22/1/2015, you seem to enjoy your meditation today
+2015-01-22 21:51:01.366 KindnessApp[39071:1828525] insertMeditation
+2015-01-22 21:51:01.372 KindnessApp[39071:1828525] 1421981445083
+2015-01-22 21:51:01.372 KindnessApp[39071:1828525] 1
+2015-01-22 21:51:01.373 KindnessApp[39071:1828525] 1421981446117
+2015-01-22 21:51:01.389 KindnessApp[39071:1828525] WARN: [l10n] #history is undefined.
+2015-01-22 21:51:01.861 KindnessApp[39071:1828525] select meditation 1
+2015-01-22 21:51:01.861 KindnessApp[39071:1828525] select meditation 2
+2015-01-22 21:51:01.913 KindnessApp[39071:1828525] select meditation success: 1
+2015-01-22 21:51:01.913 KindnessApp[39071:1828525] startDate: Thu Jan 22 2015 21:50:45 GMT-0500 (EST), endDate: Thu Jan 22 2015 21:50:46 GMT-0500 (EST), duration: 1, feeling: 2
+2015-01-22 21:51:08.213 KindnessApp[39071:1828525] Finished playing audio sample 'audio/gong.wav'
+2015-01-22 21:51:08.214 KindnessApp[39071:1828525] playAudio():Audio Success
+2015-01-22 21:51:10.090 KindnessApp[39071:1828525] CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:10.090 KindnessApp[39071:1828525] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:10.126 KindnessApp[39071:1828525] WARN: [l10n] #history is undefined.
+2015-01-22 21:51:10.605 KindnessApp[39071:1828525] select meditation 1
+2015-01-22 21:51:10.605 KindnessApp[39071:1828525] select meditation 2
+2015-01-22 21:51:10.640 KindnessApp[39071:1828525] select meditation success: 1
+2015-01-22 21:51:10.640 KindnessApp[39071:1828525] startDate: Thu Jan 22 2015 21:50:45 GMT-0500 (EST), endDate: Thu Jan 22 2015 21:50:46 GMT-0500 (EST), duration: 1, feeling: 2
+2015-01-22 21:51:12.267 KindnessApp[39071:1828525] CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:12.267 KindnessApp[39071:1828525] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:13.661 KindnessApp[39071:1828525] CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:13.661 KindnessApp[39071:1828525] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:13.666 KindnessApp[39071:1828525] WARN: [l10n] #reminders is undefined.
+2015-01-22 21:51:14.161 KindnessApp[39071:1828525] select meditation 1
+2015-01-22 21:51:14.161 KindnessApp[39071:1828525] select meditation 2
+2015-01-22 21:51:14.183 KindnessApp[39071:1828525] 1111111
+2015-01-22 21:51:14.183 KindnessApp[39071:1828525] 1111111
+2015-01-22 21:51:14.183 KindnessApp[39071:1828525] 1111111
+2015-01-22 21:51:14.184 KindnessApp[39071:1828525] 1111111
+2015-01-22 21:51:14.184 KindnessApp[39071:1828525] 1111111
+2015-01-22 21:51:14.184 KindnessApp[39071:1828525] 1111111
+2015-01-22 21:51:14.184 KindnessApp[39071:1828525] 1111111
+2015-01-22 21:51:14.184 KindnessApp[39071:1828525] 1111111
+2015-01-22 21:51:18.442 KindnessApp[39071:1828525] 1
+2015-01-22 21:51:19.535 KindnessApp[39071:1828525] 2
+2015-01-22 21:51:20.550 KindnessApp[39071:1828525] 3
+2015-01-22 21:51:21.023 KindnessApp[39071:1828525] 4
+2015-01-22 21:51:23.055 KindnessApp[39071:1828525] 6
+2015-01-22 21:51:24.231 KindnessApp[39071:1828525] 7
+2015-01-22 21:51:27.158 KindnessApp[39071:1828525] 8
+2015-01-22 21:51:27.627 KindnessApp[39071:1828525] CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:27.627 KindnessApp[39071:1828525] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:27.633 KindnessApp[39071:1828525] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-22 21:51:27.634 KindnessApp[39071:1828525] WARN: [l10n] #su is undefined.
+2015-01-22 21:51:27.634 KindnessApp[39071:1828525] WARN: [l10n] #mo is undefined.
+2015-01-22 21:51:27.634 KindnessApp[39071:1828525] WARN: [l10n] #tu is undefined.
+2015-01-22 21:51:27.634 KindnessApp[39071:1828525] WARN: [l10n] #we is undefined.
+2015-01-22 21:51:27.634 KindnessApp[39071:1828525] WARN: [l10n] #th is undefined.
+2015-01-22 21:51:27.634 KindnessApp[39071:1828525] WARN: [l10n] #fr is undefined.
+2015-01-22 21:51:27.634 KindnessApp[39071:1828525] WARN: [l10n] #sa is undefined.
+2015-01-22 21:51:27.634 KindnessApp[39071:1828525] WARN: [l10n] #add is undefined.
+2015-01-22 21:51:27.634 KindnessApp[39071:1828525] WARN: [l10n] #cancel is undefined.
+2015-01-22 21:51:35.171 KindnessApp[39071:1828525] insert alarm
+2015-01-22 21:51:35.221 KindnessApp[39071:1828525] WARN: [l10n] #reminders is undefined.
+2015-01-22 21:51:35.252 KindnessApp[39071:1828525] 12
+2015-01-22 21:51:35.252 KindnessApp[39071:1828525] 15
+2015-01-22 21:51:35.252 KindnessApp[39071:1828525] ok --> expectedDateThu Jan 22 2015 12:15:00 GMT-0500 (EST)
+2015-01-22 21:51:35.758 KindnessApp[39071:1828525] select meditation 1
+2015-01-22 21:51:35.758 KindnessApp[39071:1828525] select meditation 2
+2015-01-22 21:51:35.785 KindnessApp[39071:1828525] 1111111
+2015-01-22 21:51:35.785 KindnessApp[39071:1828525] 0100100
+2015-01-22 21:51:37.909 KindnessApp[39071:1828525] 5
+2015-01-22 21:51:39.022 KindnessApp[39071:1828525] CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:39.022 KindnessApp[39071:1828525] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:39.054 KindnessApp[39071:1828525] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-22 21:51:39.054 KindnessApp[39071:1828525] WARN: [l10n] #su is undefined.
+2015-01-22 21:51:39.054 KindnessApp[39071:1828525] WARN: [l10n] #mo is undefined.
+2015-01-22 21:51:39.055 KindnessApp[39071:1828525] WARN: [l10n] #tu is undefined.
+2015-01-22 21:51:39.055 KindnessApp[39071:1828525] WARN: [l10n] #we is undefined.
+2015-01-22 21:51:39.055 KindnessApp[39071:1828525] WARN: [l10n] #th is undefined.
+2015-01-22 21:51:39.055 KindnessApp[39071:1828525] WARN: [l10n] #fr is undefined.
+2015-01-22 21:51:39.055 KindnessApp[39071:1828525] WARN: [l10n] #sa is undefined.
+2015-01-22 21:51:39.055 KindnessApp[39071:1828525] WARN: [l10n] #add is undefined.
+2015-01-22 21:51:39.055 KindnessApp[39071:1828525] WARN: [l10n] #cancel is undefined.
+2015-01-22 21:51:47.037 KindnessApp[39071:1828525] insert alarm
+2015-01-22 21:51:47.088 KindnessApp[39071:1828525] WARN: [l10n] #reminders is undefined.
+2015-01-22 21:51:47.118 KindnessApp[39071:1828525] 14
+2015-01-22 21:51:47.118 KindnessApp[39071:1828525] 20
+2015-01-22 21:51:47.118 KindnessApp[39071:1828525] ok --> expectedDateSat Jan 24 2015 14:20:00 GMT-0500 (EST)
+2015-01-22 21:51:47.118 KindnessApp[39071:1828525] okokSat Jan 24 2015 14:20:00 GMT-0500 (EST)
+2015-01-22 21:51:47.626 KindnessApp[39071:1828525] select meditation 1
+2015-01-22 21:51:47.626 KindnessApp[39071:1828525] select meditation 2
+2015-01-22 21:51:47.654 KindnessApp[39071:1828525] 0100100
+2015-01-22 21:51:47.654 KindnessApp[39071:1828525] 1000001
+2015-01-22 21:51:55.053 KindnessApp[39071:1828525] CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:55.053 KindnessApp[39071:1828525] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-22 21:51:55.086 KindnessApp[39071:1828525] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-22 21:51:55.087 KindnessApp[39071:1828525] WARN: [l10n] #su is undefined.
+2015-01-22 21:51:55.087 KindnessApp[39071:1828525] WARN: [l10n] #mo is undefined.
+2015-01-22 21:51:55.087 KindnessApp[39071:1828525] WARN: [l10n] #tu is undefined.
+2015-01-22 21:51:55.087 KindnessApp[39071:1828525] WARN: [l10n] #we is undefined.
+2015-01-22 21:51:55.087 KindnessApp[39071:1828525] WARN: [l10n] #th is undefined.
+2015-01-22 21:51:55.087 KindnessApp[39071:1828525] WARN: [l10n] #fr is undefined.
+2015-01-22 21:51:55.087 KindnessApp[39071:1828525] WARN: [l10n] #sa is undefined.
+2015-01-22 21:51:55.087 KindnessApp[39071:1828525] WARN: [l10n] #add is undefined.
+2015-01-22 21:51:55.087 KindnessApp[39071:1828525] WARN: [l10n] #cancel is undefined.
+2015-01-22 21:52:04.564 KindnessApp[39071:1828525] insert alarm
+2015-01-22 21:52:04.607 KindnessApp[39071:1828525] WARN: [l10n] #reminders is undefined.
+2015-01-22 21:52:04.637 KindnessApp[39071:1828525] 6
+2015-01-22 21:52:04.637 KindnessApp[39071:1828525] 50
+2015-01-22 21:52:05.143 KindnessApp[39071:1828525] select meditation 1
+2015-01-22 21:52:05.144 KindnessApp[39071:1828525] select meditation 2
+2015-01-22 21:52:05.171 KindnessApp[39071:1828525] 0100100
+2015-01-22 21:52:05.171 KindnessApp[39071:1828525] 1000001
+2015-01-22 21:52:05.171 KindnessApp[39071:1828525] 0011000

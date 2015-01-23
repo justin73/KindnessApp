@@ -152,14 +152,6 @@ function initAlarmManager(init) {
     }
 
     function selectAlarmSuccess(tx, results) {
-        window.plugin.notification.local.add({ message: 'Great app!' });
-//        window.plugin.notification.local.registerPermission(function (granted) {
-//            alert(granted);
-//        });
-//window.plugin.notification.local.registerPermission(function (granted) {
-//    window.plugin.notification.local.add({ message: 'Great app!' });
-//    });
-//        alert('here');
         var eventsArray = [];
         // the number of rows returned by the select statement
 //        console.log('select alarms success: ' + results.rows.length);
