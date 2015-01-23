@@ -35,6 +35,7 @@ function initStartingTimer() {
         window.localStorage.setItem("endDate", endDate.getTime());
     }
     });
+    $('.holder').css("margin-top", (screen.height-$('.holder').height())/2-120);
 }
 
 
@@ -151,6 +152,12 @@ function initAlarmManager(init) {
     }
 
     function selectAlarmSuccess(tx, results) {
+
+//        window.plugin.notification.local.registerPermission(function (granted) {
+//            alert(granted);
+//        });
+//        window.plugin.notification.local.add({ message: 'Great app!' });
+        alert('here');
         var eventsArray = [];
         // the number of rows returned by the select statement
         console.log('select alarms success: ' + results.rows.length);

@@ -1,0 +1,1057 @@
+2015-01-18 16:34:08.106 KindnessApp[16928:658123] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/B6AD88A2-72A6-41A0-9979-E2CA5806E0B9/Library/Cookies/Cookies.binarycookies
+2015-01-18 16:34:08.383 KindnessApp[16928:658123] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-18 16:34:08.383 KindnessApp[16928:658123] Multi-tasking -> Device: YES, App: YES
+2015-01-18 16:34:08.397 KindnessApp[16928:658123] Unlimited access to network resources
+2015-01-18 16:34:08.407 KindnessApp[16928:658123] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-18 16:34:08.853 KindnessApp[16928:658123] [CDVTimer][file] 10.378003ms
+2015-01-18 16:34:08.853 KindnessApp[16928:658123] [CDVTimer][localnotification] 0.328004ms
+2015-01-18 16:34:08.853 KindnessApp[16928:658123] [CDVTimer][localnotification] 0.007987ms
+2015-01-18 16:34:08.854 KindnessApp[16928:658123] [CDVTimer][TotalPluginStartup] 11.183977ms
+2015-01-18 16:34:09.740 KindnessApp[16928:658123] Resetting plugins due to page load.
+2015-01-18 16:34:10.324 KindnessApp[16928:658123] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/44D88926-947F-4839-89E0-6460868CF216/KindnessApp.app/www/index.html
+2015-01-18 16:34:10.474 KindnessApp[16928:658123] onload
+2015-01-18 16:34:10.474 KindnessApp[16928:658123] device ready
+2015-01-18 16:34:10.475 KindnessApp[16928:658123] log1
+2015-01-18 16:35:46.369 KindnessApp[16928:658123] WARN: [l10n] #reminders is undefined.
+2015-01-18 16:35:46.856 KindnessApp[16928:658123] select meditation 1
+2015-01-18 16:35:46.857 KindnessApp[16928:658123] select meditation 2
+2015-01-18 16:35:46.877 KindnessApp[16928:658123] select alarms success: 0
+2015-01-18 16:35:48.204 KindnessApp[16928:658123] CDVWebViewDelegate: Navigation started when state=1
+2015-01-18 16:35:48.204 KindnessApp[16928:658123] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-18 16:35:48.213 KindnessApp[16928:658123] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-18 16:35:48.214 KindnessApp[16928:658123] WARN: [l10n] #su is undefined.
+2015-01-18 16:35:48.214 KindnessApp[16928:658123] WARN: [l10n] #mo is undefined.
+2015-01-18 16:35:48.214 KindnessApp[16928:658123] WARN: [l10n] #tu is undefined.
+2015-01-18 16:35:48.214 KindnessApp[16928:658123] WARN: [l10n] #we is undefined.
+2015-01-18 16:35:48.214 KindnessApp[16928:658123] WARN: [l10n] #th is undefined.
+2015-01-18 16:35:48.214 KindnessApp[16928:658123] WARN: [l10n] #fr is undefined.
+2015-01-18 16:35:48.214 KindnessApp[16928:658123] WARN: [l10n] #sa is undefined.
+2015-01-18 16:35:48.214 KindnessApp[16928:658123] WARN: [l10n] #add is undefined.
+2015-01-18 16:35:48.215 KindnessApp[16928:658123] WARN: [l10n] #cancel is undefined.
+2015-01-18 16:36:08.002 KindnessApp[16928:658123] insert alarm
+2015-01-18 16:36:08.003 KindnessApp[16928:658123] WARN: [l10n] #reminders is undefined.
+2015-01-18 16:36:08.072 KindnessApp[16928:658123] 16
+2015-01-18 16:36:08.072 KindnessApp[16928:658123] 36
+2015-01-18 16:36:08.072 KindnessApp[16928:658123] ok --> expectedDateSun Jan 18 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.072 KindnessApp[16928:658123] ok --> expectedDateMon Jan 19 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.073 KindnessApp[16928:658123] okokMon Jan 19 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.073 KindnessApp[16928:658123] ok --> expectedDateTue Jan 20 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.073 KindnessApp[16928:658123] okokTue Jan 20 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.073 KindnessApp[16928:658123] ok --> expectedDateWed Jan 21 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.073 KindnessApp[16928:658123] okokWed Jan 21 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.074 KindnessApp[16928:658123] ok --> expectedDateThu Jan 22 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.074 KindnessApp[16928:658123] okokThu Jan 22 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.074 KindnessApp[16928:658123] ok --> expectedDateFri Jan 23 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.074 KindnessApp[16928:658123] okokFri Jan 23 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.074 KindnessApp[16928:658123] ok --> expectedDateSat Jan 24 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.074 KindnessApp[16928:658123] okokSat Jan 24 2015 16:36:00 GMT-0500 (EST)
+2015-01-18 16:36:08.132 KindnessApp[16928:659100] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c9642f0>{fire date = Tuesday, January 20, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Tuesday, January 20, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_2";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:08.132 KindnessApp[16928:659101] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b79a620>{fire date = Friday, January 23, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Friday, January 23, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_5";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:08.132 KindnessApp[16928:659086] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c87baf0>{fire date = Monday, January 19, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_1";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:08.132 KindnessApp[16928:659084] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b65a8e0>{fire date = Saturday, January 24, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Saturday, January 24, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_6";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:08.132 KindnessApp[16928:659087] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7cf1e530>{fire date = Wednesday, January 21, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Wednesday, January 21, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_3";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:08.132 KindnessApp[16928:659099] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b63f9b0>{fire date = Thursday, January 22, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Thursday, January 22, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_4";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:08.144 KindnessApp[16928:659086] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c87baf0>{fire date = Monday, January 19, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_1";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:08.144 KindnessApp[16928:659101] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b79a620>{fire date = Friday, January 23, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Friday, January 23, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_5";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:08.144 KindnessApp[16928:659100] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c9642f0>{fire date = Tuesday, January 20, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Tuesday, January 20, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_2";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:08.144 KindnessApp[16928:659084] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b65a8e0>{fire date = Saturday, January 24, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Saturday, January 24, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_6";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:08.144 KindnessApp[16928:659099] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b63f9b0>{fire date = Thursday, January 22, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Thursday, January 22, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_4";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:08.144 KindnessApp[16928:659087] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7cf1e530>{fire date = Wednesday, January 21, 2015 at 4:36:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Wednesday, January 21, 2015 at 4:36:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "1_3";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:08.573 KindnessApp[16928:658123] select meditation 1
+2015-01-18 16:36:08.573 KindnessApp[16928:658123] select meditation 2
+2015-01-18 16:36:08.603 KindnessApp[16928:658123] select alarms success: 1
+2015-01-18 16:36:08.603 KindnessApp[16928:658123] 1111111
+2015-01-18 16:36:11.084 KindnessApp[16928:658123] CDVWebViewDelegate: Navigation started when state=1
+2015-01-18 16:36:11.085 KindnessApp[16928:658123] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-18 16:36:11.117 KindnessApp[16928:658123] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-18 16:36:11.117 KindnessApp[16928:658123] WARN: [l10n] #su is undefined.
+2015-01-18 16:36:11.117 KindnessApp[16928:658123] WARN: [l10n] #mo is undefined.
+2015-01-18 16:36:11.117 KindnessApp[16928:658123] WARN: [l10n] #tu is undefined.
+2015-01-18 16:36:11.117 KindnessApp[16928:658123] WARN: [l10n] #we is undefined.
+2015-01-18 16:36:11.117 KindnessApp[16928:658123] WARN: [l10n] #th is undefined.
+2015-01-18 16:36:11.117 KindnessApp[16928:658123] WARN: [l10n] #fr is undefined.
+2015-01-18 16:36:11.117 KindnessApp[16928:658123] WARN: [l10n] #sa is undefined.
+2015-01-18 16:36:11.118 KindnessApp[16928:658123] WARN: [l10n] #add is undefined.
+2015-01-18 16:36:11.118 KindnessApp[16928:658123] WARN: [l10n] #cancel is undefined.
+2015-01-18 16:36:24.808 KindnessApp[16928:658123] insert alarm
+2015-01-18 16:36:24.853 KindnessApp[16928:658123] WARN: [l10n] #reminders is undefined.
+2015-01-18 16:36:24.884 KindnessApp[16928:658123] 16
+2015-01-18 16:36:24.884 KindnessApp[16928:658123] 37
+2015-01-18 16:36:24.884 KindnessApp[16928:658123] ok --> expectedDateSun Jan 18 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.884 KindnessApp[16928:658123] okokSun Jan 18 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.884 KindnessApp[16928:658123] ok --> expectedDateMon Jan 19 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.885 KindnessApp[16928:658123] okokMon Jan 19 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.885 KindnessApp[16928:658123] ok --> expectedDateTue Jan 20 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.885 KindnessApp[16928:658123] okokTue Jan 20 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.885 KindnessApp[16928:658123] ok --> expectedDateWed Jan 21 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.885 KindnessApp[16928:658123] okokWed Jan 21 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.885 KindnessApp[16928:658123] ok --> expectedDateThu Jan 22 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.885 KindnessApp[16928:658123] okokThu Jan 22 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.885 KindnessApp[16928:658123] ok --> expectedDateFri Jan 23 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.886 KindnessApp[16928:658123] okokFri Jan 23 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.886 KindnessApp[16928:658123] ok --> expectedDateSat Jan 24 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.886 KindnessApp[16928:658123] okokSat Jan 24 2015 16:37:00 GMT-0500 (EST)
+2015-01-18 16:36:24.886 KindnessApp[16928:659088] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b798620>{fire date = Sunday, January 18, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Sunday, January 18, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_0";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:24.888 KindnessApp[16928:659087] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca1d2d0>{fire date = Monday, January 19, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_1";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:24.896 KindnessApp[16928:659088] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b798620>{fire date = Sunday, January 18, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Sunday, January 18, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_0";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:24.903 KindnessApp[16928:659084] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca1dde0>{fire date = Tuesday, January 20, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Tuesday, January 20, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_2";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:24.903 KindnessApp[16928:659099] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7f01dc90>{fire date = Wednesday, January 21, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Wednesday, January 21, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_3";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:24.905 KindnessApp[16928:659087] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca1d2d0>{fire date = Monday, January 19, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_1";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:24.906 KindnessApp[16928:659101] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7f01ef40>{fire date = Thursday, January 22, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Thursday, January 22, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_4";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:24.906 KindnessApp[16928:659086] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c96bfc0>{fire date = Friday, January 23, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Friday, January 23, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_5";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:24.906 KindnessApp[16928:659100] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7f01fb60>{fire date = Saturday, January 24, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Saturday, January 24, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_6";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:36:24.915 KindnessApp[16928:659084] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca1dde0>{fire date = Tuesday, January 20, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Tuesday, January 20, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_2";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:24.915 KindnessApp[16928:659099] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7f01dc90>{fire date = Wednesday, January 21, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Wednesday, January 21, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_3";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:24.916 KindnessApp[16928:659101] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7f01ef40>{fire date = Thursday, January 22, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Thursday, January 22, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_4";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:24.916 KindnessApp[16928:659086] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c96bfc0>{fire date = Friday, January 23, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Friday, January 23, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_5";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:24.916 KindnessApp[16928:659100] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7f01fb60>{fire date = Saturday, January 24, 2015 at 4:37:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Saturday, January 24, 2015 at 4:37:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "2_6";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:36:25.392 KindnessApp[16928:658123] select meditation 1
+2015-01-18 16:36:25.392 KindnessApp[16928:658123] select meditation 2
+2015-01-18 16:36:25.420 KindnessApp[16928:658123] select alarms success: 2
+2015-01-18 16:36:25.420 KindnessApp[16928:658123] 1111111
+2015-01-18 16:36:25.421 KindnessApp[16928:658123] 1111111
+2015-01-18 16:37:52.167 KindnessApp[16928:658123] CDVWebViewDelegate: Navigation started when state=1
+2015-01-18 16:37:52.167 KindnessApp[16928:658123] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-18 16:37:52.201 KindnessApp[16928:658123] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-18 16:37:52.201 KindnessApp[16928:658123] WARN: [l10n] #su is undefined.
+2015-01-18 16:37:52.201 KindnessApp[16928:658123] WARN: [l10n] #mo is undefined.
+2015-01-18 16:37:52.201 KindnessApp[16928:658123] WARN: [l10n] #tu is undefined.
+2015-01-18 16:37:52.201 KindnessApp[16928:658123] WARN: [l10n] #we is undefined.
+2015-01-18 16:37:52.201 KindnessApp[16928:658123] WARN: [l10n] #th is undefined.
+2015-01-18 16:37:52.202 KindnessApp[16928:658123] WARN: [l10n] #fr is undefined.
+2015-01-18 16:37:52.202 KindnessApp[16928:658123] WARN: [l10n] #sa is undefined.
+2015-01-18 16:37:52.202 KindnessApp[16928:658123] WARN: [l10n] #add is undefined.
+2015-01-18 16:37:52.202 KindnessApp[16928:658123] WARN: [l10n] #cancel is undefined.
+2015-01-18 16:38:06.904 KindnessApp[16928:658123] insert alarm
+2015-01-18 16:38:06.948 KindnessApp[16928:658123] WARN: [l10n] #reminders is undefined.
+2015-01-18 16:38:06.979 KindnessApp[16928:658123] 16
+2015-01-18 16:38:06.979 KindnessApp[16928:658123] 38
+2015-01-18 16:38:06.979 KindnessApp[16928:658123] ok --> expectedDateSun Jan 18 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.979 KindnessApp[16928:658123] ok --> expectedDateMon Jan 19 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.980 KindnessApp[16928:658123] okokMon Jan 19 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.980 KindnessApp[16928:658123] ok --> expectedDateTue Jan 20 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.980 KindnessApp[16928:658123] okokTue Jan 20 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.980 KindnessApp[16928:658123] ok --> expectedDateWed Jan 21 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.980 KindnessApp[16928:658123] okokWed Jan 21 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.980 KindnessApp[16928:658123] ok --> expectedDateThu Jan 22 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.980 KindnessApp[16928:658123] okokThu Jan 22 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.981 KindnessApp[16928:658123] ok --> expectedDateFri Jan 23 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.981 KindnessApp[16928:658123] okokFri Jan 23 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.981 KindnessApp[16928:658123] ok --> expectedDateSat Jan 24 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.981 KindnessApp[16928:658123] okokSat Jan 24 2015 16:38:00 GMT-0500 (EST)
+2015-01-18 16:38:06.982 KindnessApp[16928:659989] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c87b540>{fire date = Monday, January 19, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_1";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:06.983 KindnessApp[16928:659991] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7f01ded0>{fire date = Tuesday, January 20, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Tuesday, January 20, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_2";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:06.995 KindnessApp[16928:659990] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c972720>{fire date = Wednesday, January 21, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Wednesday, January 21, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_3";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:06.995 KindnessApp[16928:659989] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c87b540>{fire date = Monday, January 19, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_1";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:06.995 KindnessApp[16928:659992] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7cf1e390>{fire date = Thursday, January 22, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Thursday, January 22, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_4";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:06.996 KindnessApp[16928:659991] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7f01ded0>{fire date = Tuesday, January 20, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Tuesday, January 20, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_2";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:06.996 KindnessApp[16928:659885] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca1e9c0>{fire date = Friday, January 23, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Friday, January 23, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_5";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:06.996 KindnessApp[16928:659883] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7cd1e510>{fire date = Saturday, January 24, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Saturday, January 24, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_6";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:07.001 KindnessApp[16928:659990] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c972720>{fire date = Wednesday, January 21, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Wednesday, January 21, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_3";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:07.004 KindnessApp[16928:659992] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7cf1e390>{fire date = Thursday, January 22, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Thursday, January 22, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_4";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:07.004 KindnessApp[16928:659883] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7cd1e510>{fire date = Saturday, January 24, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Saturday, January 24, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_6";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:07.004 KindnessApp[16928:659885] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca1e9c0>{fire date = Friday, January 23, 2015 at 4:38:01 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Friday, January 23, 2015 at 4:38:01 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "3_5";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:07.483 KindnessApp[16928:658123] select meditation 1
+2015-01-18 16:38:07.483 KindnessApp[16928:658123] select meditation 2
+2015-01-18 16:38:07.520 KindnessApp[16928:658123] select alarms success: 3
+2015-01-18 16:38:07.520 KindnessApp[16928:658123] 1111111
+2015-01-18 16:38:07.520 KindnessApp[16928:658123] 1111111
+2015-01-18 16:38:07.520 KindnessApp[16928:658123] 1111111
+2015-01-18 16:38:12.420 KindnessApp[16928:658123] CDVWebViewDelegate: Navigation started when state=1
+2015-01-18 16:38:12.420 KindnessApp[16928:658123] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-18 16:38:12.454 KindnessApp[16928:658123] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-18 16:38:12.454 KindnessApp[16928:658123] WARN: [l10n] #su is undefined.
+2015-01-18 16:38:12.454 KindnessApp[16928:658123] WARN: [l10n] #mo is undefined.
+2015-01-18 16:38:12.454 KindnessApp[16928:658123] WARN: [l10n] #tu is undefined.
+2015-01-18 16:38:12.454 KindnessApp[16928:658123] WARN: [l10n] #we is undefined.
+2015-01-18 16:38:12.454 KindnessApp[16928:658123] WARN: [l10n] #th is undefined.
+2015-01-18 16:38:12.455 KindnessApp[16928:658123] WARN: [l10n] #fr is undefined.
+2015-01-18 16:38:12.455 KindnessApp[16928:658123] WARN: [l10n] #sa is undefined.
+2015-01-18 16:38:12.455 KindnessApp[16928:658123] WARN: [l10n] #add is undefined.
+2015-01-18 16:38:12.455 KindnessApp[16928:658123] WARN: [l10n] #cancel is undefined.
+2015-01-18 16:38:31.095 KindnessApp[16928:658123] insert alarm
+2015-01-18 16:38:31.149 KindnessApp[16928:658123] WARN: [l10n] #reminders is undefined.
+2015-01-18 16:38:31.183 KindnessApp[16928:658123] 16
+2015-01-18 16:38:31.183 KindnessApp[16928:658123] 39
+2015-01-18 16:38:31.183 KindnessApp[16928:658123] ok --> expectedDateSun Jan 18 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.183 KindnessApp[16928:658123] okokSun Jan 18 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.183 KindnessApp[16928:658123] ok --> expectedDateMon Jan 19 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.183 KindnessApp[16928:658123] okokMon Jan 19 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.184 KindnessApp[16928:658123] ok --> expectedDateTue Jan 20 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.184 KindnessApp[16928:658123] okokTue Jan 20 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.184 KindnessApp[16928:658123] ok --> expectedDateWed Jan 21 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.184 KindnessApp[16928:658123] okokWed Jan 21 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.184 KindnessApp[16928:658123] ok --> expectedDateThu Jan 22 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.185 KindnessApp[16928:658123] okokThu Jan 22 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.185 KindnessApp[16928:658123] ok --> expectedDateFri Jan 23 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.185 KindnessApp[16928:658123] okokFri Jan 23 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.185 KindnessApp[16928:658123] ok --> expectedDateSat Jan 24 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.185 KindnessApp[16928:658123] okokSat Jan 24 2015 16:39:00 GMT-0500 (EST)
+2015-01-18 16:38:31.185 KindnessApp[16928:659886] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca1cbd0>{fire date = Sunday, January 18, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Sunday, January 18, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_0";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:31.192 KindnessApp[16928:659990] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca1d870>{fire date = Monday, January 19, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_1";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:31.200 KindnessApp[16928:659886] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca1cbd0>{fire date = Sunday, January 18, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Sunday, January 18, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_0";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:31.203 KindnessApp[16928:659885] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c886840>{fire date = Tuesday, January 20, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Tuesday, January 20, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_2";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:31.204 KindnessApp[16928:659991] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7cd1ba00>{fire date = Wednesday, January 21, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Wednesday, January 21, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_3";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:31.205 KindnessApp[16928:659883] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7cf1e6e0>{fire date = Thursday, January 22, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Thursday, January 22, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_4";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:31.205 KindnessApp[16928:659989] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c96d920>{fire date = Friday, January 23, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Friday, January 23, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_5";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:31.205 KindnessApp[16928:659992] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b64fca0>{fire date = Saturday, January 24, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Saturday, January 24, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_6";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-18 16:38:31.207 KindnessApp[16928:659990] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca1d870>{fire date = Monday, January 19, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_1";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:31.215 KindnessApp[16928:659885] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c886840>{fire date = Tuesday, January 20, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Tuesday, January 20, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_2";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:31.217 KindnessApp[16928:659991] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7cd1ba00>{fire date = Wednesday, January 21, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Wednesday, January 21, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_3";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:31.217 KindnessApp[16928:659989] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7c96d920>{fire date = Friday, January 23, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Friday, January 23, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_5";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:31.217 KindnessApp[16928:659883] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7cf1e6e0>{fire date = Thursday, January 22, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Thursday, January 22, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_4";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:31.217 KindnessApp[16928:659992] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b64fca0>{fire date = Saturday, January 24, 2015 at 4:39:00 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Saturday, January 24, 2015 at 4:39:00 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "4_6";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-18 16:38:31.687 KindnessApp[16928:658123] select meditation 1
+2015-01-18 16:38:31.688 KindnessApp[16928:658123] select meditation 2
+2015-01-18 16:38:31.716 KindnessApp[16928:658123] select alarms success: 4
+2015-01-18 16:38:31.717 KindnessApp[16928:658123] 1111111
+2015-01-18 16:38:31.717 KindnessApp[16928:658123] 1111111
+2015-01-18 16:38:31.717 KindnessApp[16928:658123] 1111111
+2015-01-18 16:38:31.717 KindnessApp[16928:658123] 1111111
+2015-01-19 20:12:06.438 KindnessApp[20233:947213] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/10D7BEF9-C99D-4D24-986A-97321A8434B2/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:12:06.653 KindnessApp[20233:947213] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:12:06.653 KindnessApp[20233:947213] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:12:06.664 KindnessApp[20233:947213] Unlimited access to network resources
+2015-01-19 20:12:06.673 KindnessApp[20233:947213] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:12:07.068 KindnessApp[20233:947213] [CDVTimer][file] 15.874982ms
+2015-01-19 20:12:07.069 KindnessApp[20233:947213] [CDVTimer][localnotification] 0.472009ms
+2015-01-19 20:12:07.069 KindnessApp[20233:947213] [CDVTimer][localnotification] 0.005007ms
+2015-01-19 20:12:07.069 KindnessApp[20233:947213] [CDVTimer][TotalPluginStartup] 16.762018ms
+2015-01-19 20:12:07.357 KindnessApp[20233:947213] Resetting plugins due to page load.
+2015-01-19 20:12:07.879 KindnessApp[20233:947213] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/D4765542-88A8-409A-8BAF-FF2C284E5897/KindnessApp.app/www/index.html
+2015-01-19 20:12:07.953 KindnessApp[20233:947213] onload
+2015-01-19 20:12:07.953 KindnessApp[20233:947213] device ready
+2015-01-19 20:12:07.953 KindnessApp[20233:947213] log1
+2015-01-19 20:12:27.112 KindnessApp[20233:947213] 1
+2015-01-19 20:12:30.848 KindnessApp[20233:947213] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:12:31.351 KindnessApp[20233:947213] select meditation 1
+2015-01-19 20:12:31.351 KindnessApp[20233:947213] select meditation 2
+2015-01-19 20:12:31.370 KindnessApp[20233:947213] select alarms success: 4
+2015-01-19 20:12:31.370 KindnessApp[20233:947213] 1111111
+2015-01-19 20:12:31.371 KindnessApp[20233:947213] 1111111
+2015-01-19 20:12:31.371 KindnessApp[20233:947213] 1111111
+2015-01-19 20:12:31.371 KindnessApp[20233:947213] 1111111
+2015-01-19 20:12:32.705 KindnessApp[20233:947213] CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:12:32.705 KindnessApp[20233:947213] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:12:32.712 KindnessApp[20233:947213] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-19 20:12:32.712 KindnessApp[20233:947213] WARN: [l10n] #su is undefined.
+2015-01-19 20:12:32.712 KindnessApp[20233:947213] WARN: [l10n] #mo is undefined.
+2015-01-19 20:12:32.713 KindnessApp[20233:947213] WARN: [l10n] #tu is undefined.
+2015-01-19 20:12:32.713 KindnessApp[20233:947213] WARN: [l10n] #we is undefined.
+2015-01-19 20:12:32.713 KindnessApp[20233:947213] WARN: [l10n] #th is undefined.
+2015-01-19 20:12:32.713 KindnessApp[20233:947213] WARN: [l10n] #fr is undefined.
+2015-01-19 20:12:32.713 KindnessApp[20233:947213] WARN: [l10n] #sa is undefined.
+2015-01-19 20:12:32.713 KindnessApp[20233:947213] WARN: [l10n] #add is undefined.
+2015-01-19 20:12:32.713 KindnessApp[20233:947213] WARN: [l10n] #cancel is undefined.
+2015-01-19 20:12:54.146 KindnessApp[20233:947213] insert alarm
+2015-01-19 20:12:54.196 KindnessApp[20233:947213] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:12:54.229 KindnessApp[20233:947213] 8
+2015-01-19 20:12:54.229 KindnessApp[20233:947213] 13
+2015-01-19 20:12:54.229 KindnessApp[20233:947213] ok --> expectedDateMon Jan 19 2015 08:13:00 GMT-0500 (EST)
+2015-01-19 20:12:54.229 KindnessApp[20233:947213] ok --> expectedDateTue Jan 20 2015 08:13:00 GMT-0500 (EST)
+2015-01-19 20:12:54.229 KindnessApp[20233:947213] okokTue Jan 20 2015 08:13:00 GMT-0500 (EST)
+2015-01-19 20:12:54.229 KindnessApp[20233:947213] ok --> expectedDateWed Jan 21 2015 08:13:00 GMT-0500 (EST)
+2015-01-19 20:12:54.230 KindnessApp[20233:947213] okokWed Jan 21 2015 08:13:00 GMT-0500 (EST)
+2015-01-19 20:12:54.230 KindnessApp[20233:947213] ok --> expectedDateThu Jan 22 2015 08:13:00 GMT-0500 (EST)
+2015-01-19 20:12:54.230 KindnessApp[20233:947213] okokThu Jan 22 2015 08:13:00 GMT-0500 (EST)
+2015-01-19 20:12:54.230 KindnessApp[20233:947213] ok --> expectedDateFri Jan 23 2015 08:13:00 GMT-0500 (EST)
+2015-01-19 20:12:54.230 KindnessApp[20233:947213] okokFri Jan 23 2015 08:13:00 GMT-0500 (EST)
+2015-01-19 20:12:54.230 KindnessApp[20233:947213] ok --> expectedDateSat Jan 24 2015 08:13:00 GMT-0500 (EST)
+2015-01-19 20:12:54.231 KindnessApp[20233:947213] okokSat Jan 24 2015 08:13:00 GMT-0500 (EST)
+2015-01-19 20:12:54.265 KindnessApp[20233:947476] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x79960570>{fire date = Friday, January 23, 2015 at 8:13:00 AM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Friday, January 23, 2015 at 8:13:00 AM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "5_4";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-19 20:12:54.265 KindnessApp[20233:947478] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x79b5cba0>{fire date = Wednesday, January 21, 2015 at 8:13:00 AM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Wednesday, January 21, 2015 at 8:13:00 AM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "5_2";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-19 20:12:54.265 KindnessApp[20233:947471] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x79ab1380>{fire date = Tuesday, January 20, 2015 at 8:13:00 AM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Tuesday, January 20, 2015 at 8:13:00 AM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "5_1";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-19 20:12:54.265 KindnessApp[20233:947477] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7985d540>{fire date = Thursday, January 22, 2015 at 8:13:00 AM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Thursday, January 22, 2015 at 8:13:00 AM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "5_3";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-19 20:12:54.265 KindnessApp[20233:947407] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x79ab2580>{fire date = Saturday, January 24, 2015 at 8:13:00 AM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Saturday, January 24, 2015 at 8:13:00 AM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "5_5";
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-19 20:12:54.277 KindnessApp[20233:947476] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x79960570>{fire date = Friday, January 23, 2015 at 8:13:00 AM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Friday, January 23, 2015 at 8:13:00 AM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "5_4";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-19 20:12:54.278 KindnessApp[20233:947478] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x79b5cba0>{fire date = Wednesday, January 21, 2015 at 8:13:00 AM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Wednesday, January 21, 2015 at 8:13:00 AM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "5_2";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-19 20:12:54.278 KindnessApp[20233:947477] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7985d540>{fire date = Thursday, January 22, 2015 at 8:13:00 AM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Thursday, January 22, 2015 at 8:13:00 AM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "5_3";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-19 20:12:54.278 KindnessApp[20233:947471] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x79ab1380>{fire date = Tuesday, January 20, 2015 at 8:13:00 AM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Tuesday, January 20, 2015 at 8:13:00 AM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "5_1";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-19 20:12:54.278 KindnessApp[20233:947407] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x79ab2580>{fire date = Saturday, January 24, 2015 at 8:13:00 AM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSWeekCalendarUnit, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Saturday, January 24, 2015 at 8:13:00 AM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = "5_5";
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-19 20:12:54.734 KindnessApp[20233:947213] select meditation 1
+2015-01-19 20:12:54.734 KindnessApp[20233:947213] select meditation 2
+2015-01-19 20:12:54.761 KindnessApp[20233:947213] select alarms success: 5
+2015-01-19 20:12:54.762 KindnessApp[20233:947213] 1111111
+2015-01-19 20:12:54.762 KindnessApp[20233:947213] 1111111
+2015-01-19 20:12:54.762 KindnessApp[20233:947213] 1111111
+2015-01-19 20:12:54.762 KindnessApp[20233:947213] 1111111
+2015-01-19 20:12:54.762 KindnessApp[20233:947213] 1111111
+2015-01-19 20:13:05.013 KindnessApp[20233:947213] CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:13:05.013 KindnessApp[20233:947213] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:16:40.676 KindnessApp[20583:950271] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/03636326-4883-4E88-8DBC-456DB6772971/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:16:40.779 KindnessApp[20583:950271] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:16:40.780 KindnessApp[20583:950271] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:16:40.781 KindnessApp[20583:950271] Unlimited access to network resources
+2015-01-19 20:16:40.783 KindnessApp[20583:950271] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:16:40.953 KindnessApp[20583:950271] [CDVTimer][file] 3.565013ms
+2015-01-19 20:16:40.953 KindnessApp[20583:950271] [CDVTimer][localnotification] 0.042021ms
+2015-01-19 20:16:40.953 KindnessApp[20583:950271] [CDVTimer][localnotification] 0.003994ms
+2015-01-19 20:16:40.953 KindnessApp[20583:950271] [CDVTimer][TotalPluginStartup] 3.971994ms
+2015-01-19 20:16:41.042 KindnessApp[20583:950271] Resetting plugins due to page load.
+2015-01-19 20:16:41.348 KindnessApp[20583:950271] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/26C2B9A0-C31B-4D0E-ADF6-286B75A85A07/KindnessApp.app/www/index.html
+2015-01-19 20:16:41.417 KindnessApp[20583:950271] onload
+2015-01-19 20:16:41.417 KindnessApp[20583:950271] device ready
+2015-01-19 20:16:41.418 KindnessApp[20583:950271] log1
+2015-01-19 20:16:41.419 KindnessApp[20583:950271] table created
+2015-01-19 20:16:47.252 KindnessApp[20583:950271] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:16:47.725 KindnessApp[20583:950271] select meditation 1
+2015-01-19 20:16:47.725 KindnessApp[20583:950271] select meditation 2
+2015-01-19 20:16:47.754 KindnessApp[20583:950271] select alarms success: 5
+2015-01-19 20:16:47.754 KindnessApp[20583:950271] 1111111
+2015-01-19 20:16:47.755 KindnessApp[20583:950271] 1111111
+2015-01-19 20:16:47.755 KindnessApp[20583:950271] 1111111
+2015-01-19 20:16:47.755 KindnessApp[20583:950271] 1111111
+2015-01-19 20:16:47.755 KindnessApp[20583:950271] 1111111
+2015-01-19 20:17:14.672 KindnessApp[20762:951266] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/4F1128E9-D13F-499F-A79E-0D55E14A22E4/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:17:14.781 KindnessApp[20762:951266] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:17:14.781 KindnessApp[20762:951266] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:17:14.783 KindnessApp[20762:951266] Unlimited access to network resources
+2015-01-19 20:17:14.785 KindnessApp[20762:951266] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:17:14.971 KindnessApp[20762:951266] [CDVTimer][file] 2.056003ms
+2015-01-19 20:17:14.971 KindnessApp[20762:951266] [CDVTimer][localnotification] 0.043988ms
+2015-01-19 20:17:14.972 KindnessApp[20762:951266] [CDVTimer][localnotification] 0.004947ms
+2015-01-19 20:17:14.972 KindnessApp[20762:951266] [CDVTimer][TotalPluginStartup] 2.469957ms
+2015-01-19 20:17:15.018 KindnessApp[20762:951266] Resetting plugins due to page load.
+2015-01-19 20:17:15.431 KindnessApp[20762:951266] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/6FD3E333-B0C2-4E90-A3F8-9BB26D0A82C7/KindnessApp.app/www/index.html
+2015-01-19 20:17:15.508 KindnessApp[20762:951266] onload
+2015-01-19 20:17:15.508 KindnessApp[20762:951266] device ready
+2015-01-19 20:17:15.508 KindnessApp[20762:951266] log1
+2015-01-19 20:17:31.495 KindnessApp[20938:951887] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/46C4084D-7F8F-408C-8F5C-E80E073B3118/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:17:31.596 KindnessApp[20938:951887] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:17:31.597 KindnessApp[20938:951887] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:17:31.598 KindnessApp[20938:951887] Unlimited access to network resources
+2015-01-19 20:17:31.600 KindnessApp[20938:951887] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:17:31.778 KindnessApp[20938:951887] [CDVTimer][file] 2.058983ms
+2015-01-19 20:17:31.778 KindnessApp[20938:951887] [CDVTimer][localnotification] 0.048041ms
+2015-01-19 20:17:31.778 KindnessApp[20938:951887] [CDVTimer][localnotification] 0.003994ms
+2015-01-19 20:17:31.778 KindnessApp[20938:951887] [CDVTimer][TotalPluginStartup] 2.493978ms
+2015-01-19 20:17:31.826 KindnessApp[20938:951887] Resetting plugins due to page load.
+2015-01-19 20:17:32.178 KindnessApp[20938:951887] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/9313CB7E-A165-4C1B-B545-1D61A9338F96/KindnessApp.app/www/index.html
+2015-01-19 20:17:32.285 KindnessApp[20938:951887] onload
+2015-01-19 20:17:32.285 KindnessApp[20938:951887] device ready
+2015-01-19 20:17:32.285 KindnessApp[20938:951887] log1
+2015-01-19 20:17:37.722 KindnessApp[20938:951887] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:17:38.207 KindnessApp[20938:951887] select meditation 1
+2015-01-19 20:17:38.207 KindnessApp[20938:951887] select meditation 2
+2015-01-19 20:17:38.228 KindnessApp[20938:951887] select alarms success: 5
+2015-01-19 20:17:38.228 KindnessApp[20938:951887] 1111111
+2015-01-19 20:17:38.228 KindnessApp[20938:951887] 1111111
+2015-01-19 20:17:38.228 KindnessApp[20938:951887] 1111111
+2015-01-19 20:17:38.228 KindnessApp[20938:951887] 1111111
+2015-01-19 20:17:38.228 KindnessApp[20938:951887] 1111111
+2015-01-19 20:17:40.271 KindnessApp[20938:951887] CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:17:40.271 KindnessApp[20938:951887] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:17:40.311 KindnessApp[20938:951887] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-19 20:17:40.311 KindnessApp[20938:951887] WARN: [l10n] #su is undefined.
+2015-01-19 20:17:40.311 KindnessApp[20938:951887] WARN: [l10n] #mo is undefined.
+2015-01-19 20:17:40.312 KindnessApp[20938:951887] WARN: [l10n] #tu is undefined.
+2015-01-19 20:17:40.312 KindnessApp[20938:951887] WARN: [l10n] #we is undefined.
+2015-01-19 20:17:40.312 KindnessApp[20938:951887] WARN: [l10n] #th is undefined.
+2015-01-19 20:17:40.312 KindnessApp[20938:951887] WARN: [l10n] #fr is undefined.
+2015-01-19 20:17:40.312 KindnessApp[20938:951887] WARN: [l10n] #sa is undefined.
+2015-01-19 20:17:40.312 KindnessApp[20938:951887] WARN: [l10n] #add is undefined.
+2015-01-19 20:17:40.312 KindnessApp[20938:951887] WARN: [l10n] #cancel is undefined.
+2015-01-19 20:17:42.425 KindnessApp[20938:951887] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:17:42.961 KindnessApp[20938:951887] select meditation 1
+2015-01-19 20:17:42.961 KindnessApp[20938:951887] select meditation 2
+2015-01-19 20:17:42.994 KindnessApp[20938:951887] select alarms success: 5
+2015-01-19 20:17:42.994 KindnessApp[20938:951887] 1111111
+2015-01-19 20:17:42.994 KindnessApp[20938:951887] 1111111
+2015-01-19 20:17:42.994 KindnessApp[20938:951887] 1111111
+2015-01-19 20:17:42.994 KindnessApp[20938:951887] 1111111
+2015-01-19 20:17:42.995 KindnessApp[20938:951887] 1111111
+2015-01-19 20:22:02.434 KindnessApp[21136:954566] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/EB3A3372-A136-4F8E-AD41-AFC81E38320D/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:22:02.515 KindnessApp[21136:954566] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:22:02.515 KindnessApp[21136:954566] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:22:02.516 KindnessApp[21136:954566] Unlimited access to network resources
+2015-01-19 20:22:02.518 KindnessApp[21136:954566] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:22:02.693 KindnessApp[21136:954566] [CDVTimer][file] 2.032995ms
+2015-01-19 20:22:02.693 KindnessApp[21136:954566] [CDVTimer][localnotification] 0.043035ms
+2015-01-19 20:22:02.693 KindnessApp[21136:954566] [CDVTimer][localnotification] 0.003994ms
+2015-01-19 20:22:02.693 KindnessApp[21136:954566] [CDVTimer][TotalPluginStartup] 2.465010ms
+2015-01-19 20:22:02.740 KindnessApp[21136:954566] Resetting plugins due to page load.
+2015-01-19 20:22:03.071 KindnessApp[21136:954566] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/D8B944F7-289E-4A0F-8410-503E239D095C/KindnessApp.app/www/index.html
+2015-01-19 20:22:03.143 KindnessApp[21136:954566] onload
+2015-01-19 20:22:03.143 KindnessApp[21136:954566] device ready
+2015-01-19 20:22:03.143 KindnessApp[21136:954566] log1
+2015-01-19 20:22:12.641 KindnessApp[21136:954566] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:22:13.116 KindnessApp[21136:954566] select meditation 1
+2015-01-19 20:22:13.116 KindnessApp[21136:954566] select meditation 2
+2015-01-19 20:22:13.141 KindnessApp[21136:954566] select alarms success: 5
+2015-01-19 20:22:13.142 KindnessApp[21136:954566] 1111111
+2015-01-19 20:22:13.142 KindnessApp[21136:954566] 1111111
+2015-01-19 20:22:13.142 KindnessApp[21136:954566] 1111111
+2015-01-19 20:22:13.142 KindnessApp[21136:954566] 1111111
+2015-01-19 20:22:13.142 KindnessApp[21136:954566] 1111111
+2015-01-19 20:22:19.539 KindnessApp[21136:954566] CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:22:19.539 KindnessApp[21136:954566] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:22:19.546 KindnessApp[21136:954566] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-19 20:22:19.546 KindnessApp[21136:954566] WARN: [l10n] #su is undefined.
+2015-01-19 20:22:19.546 KindnessApp[21136:954566] WARN: [l10n] #mo is undefined.
+2015-01-19 20:22:19.546 KindnessApp[21136:954566] WARN: [l10n] #tu is undefined.
+2015-01-19 20:22:19.547 KindnessApp[21136:954566] WARN: [l10n] #we is undefined.
+2015-01-19 20:22:19.547 KindnessApp[21136:954566] WARN: [l10n] #th is undefined.
+2015-01-19 20:22:19.547 KindnessApp[21136:954566] WARN: [l10n] #fr is undefined.
+2015-01-19 20:22:19.547 KindnessApp[21136:954566] WARN: [l10n] #sa is undefined.
+2015-01-19 20:22:19.547 KindnessApp[21136:954566] WARN: [l10n] #add is undefined.
+2015-01-19 20:22:19.547 KindnessApp[21136:954566] WARN: [l10n] #cancel is undefined.
+2015-01-19 20:22:21.856 KindnessApp[21136:954566] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:22:22.395 KindnessApp[21136:954566] select meditation 1
+2015-01-19 20:22:22.395 KindnessApp[21136:954566] select meditation 2
+2015-01-19 20:22:22.427 KindnessApp[21136:954566] select alarms success: 5
+2015-01-19 20:22:22.427 KindnessApp[21136:954566] 1111111
+2015-01-19 20:22:22.427 KindnessApp[21136:954566] 1111111
+2015-01-19 20:22:22.427 KindnessApp[21136:954566] 1111111
+2015-01-19 20:22:22.427 KindnessApp[21136:954566] 1111111
+2015-01-19 20:22:22.428 KindnessApp[21136:954566] 1111111
+2015-01-19 20:33:31.722 KindnessApp[21667:963166] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/6EB937A5-E140-44BF-9194-37F7C6036687/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:33:31.801 KindnessApp[21667:963166] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:33:31.802 KindnessApp[21667:963166] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:33:31.803 KindnessApp[21667:963166] Unlimited access to network resources
+2015-01-19 20:33:31.805 KindnessApp[21667:963166] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:33:31.976 KindnessApp[21667:963166] [CDVTimer][file] 2.357006ms
+2015-01-19 20:33:31.976 KindnessApp[21667:963166] [CDVTimer][localnotification] 0.038028ms
+2015-01-19 20:33:31.976 KindnessApp[21667:963166] [CDVTimer][localnotification] 0.005007ms
+2015-01-19 20:33:31.976 KindnessApp[21667:963166] [CDVTimer][TotalPluginStartup] 2.766013ms
+2015-01-19 20:33:32.028 KindnessApp[21667:963166] Resetting plugins due to page load.
+2015-01-19 20:33:32.374 KindnessApp[21667:963166] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/BE0AEEEA-F869-44B6-A07B-2EAE4A5FEBEC/KindnessApp.app/www/index.html
+2015-01-19 20:33:32.445 KindnessApp[21667:963166] onload
+2015-01-19 20:33:32.445 KindnessApp[21667:963166] device ready
+2015-01-19 20:33:32.445 KindnessApp[21667:963166] log1
+2015-01-19 20:33:41.733 KindnessApp[21667:963166] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:33:42.189 KindnessApp[21667:963166] select meditation 1
+2015-01-19 20:33:42.189 KindnessApp[21667:963166] select meditation 2
+2015-01-19 20:33:44.029 KindnessApp[21667:963166] select alarms success: 5
+2015-01-19 20:33:44.030 KindnessApp[21667:963166] 1111111
+2015-01-19 20:33:44.030 KindnessApp[21667:963166] 1111111
+2015-01-19 20:33:44.030 KindnessApp[21667:963166] 1111111
+2015-01-19 20:33:44.030 KindnessApp[21667:963166] 1111111
+2015-01-19 20:33:44.030 KindnessApp[21667:963166] 1111111
+2015-01-19 20:33:44.034 KindnessApp[21667:963211] UILocalNotification: could not calculate next fire date - previous = 2015-01-20 01:33:42 +0000 : next = 2015-01-20 01:33:42 +0000 : repeatInterval = 2
+2015-01-19 20:33:44.035 KindnessApp[21667:963211] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca6cf60>{fire date = Monday, January 19, 2015 at 8:33:42 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSCalendarUnitEra, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = (null), user info = {
+    autoCancel = 0;
+    id = 0;
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-19 20:33:44.035 KindnessApp[21667:963211] UILocalNotification: could not calculate next fire date - previous = 2015-01-20 01:33:42 +0000 : next = 2015-01-20 01:33:42 +0000 : repeatInterval = 2
+2015-01-19 20:33:44.035 KindnessApp[21667:963211] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7ca6cf60>{fire date = Monday, January 19, 2015 at 8:33:42 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSCalendarUnitEra, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = (null), user info = {
+    autoCancel = 0;
+    id = 0;
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-19 20:35:04.796 KindnessApp[21868:964679] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/F685BD21-A390-4AA3-A197-6041DC038519/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:35:04.876 KindnessApp[21868:964679] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:35:04.877 KindnessApp[21868:964679] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:35:04.878 KindnessApp[21868:964679] Unlimited access to network resources
+2015-01-19 20:35:04.880 KindnessApp[21868:964679] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:35:05.055 KindnessApp[21868:964679] [CDVTimer][file] 2.181053ms
+2015-01-19 20:35:05.055 KindnessApp[21868:964679] [CDVTimer][localnotification] 0.051022ms
+2015-01-19 20:35:05.055 KindnessApp[21868:964679] [CDVTimer][localnotification] 0.003994ms
+2015-01-19 20:35:05.055 KindnessApp[21868:964679] [CDVTimer][TotalPluginStartup] 2.610028ms
+2015-01-19 20:35:05.108 KindnessApp[21868:964679] Resetting plugins due to page load.
+2015-01-19 20:35:05.418 KindnessApp[21868:964679] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/B1E0711E-182B-4D1E-BB50-F49ECD2CABE1/KindnessApp.app/www/index.html
+2015-01-19 20:35:05.485 KindnessApp[21868:964679] onload
+2015-01-19 20:35:05.486 KindnessApp[21868:964679] device ready
+2015-01-19 20:35:05.486 KindnessApp[21868:964679] log1
+2015-01-19 20:35:05.487 KindnessApp[21868:964679] table created
+2015-01-19 20:35:25.549 KindnessApp[22049:965373] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/A5410515-4126-4A81-B4D1-3FBACBE2D34C/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:35:25.623 KindnessApp[22049:965373] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:35:25.624 KindnessApp[22049:965373] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:35:25.625 KindnessApp[22049:965373] Unlimited access to network resources
+2015-01-19 20:35:25.627 KindnessApp[22049:965373] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:35:25.799 KindnessApp[22049:965373] [CDVTimer][file] 2.224982ms
+2015-01-19 20:35:25.799 KindnessApp[22049:965373] [CDVTimer][localnotification] 0.051022ms
+2015-01-19 20:35:25.799 KindnessApp[22049:965373] [CDVTimer][localnotification] 0.005007ms
+2015-01-19 20:35:25.799 KindnessApp[22049:965373] [CDVTimer][TotalPluginStartup] 2.663016ms
+2015-01-19 20:35:25.848 KindnessApp[22049:965373] Resetting plugins due to page load.
+2015-01-19 20:35:26.186 KindnessApp[22049:965373] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/3422756A-EB05-4A90-94B3-7D03F59700EC/KindnessApp.app/www/index.html
+2015-01-19 20:35:26.255 KindnessApp[22049:965373] onload
+2015-01-19 20:35:26.255 KindnessApp[22049:965373] device ready
+2015-01-19 20:35:26.255 KindnessApp[22049:965373] log1
+2015-01-19 20:44:05.997 KindnessApp[22662:973337] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/B66FEBDD-C1DD-4A02-9754-23083699B9BE/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:44:06.095 KindnessApp[22662:973337] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:44:06.096 KindnessApp[22662:973337] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:44:06.097 KindnessApp[22662:973337] Unlimited access to network resources
+2015-01-19 20:44:06.099 KindnessApp[22662:973337] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:44:06.303 KindnessApp[22662:973337] [CDVTimer][file] 4.381001ms
+2015-01-19 20:44:06.303 KindnessApp[22662:973337] [CDVTimer][localnotification] 0.051022ms
+2015-01-19 20:44:06.303 KindnessApp[22662:973337] [CDVTimer][localnotification] 0.005007ms
+2015-01-19 20:44:06.303 KindnessApp[22662:973337] [CDVTimer][TotalPluginStartup] 4.863977ms
+2015-01-19 20:44:06.434 KindnessApp[22662:973337] Resetting plugins due to page load.
+2015-01-19 20:44:06.822 KindnessApp[22662:973337] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/55EADDEF-BAAC-49AF-A117-5AD5A71909FF/KindnessApp.app/www/index.html
+2015-01-19 20:44:06.971 KindnessApp[22662:973337] onload
+2015-01-19 20:44:06.971 KindnessApp[22662:973337] device ready
+2015-01-19 20:44:06.972 KindnessApp[22662:973337] log1
+2015-01-19 20:45:29.692 KindnessApp[22662:973337] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:45:30.172 KindnessApp[22662:973337] select meditation 1
+2015-01-19 20:45:30.172 KindnessApp[22662:973337] select meditation 2
+2015-01-19 20:45:31.907 KindnessApp[22662:973337] select alarms success: 5
+2015-01-19 20:45:31.907 KindnessApp[22662:973337] 1111111
+2015-01-19 20:45:31.907 KindnessApp[22662:973337] 1111111
+2015-01-19 20:45:31.907 KindnessApp[22662:973337] 1111111
+2015-01-19 20:45:31.907 KindnessApp[22662:973337] 1111111
+2015-01-19 20:45:31.907 KindnessApp[22662:973337] 1111111
+2015-01-19 20:46:51.998 KindnessApp[22925:975557] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/8C71730A-D9CA-4D90-B1FD-230E89A41A0A/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:46:52.118 KindnessApp[22925:975557] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:46:52.119 KindnessApp[22925:975557] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:46:52.120 KindnessApp[22925:975557] Unlimited access to network resources
+2015-01-19 20:46:52.123 KindnessApp[22925:975557] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:46:52.340 KindnessApp[22925:975557] [CDVTimer][file] 2.177000ms
+2015-01-19 20:46:52.340 KindnessApp[22925:975557] [CDVTimer][localnotification] 0.044048ms
+2015-01-19 20:46:52.340 KindnessApp[22925:975557] [CDVTimer][localnotification] 0.003994ms
+2015-01-19 20:46:52.340 KindnessApp[22925:975557] [CDVTimer][TotalPluginStartup] 2.627015ms
+2015-01-19 20:46:52.412 KindnessApp[22925:975557] Resetting plugins due to page load.
+2015-01-19 20:46:52.823 KindnessApp[22925:975557] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/91C6535B-25B1-40C9-A0B2-E93D31038017/KindnessApp.app/www/index.html
+2015-01-19 20:46:52.903 KindnessApp[22925:975557] onload
+2015-01-19 20:46:52.903 KindnessApp[22925:975557] device ready
+2015-01-19 20:46:52.904 KindnessApp[22925:975557] log1
+2015-01-19 20:47:02.000 KindnessApp[22925:975557] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:47:02.537 KindnessApp[22925:975557] select meditation 1
+2015-01-19 20:47:02.537 KindnessApp[22925:975557] select meditation 2
+2015-01-19 20:47:02.569 KindnessApp[22925:975557] 1111111
+2015-01-19 20:47:02.569 KindnessApp[22925:975557] 1111111
+2015-01-19 20:47:02.569 KindnessApp[22925:975557] 1111111
+2015-01-19 20:47:02.569 KindnessApp[22925:975557] 1111111
+2015-01-19 20:47:02.570 KindnessApp[22925:975557] 1111111
+2015-01-19 20:47:02.572 KindnessApp[22925:975668] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b320b60>{fire date = Monday, January 19, 2015 at 8:47:03 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSCalendarUnitEra, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 8:47:03 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = 0;
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-19 20:47:02.574 KindnessApp[22925:975668] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b320b60>{fire date = Monday, January 19, 2015 at 8:47:03 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSCalendarUnitEra, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 8:47:03 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = 0;
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-19 20:47:06.650 KindnessApp[22925:975557] CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:47:06.650 KindnessApp[22925:975557] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:50:19.070 KindnessApp[22925:975557] CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:50:19.071 KindnessApp[22925:975557] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:50:19.107 KindnessApp[22925:975557] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:50:19.559 KindnessApp[22925:975557] select meditation 1
+2015-01-19 20:50:19.560 KindnessApp[22925:975557] select meditation 2
+2015-01-19 20:50:19.581 KindnessApp[22925:975557] 1111111
+2015-01-19 20:50:19.581 KindnessApp[22925:975557] 1111111
+2015-01-19 20:50:19.582 KindnessApp[22925:975557] 1111111
+2015-01-19 20:50:19.582 KindnessApp[22925:975557] 1111111
+2015-01-19 20:50:19.582 KindnessApp[22925:975557] 1111111
+2015-01-19 20:50:19.583 KindnessApp[22925:977756] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b4229d0>{fire date = Monday, January 19, 2015 at 8:50:20 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSCalendarUnitEra, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 8:50:20 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = 0;
+    json = "";
+}} with an alert but haven't received permission from the user to display alerts
+2015-01-19 20:50:19.584 KindnessApp[22925:977756] Attempting to schedule a local notification <UIConcreteLocalNotification: 0x7b4229d0>{fire date = Monday, January 19, 2015 at 8:50:20 PM GMT-05:00, time zone = America/Montreal (GMT-5) offset -18000, repeat interval = NSCalendarUnitEra, repeat count = UILocalNotificationInfiniteRepeatCount, next fire date = Monday, January 19, 2015 at 8:50:20 PM GMT-05:00, user info = {
+    autoCancel = 0;
+    id = 0;
+    json = "";
+}} with a sound but haven't received permission from the user to play sounds
+2015-01-19 20:50:22.753 KindnessApp[22925:975557] CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:50:22.754 KindnessApp[22925:975557] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:52:53.556 KindnessApp[23133:979601] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/60F982EB-CF17-4E9F-B0E4-E2C93820F1E0/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:52:53.639 KindnessApp[23133:979601] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:52:53.639 KindnessApp[23133:979601] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:52:53.640 KindnessApp[23133:979601] Unlimited access to network resources
+2015-01-19 20:52:53.642 KindnessApp[23133:979601] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:52:53.823 KindnessApp[23133:979601] [CDVTimer][file] 2.220988ms
+2015-01-19 20:52:53.824 KindnessApp[23133:979601] [CDVTimer][localnotification] 0.050008ms
+2015-01-19 20:52:53.824 KindnessApp[23133:979601] [CDVTimer][localnotification] 0.003994ms
+2015-01-19 20:52:53.824 KindnessApp[23133:979601] [CDVTimer][TotalPluginStartup] 2.644002ms
+2015-01-19 20:52:53.875 KindnessApp[23133:979601] Resetting plugins due to page load.
+2015-01-19 20:52:54.236 KindnessApp[23133:979601] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/5BDC9816-42CF-4A25-B048-CBAA436EC748/KindnessApp.app/www/index.html
+2015-01-19 20:52:54.329 KindnessApp[23133:979601] onload
+2015-01-19 20:52:54.329 KindnessApp[23133:979601] device ready
+2015-01-19 20:52:54.330 KindnessApp[23133:979601] log1
+2015-01-19 20:53:38.109 KindnessApp[23133:979601] WARN: [l10n] #reminders is undefined.
+2015-01-19 20:53:38.595 KindnessApp[23133:979601] select meditation 1
+2015-01-19 20:53:38.595 KindnessApp[23133:979601] select meditation 2
+2015-01-19 20:53:43.051 KindnessApp[23133:979601] CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:53:43.051 KindnessApp[23133:979601] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 20:59:41.510 KindnessApp[23505:985420] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/EA05CB24-5264-4529-B611-ECDF8CD04458/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:59:41.589 KindnessApp[23505:985420] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:59:41.590 KindnessApp[23505:985420] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:59:41.591 KindnessApp[23505:985420] Unlimited access to network resources
+2015-01-19 20:59:41.593 KindnessApp[23505:985420] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 20:59:41.768 KindnessApp[23505:985420] [CDVTimer][file] 3.023982ms
+2015-01-19 20:59:41.768 KindnessApp[23505:985420] [CDVTimer][localnotification] 0.043988ms
+2015-01-19 20:59:41.768 KindnessApp[23505:985420] [CDVTimer][localnotification] 0.005007ms
+2015-01-19 20:59:41.768 KindnessApp[23505:985420] [CDVTimer][TotalPluginStartup] 3.437042ms
+2015-01-19 20:59:41.831 KindnessApp[23505:985420] Resetting plugins due to page load.
+2015-01-19 20:59:42.176 KindnessApp[23505:985420] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/204E2A13-9902-48F2-877A-E5733940147C/KindnessApp.app/www/index.html
+2015-01-19 20:59:42.254 KindnessApp[23505:985420] onload
+2015-01-19 20:59:42.254 KindnessApp[23505:985420] device ready
+2015-01-19 20:59:42.254 KindnessApp[23505:985420] log1
+2015-01-19 21:01:49.148 KindnessApp[23505:985420] WARN: [l10n] #reminders is undefined.
+2015-01-19 21:01:49.598 KindnessApp[23505:985420] select meditation 1
+2015-01-19 21:01:49.598 KindnessApp[23505:985420] select meditation 2
+2015-01-19 21:01:58.483 KindnessApp[23505:985420] CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 21:01:58.484 KindnessApp[23505:985420] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 21:01:58.490 KindnessApp[23505:985420] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-19 21:01:58.490 KindnessApp[23505:985420] WARN: [l10n] #su is undefined.
+2015-01-19 21:01:58.490 KindnessApp[23505:985420] WARN: [l10n] #mo is undefined.
+2015-01-19 21:01:58.491 KindnessApp[23505:985420] WARN: [l10n] #tu is undefined.
+2015-01-19 21:01:58.491 KindnessApp[23505:985420] WARN: [l10n] #we is undefined.
+2015-01-19 21:01:58.491 KindnessApp[23505:985420] WARN: [l10n] #th is undefined.
+2015-01-19 21:01:58.491 KindnessApp[23505:985420] WARN: [l10n] #fr is undefined.
+2015-01-19 21:01:58.491 KindnessApp[23505:985420] WARN: [l10n] #sa is undefined.
+2015-01-19 21:01:58.491 KindnessApp[23505:985420] WARN: [l10n] #add is undefined.
+2015-01-19 21:01:58.491 KindnessApp[23505:985420] WARN: [l10n] #cancel is undefined.
+2015-01-19 21:02:14.542 KindnessApp[23505:985420] insert alarm
+2015-01-19 21:02:14.592 KindnessApp[23505:985420] WARN: [l10n] #reminders is undefined.
+2015-01-19 21:02:14.623 KindnessApp[23505:985420] 9
+2015-01-19 21:02:14.623 KindnessApp[23505:985420] 2
+2015-01-19 21:02:14.623 KindnessApp[23505:985420] ok --> expectedDateMon Jan 19 2015 09:02:00 GMT-0500 (EST)
+2015-01-19 21:02:14.624 KindnessApp[23505:985420] ok --> expectedDateTue Jan 20 2015 09:02:00 GMT-0500 (EST)
+2015-01-19 21:02:14.624 KindnessApp[23505:985420] okokTue Jan 20 2015 09:02:00 GMT-0500 (EST)
+2015-01-19 21:02:14.624 KindnessApp[23505:985420] ok --> expectedDateWed Jan 21 2015 09:02:00 GMT-0500 (EST)
+2015-01-19 21:02:14.624 KindnessApp[23505:985420] okokWed Jan 21 2015 09:02:00 GMT-0500 (EST)
+2015-01-19 21:02:14.624 KindnessApp[23505:985420] ok --> expectedDateThu Jan 22 2015 09:02:00 GMT-0500 (EST)
+2015-01-19 21:02:14.624 KindnessApp[23505:985420] okokThu Jan 22 2015 09:02:00 GMT-0500 (EST)
+2015-01-19 21:02:14.625 KindnessApp[23505:985420] ok --> expectedDateFri Jan 23 2015 09:02:00 GMT-0500 (EST)
+2015-01-19 21:02:14.625 KindnessApp[23505:985420] okokFri Jan 23 2015 09:02:00 GMT-0500 (EST)
+2015-01-19 21:02:14.625 KindnessApp[23505:985420] ok --> expectedDateSat Jan 24 2015 09:02:00 GMT-0500 (EST)
+2015-01-19 21:02:14.625 KindnessApp[23505:985420] okokSat Jan 24 2015 09:02:00 GMT-0500 (EST)
+2015-01-19 21:02:15.125 KindnessApp[23505:985420] select meditation 1
+2015-01-19 21:02:15.125 KindnessApp[23505:985420] select meditation 2
+2015-01-19 21:02:54.741 KindnessApp[23711:987653] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Data/Application/4EE97946-7075-449B-9D2C-8CD831CC6A8A/Library/Cookies/Cookies.binarycookies
+2015-01-19 21:02:54.818 KindnessApp[23711:987653] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 21:02:54.819 KindnessApp[23711:987653] Multi-tasking -> Device: YES, App: YES
+2015-01-19 21:02:54.820 KindnessApp[23711:987653] Unlimited access to network resources
+2015-01-19 21:02:54.822 KindnessApp[23711:987653] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-19 21:02:55.014 KindnessApp[23711:987653] [CDVTimer][file] 10.342956ms
+2015-01-19 21:02:55.014 KindnessApp[23711:987653] [CDVTimer][localnotification] 0.051975ms
+2015-01-19 21:02:55.014 KindnessApp[23711:987653] [CDVTimer][localnotification] 0.003994ms
+2015-01-19 21:02:55.014 KindnessApp[23711:987653] [CDVTimer][TotalPluginStartup] 10.793984ms
+2015-01-19 21:02:55.137 KindnessApp[23711:987653] Resetting plugins due to page load.
+2015-01-19 21:02:55.459 KindnessApp[23711:987653] Finished load of: file:///Users/dai/Library/Developer/CoreSimulator/Devices/BD8E6E3E-7A03-4E06-964E-484F262F4C75/data/Containers/Bundle/Application/23F33856-704D-4832-B080-91539437AD27/KindnessApp.app/www/index.html
+2015-01-19 21:02:55.529 KindnessApp[23711:987653] onload
+2015-01-19 21:02:55.530 KindnessApp[23711:987653] device ready
+2015-01-19 21:02:55.530 KindnessApp[23711:987653] log1
+2015-01-19 21:03:38.052 KindnessApp[23711:987653] WARN: [l10n] #reminders is undefined.
+2015-01-19 21:03:38.554 KindnessApp[23711:987653] select meditation 1
+2015-01-19 21:03:38.554 KindnessApp[23711:987653] select meditation 2
+2015-01-19 21:03:38.575 KindnessApp[23711:987653] 1111111
+2015-01-19 21:03:38.575 KindnessApp[23711:987653] 1111111
+2015-01-19 21:03:38.575 KindnessApp[23711:987653] 1111111
+2015-01-19 21:03:38.575 KindnessApp[23711:987653] 1111111
+2015-01-19 21:03:38.575 KindnessApp[23711:987653] 1111111
+2015-01-19 21:03:38.576 KindnessApp[23711:987653] 1111111
+2015-01-19 21:03:43.918 KindnessApp[23711:987653] CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 21:03:43.918 KindnessApp[23711:987653] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 21:03:43.924 KindnessApp[23711:987653] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-19 21:03:43.924 KindnessApp[23711:987653] WARN: [l10n] #su is undefined.
+2015-01-19 21:03:43.924 KindnessApp[23711:987653] WARN: [l10n] #mo is undefined.
+2015-01-19 21:03:43.924 KindnessApp[23711:987653] WARN: [l10n] #tu is undefined.
+2015-01-19 21:03:43.924 KindnessApp[23711:987653] WARN: [l10n] #we is undefined.
+2015-01-19 21:03:43.924 KindnessApp[23711:987653] WARN: [l10n] #th is undefined.
+2015-01-19 21:03:43.924 KindnessApp[23711:987653] WARN: [l10n] #fr is undefined.
+2015-01-19 21:03:43.925 KindnessApp[23711:987653] WARN: [l10n] #sa is undefined.
+2015-01-19 21:03:43.925 KindnessApp[23711:987653] WARN: [l10n] #add is undefined.
+2015-01-19 21:03:43.925 KindnessApp[23711:987653] WARN: [l10n] #cancel is undefined.
+2015-01-19 21:04:00.091 KindnessApp[23711:987653] insert alarm
+2015-01-19 21:04:00.141 KindnessApp[23711:987653] WARN: [l10n] #reminders is undefined.
+2015-01-19 21:04:00.173 KindnessApp[23711:987653] 9
+2015-01-19 21:04:00.173 KindnessApp[23711:987653] 4
+2015-01-19 21:04:00.173 KindnessApp[23711:987653] ok --> expectedDateMon Jan 19 2015 09:04:00 GMT-0500 (EST)
+2015-01-19 21:04:00.173 KindnessApp[23711:987653] ok --> expectedDateTue Jan 20 2015 09:04:00 GMT-0500 (EST)
+2015-01-19 21:04:00.173 KindnessApp[23711:987653] okokTue Jan 20 2015 09:04:00 GMT-0500 (EST)
+2015-01-19 21:04:00.173 KindnessApp[23711:987653] ok --> expectedDateWed Jan 21 2015 09:04:00 GMT-0500 (EST)
+2015-01-19 21:04:00.174 KindnessApp[23711:987653] okokWed Jan 21 2015 09:04:00 GMT-0500 (EST)
+2015-01-19 21:04:00.174 KindnessApp[23711:987653] ok --> expectedDateThu Jan 22 2015 09:04:00 GMT-0500 (EST)
+2015-01-19 21:04:00.174 KindnessApp[23711:987653] okokThu Jan 22 2015 09:04:00 GMT-0500 (EST)
+2015-01-19 21:04:00.174 KindnessApp[23711:987653] ok --> expectedDateFri Jan 23 2015 09:04:00 GMT-0500 (EST)
+2015-01-19 21:04:00.174 KindnessApp[23711:987653] okokFri Jan 23 2015 09:04:00 GMT-0500 (EST)
+2015-01-19 21:04:00.174 KindnessApp[23711:987653] ok --> expectedDateSat Jan 24 2015 09:04:00 GMT-0500 (EST)
+2015-01-19 21:04:00.174 KindnessApp[23711:987653] okokSat Jan 24 2015 09:04:00 GMT-0500 (EST)
+2015-01-19 21:04:00.676 KindnessApp[23711:987653] select meditation 1
+2015-01-19 21:04:00.677 KindnessApp[23711:987653] select meditation 2
+2015-01-19 21:04:00.706 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:00.706 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:00.707 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:00.707 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:00.707 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:00.707 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:00.707 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:07.678 KindnessApp[23711:987653] CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 21:04:07.678 KindnessApp[23711:987653] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-01-19 21:04:07.713 KindnessApp[23711:987653] WARN: [l10n] #add-new-reminder is undefined.
+2015-01-19 21:04:07.713 KindnessApp[23711:987653] WARN: [l10n] #su is undefined.
+2015-01-19 21:04:07.713 KindnessApp[23711:987653] WARN: [l10n] #mo is undefined.
+2015-01-19 21:04:07.713 KindnessApp[23711:987653] WARN: [l10n] #tu is undefined.
+2015-01-19 21:04:07.713 KindnessApp[23711:987653] WARN: [l10n] #we is undefined.
+2015-01-19 21:04:07.714 KindnessApp[23711:987653] WARN: [l10n] #th is undefined.
+2015-01-19 21:04:07.714 KindnessApp[23711:987653] WARN: [l10n] #fr is undefined.
+2015-01-19 21:04:07.714 KindnessApp[23711:987653] WARN: [l10n] #sa is undefined.
+2015-01-19 21:04:07.714 KindnessApp[23711:987653] WARN: [l10n] #add is undefined.
+2015-01-19 21:04:07.714 KindnessApp[23711:987653] WARN: [l10n] #cancel is undefined.
+2015-01-19 21:04:23.419 KindnessApp[23711:987653] insert alarm
+2015-01-19 21:04:23.461 KindnessApp[23711:987653] WARN: [l10n] #reminders is undefined.
+2015-01-19 21:04:23.492 KindnessApp[23711:987653] 21
+2015-01-19 21:04:23.492 KindnessApp[23711:987653] 5
+2015-01-19 21:04:23.492 KindnessApp[23711:987653] ok --> expectedDateMon Jan 19 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.492 KindnessApp[23711:987653] okokMon Jan 19 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.492 KindnessApp[23711:987653] ok --> expectedDateTue Jan 20 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.492 KindnessApp[23711:987653] okokTue Jan 20 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.493 KindnessApp[23711:987653] ok --> expectedDateWed Jan 21 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.493 KindnessApp[23711:987653] okokWed Jan 21 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.493 KindnessApp[23711:987653] ok --> expectedDateThu Jan 22 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.493 KindnessApp[23711:987653] okokThu Jan 22 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.493 KindnessApp[23711:987653] ok --> expectedDateFri Jan 23 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.493 KindnessApp[23711:987653] okokFri Jan 23 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.493 KindnessApp[23711:987653] ok --> expectedDateSat Jan 24 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.493 KindnessApp[23711:987653] okokSat Jan 24 2015 21:05:00 GMT-0500 (EST)
+2015-01-19 21:04:23.995 KindnessApp[23711:987653] select meditation 1
+2015-01-19 21:04:23.995 KindnessApp[23711:987653] select meditation 2
+2015-01-19 21:04:24.025 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:24.026 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:24.026 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:24.026 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:24.026 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:24.026 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:24.026 KindnessApp[23711:987653] 1111111
+2015-01-19 21:04:24.026 KindnessApp[23711:987653] 1111111

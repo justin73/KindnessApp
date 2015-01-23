@@ -35,6 +35,7 @@ function initStartingTimer() {
         window.localStorage.setItem("endDate", endDate.getTime());
     }
     });
+    $('.holder').css("margin-top", (screen.height-$('.holder').height())/2-120);
 }
 
 
@@ -151,9 +152,17 @@ function initAlarmManager(init) {
     }
 
     function selectAlarmSuccess(tx, results) {
+        window.plugin.notification.local.add({ message: 'Great app!' });
+//        window.plugin.notification.local.registerPermission(function (granted) {
+//            alert(granted);
+//        });
+//window.plugin.notification.local.registerPermission(function (granted) {
+//    window.plugin.notification.local.add({ message: 'Great app!' });
+//    });
+//        alert('here');
         var eventsArray = [];
         // the number of rows returned by the select statement
-        console.log('select alarms success: ' + results.rows.length);
+//        console.log('select alarms success: ' + results.rows.length);
         $("#list-alarms").empty();
         for (var i =0; i < results.rows.length; i++) {
             var id = results.rows.item(i).id;
@@ -185,7 +194,7 @@ function initAlarmManager(init) {
                 console.log(dataId)
                 tx.executeSql('DELETE FROM ALARM WHERE ID=?', [dataId]);
                 for (var i = 0; i <= 7; i++) {
-                    window.plugin.cancel(dataId+"_"+i);
+                    window.plugin.notification.local.cancel(dataId+"_"+i);
                 }
             });
         });
@@ -240,7 +249,7 @@ function initSetAlarm(init) {
                         if (dayAfter > currentDate) {
                             console.log('okok' + dayAfter);
 
-                            window.plugin.add({
+                            window.plugin.notification.local.add({
                                 id:         results.insertId+"_"+i,
                                 date:       dayAfter,
                                 title:    "Meditation Reminder",
@@ -294,13 +303,13 @@ function playGong() {
 
 function initQuote() {
     var start = new Date(window.localStorage.getItem("startDate"));
-    alert(start);
+//    alert(start);
     var end = new Date();
-    alert(end);
+//    alert(end);
     var diff = new Date(end - start);
 
     var days = Math.floor(diff/1000/60/60/24);
-    alert(days);
+//    alert(days);
 //    $("#quote").html(jsonObject.Quote[days].Content);
 //    $("#author").html(jsonObject.Quote[days].Writer);
 }

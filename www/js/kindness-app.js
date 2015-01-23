@@ -35,6 +35,7 @@ function initStartingTimer() {
         window.localStorage.setItem("endDate", endDate.getTime());
     }
     });
+    $('.holder').css("margin-top", (screen.height-$('.holder').height())/2-120);
 }
 
 
@@ -153,7 +154,7 @@ function initAlarmManager(init) {
     function selectAlarmSuccess(tx, results) {
         var eventsArray = [];
         // the number of rows returned by the select statement
-        console.log('select alarms success: ' + results.rows.length);
+//        console.log('select alarms success: ' + results.rows.length);
         $("#list-alarms").empty();
         for (var i =0; i < results.rows.length; i++) {
             var id = results.rows.item(i).id;
@@ -294,13 +295,13 @@ function playGong() {
 
 function initQuote() {
     var start = new Date(window.localStorage.getItem("startDate"));
-    alert(start);
+//    alert(start);
     var end = new Date();
-    alert(end);
+//    alert(end);
     var diff = new Date(end - start);
 
     var days = Math.floor(diff/1000/60/60/24);
-    alert(days);
+//    alert(days);
 //    $("#quote").html(jsonObject.Quote[days].Content);
 //    $("#author").html(jsonObject.Quote[days].Writer);
 }

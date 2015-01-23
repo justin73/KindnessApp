@@ -81,7 +81,7 @@ LocalNotification.prototype = {
     applyPlatformSpecificOptions: function () {
         var defaults = this._defaults;
 
-        switch (window.device.platform) {
+        switch (device.platform) {
         case 'Android':
             defaults.icon       = 'icon';
             defaults.smallIcon  = null;
@@ -118,11 +118,11 @@ LocalNotification.prototype = {
             options.date = Math.round(options.date.getTime()/1000);
         }
 
-//        if (['WinCE', 'Win32NT'].indexOf(window.device.platform)) {
-//            callbackFn = function (cmd) {
-//                eval(cmd);
-//            };
-//        }
+        if (['WinCE', 'Win32NT'].indexOf(device.platform)) {
+            callbackFn = function (cmd) {
+                eval(cmd);
+            };
+        }
 
         cordova.exec(callbackFn, null, 'LocalNotification', 'add', [options]);
 
@@ -237,7 +237,7 @@ channel.deviceready.subscribe( function () {
 
 channel.onCordovaReady.subscribe( function () {
     channel.onCordovaInfoReady.subscribe( function () {
-        if (window.device.platform == 'Android') {
+        if (device.platform == 'Android') {
             channel.onPause.subscribe( function () {
                 cordova.exec(null, null, 'LocalNotification', 'pause', []);
             });

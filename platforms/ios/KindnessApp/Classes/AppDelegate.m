@@ -87,7 +87,11 @@
 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-
+    
+    [application registerUserNotificationSettings:
+     [UIUserNotificationSettings settingsForTypes:
+      UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+    
     return YES;
 }
 
