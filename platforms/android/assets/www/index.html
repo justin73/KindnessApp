@@ -26,6 +26,8 @@
     <script src="js/l10n.js"></script>
     <script type="text/javascript" src="l10n.js"></script>
     <link rel="prefetch" type="application/l10n" href="data.ini" />
+    <script type="text/javascript" language="javascript" src="quotes.json"></script> 
+    
 </head>
 <body onload="onLoad()">
 <div data-role="page" id="homePage" style="height:100%">
@@ -78,13 +80,12 @@
             
         </div>
         <div id="quoteContainer">
-          		<h1>Daily Quote</h1>
-                <br/><br/>
-            	<h3 id="quote" style="margin: 10px"></h3>
-                <br/>
-                <h4 id="author" style="margin: 10px"></h4>
-
-       </div>
+      		<h1>Daily Quote</h1>
+            <br/><br/>
+        	<h3 id="quote" style="margin: 10px"></h3>
+            <br/>
+            <h4 id="author" style="margin: 10px"></h4>
+        	</div>
     </div>
     <div class="center" data-role="footer" data-position="fixed">
         <a class="btn-start"
@@ -109,10 +110,10 @@
 			var end = new Date();
 			var diff = new Date(end - start);
 			var days = Math.floor(diff/1000/60/60/24);
-			//$('.flexslider').css('display','none');
-			//$('#quoteContainer').css('display','block');
-			//$("#quote").html(jsonObject.Quote[days].Content);
-			//$("#author").html(jsonObject.Quote[days].Writer);
+			$('.flexslider').css('display','none');
+			$('#quoteContainer').css('display','block');
+			$("#quote").html(jsonObject.Quote[days].Content);
+			$("#author").html(jsonObject.Quote[days].Writer);
             $(".btn-start").css("opacity", "1");
         } else {
             //Local storage is not set, hence first time launch. set the local storage item
