@@ -393,14 +393,13 @@ li.ui-sad:before{
 /*}*/
 
 .clockpicker {
-    margin-bottom: 54px;
+    margin-bottom: 30px;
 }
 
 .clockpicker .form-control {
     margin: auto;
     width: 80%;
-    height: 100px;
-    font-size: 54px;
+    font-size: 25px;
     text-align: center;
 }
 

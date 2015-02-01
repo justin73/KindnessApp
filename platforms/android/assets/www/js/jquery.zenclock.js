@@ -132,6 +132,8 @@
             $(".btn-stop").css("display", "none");
             $(".btn-time-update, .btn-reset").css("display", "inline-block");
             updateVal(0, 0, R, sec, circle, duration, state);
+
+            totalDuration = 0;
         });
 
         function updateState() {

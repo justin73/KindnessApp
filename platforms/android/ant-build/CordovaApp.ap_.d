@@ -44,7 +44,6 @@
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/index.html \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/index.html.orig \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/js \
-/Users/dai/dev/KindnessApp/platforms/android/assets/www/phonegap.js \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/plugins \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/quotes.json \
 /Users/dai/dev/KindnessApp/platforms/android/assets/www/sass \
