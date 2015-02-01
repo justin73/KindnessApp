@@ -19,3 +19,11 @@ sips --resampleWidth 29 "${f}/${1}" --out "${f}/Icon-Small.png"
 sips --resampleWidth 58 "${f}/${1}" --out "${f}/Icon-Small@2x.png"
 sips --resampleWidth 50 "${f}/${1}" --out "${f}/Icon-50.png"
 sips --resampleWidth 100 "${f}/${1}" --out "${f}/Icon-50@2x.png"
+
+
+
+sips --resampleWidth 36 "${f}/${1}" --out "${f}/ldpi.png"
+sips --resampleWidth 48 "${f}/${1}" --out "${f}/mdpi.png"
+sips --resampleWidth 64 "${f}/${1}" --out "${f}/hdpi.png"
+sips --resampleWidth 72 "${f}/${1}" --out "${f}/xhdpi.png"
+sips --resampleWidth 144 "${f}/${1}" --out "${f}/xxhdpi.png"
