@@ -17,12 +17,20 @@ function initQuote(){
     //Check if it already exists or not
     if (applaunchCount) {
         //This is a second time launch, and count = applaunchCount
-		var start = new Date(window.localStorage.getItem("startDate"));
+		//var start = new Date(window.localStorage.getItem("startDate"));
+		console.log(window.localStorage.getItem("startDate"))
 		var end = new Date();
-		var diff = new Date(end - start);
+		console.log("Now "+end.getTime())
+		diff=end.getTime()-window.localStorage.getItem("startDate")
+		//console.log("today's date: "+end)
+		//var diff = new Date(end - start);
+		console.log("time difference: "+diff)
 		var days = Math.floor(diff/1000/60/60/24);
+		console.log("make it into day formate:"+days)
 		$('.flexslider').css('display','none');
 		$('#quoteContainer').css('display','block');
+		console.log(days)
+		console.log(jsonObject.Quote[days])
 		$("#quote").html(jsonObject.Quote[days].Content);
 		$("#author").html(jsonObject.Quote[days].Writer);
         $(".btn-start").css("opacity", "1");
@@ -32,7 +40,7 @@ function initQuote(){
         console.log("first time set the launchCount = "+window.localStorage.getItem('launchCount'))
         var startdate = new Date(); 
 	  	var datetime = startdate.getFullYear()+'-'+(startdate.getMonth()+1)+'-'+startdate.getDate();
-	  	window.localStorage.setItem("startDate",datetime);
+	  	window.localStorage.setItem("startDate",startdate.getTime());
     }
 }
 function initStartingTimer() {
