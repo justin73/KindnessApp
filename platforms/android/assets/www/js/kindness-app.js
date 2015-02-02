@@ -11,7 +11,30 @@ function openDb() {
         }
     }
 }
-
+function initQuote(){
+	var applaunchCount = window.localStorage.getItem('launchCount');
+	console.log("inside initQuote, get applaunchCount value = "+applaunchCount)
+    //Check if it already exists or not
+    if (applaunchCount) {
+        //This is a second time launch, and count = applaunchCount
+		var start = new Date(window.localStorage.getItem("startDate"));
+		var end = new Date();
+		var diff = new Date(end - start);
+		var days = Math.floor(diff/1000/60/60/24);
+		$('.flexslider').css('display','none');
+		$('#quoteContainer').css('display','block');
+		$("#quote").html(jsonObject.Quote[days].Content);
+		$("#author").html(jsonObject.Quote[days].Writer);
+        $(".btn-start").css("opacity", "1");
+    } else {
+        //Local storage is not set, hence first time launch. set the local storage item
+        window.localStorage.setItem('launchCount', 1);
+        console.log("first time set the launchCount = "+window.localStorage.getItem('launchCount'))
+        var startdate = new Date(); 
+	  	var datetime = startdate.getFullYear()+'-'+(startdate.getMonth()+1)+'-'+startdate.getDate();
+	  	window.localStorage.setItem("startDate",datetime);
+    }
+}
 function initStartingTimer() {
     //var winhight = $.mobile.getScreenHeight();
     //var headhight = $('[data-role="header"]').first().outerHeight();
@@ -293,18 +316,6 @@ function playGong() {
     media.play();
 }
 
-function initQuote() {
-    var start = new Date(window.localStorage.getItem("startDate"));
-//    alert(start);
-    var end = new Date();
-//    alert(end);
-    var diff = new Date(end - start);
-
-    var days = Math.floor(diff/1000/60/60/24);
-//    alert(days);
-//    $("#quote").html(jsonObject.Quote[days].Content);
-//    $("#author").html(jsonObject.Quote[days].Writer);
-}
 $( document ).on( "pagecontainerbeforehide", function ( event, ui ) {
 
     if (typeof ui.toPage !== 'undefined') {
@@ -318,6 +329,9 @@ $(document).on('pagecontainershow', function (e, ui) {
     var ThisPage = $(':mobile-pagecontainer').pagecontainer('getActivePage').attr('id');
 
     switch (ThisPage) {
+		case 'homePage':
+			initQuote();
+			break;
         case 'starting-timer':
             initStartingTimer();
             break;
