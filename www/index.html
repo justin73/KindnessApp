@@ -17,16 +17,17 @@
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/raphael.js"></script>
     <script src="js/jquery.zenclock.js"></script>
-    <script src="js/kindness-app.js"></script>
+    <script type="text/javascript" language="javascript" src="quotes.json"></script>
     <script src="js/jw-jqm-cal.js"></script>
     <script src="js/jquery.datetimepicker.js"></script>
     <script src="js/local-notification.js"></script>
     <script src="js/bootstrap-clockpicker.min.js"></script>
     <script src="js/jquery-clockpicker.min.js"></script>
+    <script src="js/kindness-app.js"></script>
     <script src="js/l10n.js"></script>
     <script type="text/javascript" src="l10n.js"></script>
     <link rel="prefetch" type="application/l10n" href="data.ini" />
-    <script type="text/javascript" language="javascript" src="quotes.json"></script> 
+     
     
 </head>
 <body onload="onLoad()">
@@ -38,19 +39,23 @@
         <div class="flexslider">
             <ul class="slides">
             	<li>
-                    <p style="margin: 0 10px">
+                    <p style="margin: 10px">
+                    <br/>
+                    <br/>
 
                     <h2>The MTL CITY Mission Kindness App</h2>
                     <br/>
 
-                    <p>This app helps you think about kindness in your life and how being kind can make a difference in the world every day. You can read more about our app here.</p>
+                    <p>This app helps you think about kindness in your life and how being kind can make a difference in the world every day. You can read more about our app <a href="http://www.montrealcitymission.org/">here</a>.</p>
 
                     <br/>
                     <br/>
                     </p>
                 </li>
                 <li>
-                    <p style="margin: 0 10px">
+                    <p style="margin: 10px">
+                    <br/>
+                    <br/>
 
                     <h2>A simple way to put kindness into your life</h2>
                     <br/>
@@ -61,7 +66,9 @@
                     </p>
                 </li>
                 <li>
-                    <p style="margin: 0 10px">
+                    <p style="margin: 10px">
+                    <br/>
+                    <br/>
 
                     <h2>The Montreal City Mission</h2>
                     <br/>
@@ -77,7 +84,7 @@
                     </p>
                 </li>
             </ul>
-
+            
         </div>
         <div id="quoteContainer">
       		<h1>Daily Quote</h1>
@@ -94,6 +101,7 @@
 </div>
 
 <script type="text/javascript">
+
     function doResize() {
         var winhight = $.mobile.getScreenHeight();
         var headhight = $('[data-role="header"]').first().outerHeight();
@@ -101,28 +109,6 @@
         var $content = $('[data-role="content"]');
         newhight = winhight - headhight - foothight;
         $content.css('min-height', newhight + 'px');
-        var applaunchCount = window.localStorage.getItem('launchCount');
-
-        //Check if it already exists or not
-        if (applaunchCount) {
-            //This is a second time launch, and count = applaunchCount
-			var start = new Date(window.localStorage.getItem("startDate"));
-			var end = new Date();
-			var diff = new Date(end - start);
-			var days = Math.floor(diff/1000/60/60/24);
-			$('.flexslider').css('display','none');
-			$('#quoteContainer').css('display','block');
-			$("#quote").html(jsonObject.Quote[days].Content);
-			$("#author").html(jsonObject.Quote[days].Writer);
-            $(".btn-start").css("opacity", "1");
-        } else {
-            //Local storage is not set, hence first time launch. set the local storage item
-            window.localStorage.setItem('launchCount', 1);
-            var startdate = new Date(); 
-		  	var datetime = startdate.getFullYear()+'-'+(startdate.getMonth()+1)+'-'+startdate.getDate();
-		  	window.localStorage.setItem("startDate",datetime);
-        }
-
     }
     $(document).bind('pageshow', doResize);
     $(document).delegate("#homePage", "pageinit", function () {
