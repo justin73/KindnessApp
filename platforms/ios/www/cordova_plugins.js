@@ -196,6 +196,13 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js",
+        "id": "org.apache.cordova.inappbrowser.inappbrowser",
+        "clobbers": [
+            "window.open"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.device/www/device.js",
         "id": "org.apache.cordova.device.device",
         "clobbers": [
@@ -211,6 +218,7 @@ module.exports.metadata =
     "org.apache.cordova.file": "1.3.2",
     "org.apache.cordova.globalization": "0.3.3",
     "org.apache.cordova.media": "0.2.15",
+    "org.apache.cordova.inappbrowser": "0.5.4",
     "org.apache.cordova.device": "0.2.14-dev"
 }
 // BOTTOM OF METADATA

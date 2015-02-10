@@ -47,6 +47,7 @@
 		A9BFC00E215049B3BE398B19 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4069277D2980474F8785FA30 /* CDVAssetLibraryFilesystem.m */; };
 		57936FCF3C3249C49AF37305 /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 514A0B7CF1474FF9BD380C0B /* CDVGlobalization.m */; };
 		0283485B98AD436CB5B7184A /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8696C7C17A4E19A130A69A /* CDVSound.m */; };
+		88A2F77F6C1E481EB7695933 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 712EE98AF2B748FCA11D5595 /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,8 @@
 		BA3249FDF35342D2A2CF9F35 /* CDVGlobalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVGlobalization.h"; path = "org.apache.cordova.globalization/CDVGlobalization.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		6F8696C7C17A4E19A130A69A /* CDVSound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSound.m"; path = "org.apache.cordova.media/CDVSound.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		000B86B97FBD407C87D10881 /* CDVSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSound.h"; path = "org.apache.cordova.media/CDVSound.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		712EE98AF2B748FCA11D5595 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		CEEEF479EDC5422DA9511549 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +245,8 @@
 				BA3249FDF35342D2A2CF9F35 /* CDVGlobalization.h */,
 				6F8696C7C17A4E19A130A69A /* CDVSound.m */,
 				000B86B97FBD407C87D10881 /* CDVSound.h */,
+				712EE98AF2B748FCA11D5595 /* CDVInAppBrowser.m */,
+				CEEEF479EDC5422DA9511549 /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = "Kindness App/Plugins";
@@ -434,6 +439,7 @@
 				A9BFC00E215049B3BE398B19 /* CDVAssetLibraryFilesystem.m in Sources */,
 				57936FCF3C3249C49AF37305 /* CDVGlobalization.m in Sources */,
 				0283485B98AD436CB5B7184A /* CDVSound.m in Sources */,
+				88A2F77F6C1E481EB7695933 /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

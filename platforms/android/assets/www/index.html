@@ -46,7 +46,7 @@
                     <h2>The MTL CITY Mission Kindness App</h2>
                     <br/>
 
-                    <p>This app helps you think about kindness in your life and how being kind can make a difference in the world every day. You can read more about our app <a href="http://www.montrealcitymission.org/">here</a>.</p>
+                    <p>This app helps you think about kindness in your life and how being kind can make a difference in the world every day. You can read more about our app <a id="info_link">here</a>.</p>
 
                     <br/>
                     <br/>
@@ -101,7 +101,6 @@
 </div>
 
 <script type="text/javascript">
-
     function doResize() {
         var winhight = $.mobile.getScreenHeight();
         var headhight = $('[data-role="header"]').first().outerHeight();
@@ -123,5 +122,9 @@
         });
     });
     $(window).bind('resize orientationchange', doResize);
+    
+    $("#info_link").on('click',function(){
+    	window.open('http://www.montrealcitymission.org/en/', '_blank', 'location=yes');
+    })
 </script>
 </body>
