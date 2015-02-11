@@ -17,7 +17,7 @@
        under the License.
  */
 
-package org.montrealcitymission.kindnessapp;
+package org.mcm.kindnessapp;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
